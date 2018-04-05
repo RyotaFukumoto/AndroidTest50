@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidTest08</string>
+    <string name="text_view">初めのAndroidアプリをスタートしました。</string>
+</resources>
