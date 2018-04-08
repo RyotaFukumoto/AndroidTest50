@@ -1,9 +1,9 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 'android-P'
+    compileSdkVersion 27
     defaultConfig {
-        applicationId "com.example.ryota.androidtest02"
+        applicationId "com.example.ryota.androidtest11"
         minSdkVersion 15
         targetSdkVersion 27
         versionCode 1

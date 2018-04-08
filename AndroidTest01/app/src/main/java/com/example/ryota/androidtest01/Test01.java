@@ -10,7 +10,7 @@ public class Test01 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 //        setContentView(layout.activity_android_test01);
-        Boolean bol = false;
+        boolean bol = false;
         Log.d("LogOutPut1","Boolean = " + bol);
         String text = "abcd";
         Log.d("LogOutPut2", "String = " + text);

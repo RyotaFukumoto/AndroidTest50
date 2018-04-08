@@ -2,11 +2,11 @@ package com.example.ryota.androidtest05;
 
 class Teacher {
     private final String name;
-    private final Integer age;
-    private final Boolean sex;
-    private final Double salary;
+    private final int age;
+    private final boolean sex;
+    private final double salary;
 
-    Teacher(String name,Integer age,Boolean sex,Double salary){
+    Teacher(String name,int age,boolean sex,double salary){
         this.name = name;
         this.age = age;
         this.sex = sex;
@@ -17,7 +17,7 @@ class Teacher {
         return this.name;
     }
 
-    Integer getAge() {
+    int getAge() {
         return this.age;
     }
 
