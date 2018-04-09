@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidTest12</string>
+    <string name="button1">Button</string>
+    <string name="Back">戻る</string>
+    <string name="reload">リロード</string>
+    <string name="front">進む</string>
+</resources>
