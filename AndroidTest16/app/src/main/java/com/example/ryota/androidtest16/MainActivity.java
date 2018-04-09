@@ -1,4 +1,4 @@
-package com.example.ryota.androidtest15;
+package com.example.ryota.androidtest16;
 
 import android.app.DialogFragment;
 import android.support.v7.app.AppCompatActivity;
@@ -17,9 +17,10 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DialogFragment fragment = new TestDialogFragment();
+                DialogFragment fragment = new ContactUsDialogFragment();
                 fragment.show(getFragmentManager(), "test");
             }
         });
     }
 }
+
