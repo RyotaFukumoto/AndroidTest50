@@ -15,27 +15,22 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private RecyclerView recyclerViewAdapter;
 
-    private List<String> getListData() {
-        ArrayList<String> list = new ArrayList<>();
-        list.add("00000000" +
-                "000000");
-        list.add("11111" +
-                "1111111");
-        list.add("2222" +
-                "22222222");
-        list.add("3333333" +
-                "333333");
-        list.add("444444444444" +
-                "444444");
-        list.add("5555555" +
-                "55555555");
 
-        return list;
-    }
+        private ArrayList<String> list;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        this.list = new ArrayList<>();
+        this.list.add("00000000000\n0000\n\n0000000000\n\n00000\n\n\n0000000000\n0000000000000000000000000000000000000000000000");
+        this.list.add("1\n1\n1\n1\n1");
+        this.list.add("2222" );
+        this.list.add("3333333");
+        this.list.add("444444444444" );
+        this.list.add("5555555" );
 
         RecyclerView recyclerView1 = findViewById(R.id.casarealRecyclerView);
         CasarealRecycleViewAdapter adapter = new CasarealRecycleViewAdapter(this.createDataset());
@@ -45,15 +40,18 @@ public class MainActivity extends AppCompatActivity {
         recyclerView1.setLayoutManager(linearLayoutManager);
         recyclerView1.setAdapter(adapter);
     }
-    private List<RowData> createDataset(){
+    private List<RowData> createDataset() {
         List<RowData> dataList = new ArrayList<>();
         @SuppressLint("Recycle") TypedArray typedArray = getApplicationContext().getResources().obtainTypedArray(R.array.thumbnail);
 
-        for (int i = 0;i < getListData().size();i++) {
+        for (int i = 0; i < this.list.size(); i++) {
             RowData rowData = new RowData();
 
             rowData.setImage(typedArray.getDrawable(i));
+            rowData.setTitle(this.list.get(i));
+            dataList.add(rowData);
         }
-
+        return dataList;
     }
 }
+

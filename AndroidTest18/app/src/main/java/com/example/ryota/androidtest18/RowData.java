@@ -1,9 +1,8 @@
 package com.example.ryota.androidtest18;
 
 import android.graphics.drawable.Drawable;
-import android.media.Image;
 
-public class RowData {
+class RowData {
     public String getTitle() {
         return this.title;
     }
@@ -14,7 +13,7 @@ public class RowData {
 
     private String title;
 
-    public Image getImage() {
+    public Drawable getImage() {
         return this.image;
     }
 
@@ -22,5 +21,7 @@ public class RowData {
         this.image = image;
     }
 
-    private Image image;
+    private Drawable image;
+
+
 }
