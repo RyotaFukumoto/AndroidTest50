@@ -1,0 +1,5 @@
+<root>
+    <item name='android.app.TimePickerDialog.OnTimeSetListener'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>
