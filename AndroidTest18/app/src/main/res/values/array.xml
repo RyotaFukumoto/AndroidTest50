@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="thumbnail">
+        <item>@drawable/no0</item>
+        <item>@drawable/no1</item>
+        <item>@drawable/no2</item>
+        <item>@drawable/no3</item>
+        <item>@drawable/no4</item>
+        <item>@drawable/no5</item>
+    </array>
+</resources>

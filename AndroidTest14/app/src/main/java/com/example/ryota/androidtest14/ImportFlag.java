@@ -1,8 +1,9 @@
 package com.example.ryota.androidtest14;
 
+import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
+import android.text.Editable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,33 +12,57 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class ImportFlag extends Fragment {
-    private EditText editText;
-    private Button button;
-    private TextView textView;
+
+    EditText editText;
+    Button button;
+    public onClickListener listener;
+
+    public interface onClickListener {
+        void onClick(String text);
+    }
+
 
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.input, container, false);
-
+        View view = inflater.inflate(R.layout.input, container, false);
+        editText = view.findViewById(R.id.editText);
+        button = view.findViewById(R.id.button);
+        return view;
     }
     @Override
     public void onStart() {
         super.onStart();
-        findViews();
 
-        this.button.setOnClickListener(new View.OnClickListener() {
+
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ImportFlag.this.textView.setText(ImportFlag.this.editText.getText());
+                if (listener != null) {
+                    listener.onClick(editText.getText().toString());
+                }
             }
         });
     }
 
-    private void findViews(){
-        this.editText = (EditText)getActivity().findViewById(R.id.editText);
-        this.button = (Button)getActivity().findViewById(R.id.button);
-        this.textView = (TextView)getActivity().findViewById(R.id.textView);
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        if (context instanceof onClickListener) {
+            listener = (onClickListener) context;
+        }
+    }
+    @Override
+    public void onDetach() {
+        super.onDetach();
+        // 画面からFragmentが離れたあとに処理が呼ばれることを避けるためにNullで初期化しておく
+        listener = null;
     }
 }
+
+
+
+
+
+
 
