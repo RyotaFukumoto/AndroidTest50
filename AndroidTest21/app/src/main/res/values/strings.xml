@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidTest21</string>
+    <string name="fragment1">fragment1</string>
+    <string name="fragment2">fragment2</string>
+</resources>
