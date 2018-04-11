@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidTest22</string>
+    <string name="main">main</string>
+    <string name="sub">sub</string>
+</resources>
