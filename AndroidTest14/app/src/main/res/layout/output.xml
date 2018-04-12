@@ -17,7 +17,8 @@
             android:layout_height="120dp"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:layout_alignParentLeft="true" />
     </RelativeLayout>
 
 </FrameLayout>
