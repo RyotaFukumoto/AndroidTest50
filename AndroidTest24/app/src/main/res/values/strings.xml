@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidTest24</string>
+    <string name="doubleinput">doubleを入力</string>
+    <string name="stringinput">Stringを入力</string>
+    <string name="intoutput">int型が表示されます</string>
+    <string name="doubleoutput">double型が表示されます</string>
+    <string name="stringoutput">String型が表示されます</string>
+    <string name="outputbutton">出力</string>
+    <string name="inputbutton">保存</string>
+    <string name="intinput">int型を入力</string>
+</resources>
