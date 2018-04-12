@@ -3,6 +3,7 @@ package com.example.ryota.androidtest25;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String DB_NAME = "tr_todo";
@@ -19,6 +20,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL(CREATE_TABLE);
+
+       Log.d("db", db.getPath());
     }
 
     @Override
