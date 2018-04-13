@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Fri Apr 13 11:27:45 JST 2018
+1.base=/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest12/app/build/intermediates/transforms/dexMerger/debug/12
+2.path=classes.dex
+0.baseType=DIRECTORY
+2.base=/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest12/app/build/intermediates/transforms/dexMerger/debug/11
+2.set=DEX
+1.baseType=DIRECTORY
+count=3
+1.set=DEX
+0.path=network_error.html
+0.set=ASSET
+0.base=/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest12/app/build/intermediates/assets/debug
+2.baseType=DIRECTORY
+1.path=classes.dex
