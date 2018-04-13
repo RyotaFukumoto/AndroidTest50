@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AndroidTest26</string>
+    <string name="title">タイトル</string>
+    <string name="Content">内容</string>
+    <string name="button">登録</string>
+    <string name="textview">TextView</string>
 </resources>
