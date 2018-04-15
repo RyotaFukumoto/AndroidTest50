@@ -5,6 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 class DatabaseHelper extends SQLiteOpenHelper {
+    private static final int DATABASE_VERSION = 1;
     private static final String DB_NAME = "tr_todo";
     private static final String CREATE_TABLE ="CREATE TABLE tr_todo("
             + "todo_id INTEGER PRIMARY KEY AUTOINCREMENT," + "todo_title TEXT,"
@@ -13,7 +14,7 @@ class DatabaseHelper extends SQLiteOpenHelper {
 
 
     DatabaseHelper(Context context) {
-        super(context, DB_NAME, null, 1);
+        super(context, DB_NAME, null, DATABASE_VERSION);
     }
 
     @Override

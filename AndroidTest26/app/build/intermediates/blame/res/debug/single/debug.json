@@ -392,6 +392,10 @@
         "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b1962e590072a8650a10ecba1765053a/res/layout/abc_activity_chooser_view.xml"
     },
     {
+        "merged": "/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest26/app/build/intermediates/res/merged/debug/layout_row.xml.flat",
+        "source": "/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest26/app/src/main/res/layout/row.xml"
+    },
+    {
         "merged": "/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest26/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b1962e590072a8650a10ecba1765053a/res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
