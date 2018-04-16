@@ -3,6 +3,7 @@ package com.example.ryota.androidtest26;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.os.Parcelable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,14 +11,14 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements RowOnClickedListener{
     private List<RowData> todoList;
-    private CasarealRecycleViewAdapter adapter;
+    private RecyclerAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,9 +26,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+        RecyclerView rv = findViewById(R.id.casarealRecyclerView);
+        //adapter = new RecyclerAdapter(this,todoList);
 
-        RecyclerView rv = (RecyclerView) findViewById(R.id.casarealRecyclerView);
-        adapter = new CasarealRecycleViewAdapter();
+        adapter = new RecyclerAdapter(this, todoList, this);
 
         LinearLayoutManager llm = new LinearLayoutManager(this);
 
@@ -38,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
         rv.setLayoutManager(llm);
 
         rv.setAdapter(adapter);
+
+
 
         FloatingActionButton addButton = findViewById(R.id.floatingActionButton);
         addButton.setOnClickListener(new View.OnClickListener() {
@@ -78,5 +82,20 @@ public class MainActivity extends AppCompatActivity {
         }
         adapter.setList(todoList);
         adapter.notifyDataSetChanged();
+    }
+
+
+
+    @Override
+    public void rowClicked(RowData todoData) {
+
+        Intent intent = new Intent(MainActivity.this, DatabaseInsert.class);
+        intent.putExtra("id",todoData.getTodoID());
+        intent.putExtra("title",todoData.getTitle());
+        intent.putExtra("content",todoData.getContent());
+        intent.putExtra("created",todoData.getCreated());
+        intent.putExtra("limit",todoData.getLimit());
+
+        startActivity(intent);
     }
 }

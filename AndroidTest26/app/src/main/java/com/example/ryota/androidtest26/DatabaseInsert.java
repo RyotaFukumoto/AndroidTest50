@@ -3,6 +3,7 @@ package com.example.ryota.androidtest26;
 import android.app.DatePickerDialog;
 import android.content.ContentValues;
 import android.content.Context;
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -23,17 +24,38 @@ import java.util.Date;
 
 public class DatabaseInsert extends AppCompatActivity {
 
+    private String created;
+    private int getint;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activit_new_todo);
 
 
+
         final EditText titleEditText = findViewById(R.id.editText2);
+
         final EditText contentEditText = findViewById(R.id.editText4);
         final TextView textView = findViewById(R.id.textView);
         textView.setText(String.valueOf(getLimitDateFrom(getNowDate())));
         Button registerButton = (Button) findViewById(R.id.button);
+
+
+        final Intent intent = getIntent();
+        getint = intent.getIntExtra("id",0);
+        if(getint !=0){
+            CharSequence charSequence = intent.getCharSequenceExtra("title");
+            CharSequence charSequence1 = intent.getCharSequenceExtra("content");
+            created = (String) intent.getCharSequenceExtra("created");
+            CharSequence charSequence3 = intent.getCharSequenceExtra("limit");
+
+
+            titleEditText.setText(charSequence);
+            contentEditText.setText(charSequence1);
+            textView.setText(charSequence3);
+
+        }
+
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -41,7 +63,8 @@ public class DatabaseInsert extends AppCompatActivity {
             }
         });
 
-        textView.setOnClickListener(new View.OnClickListener() {
+        textView.setOnClickListener(
+                new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Calendar calendar = Calendar.getInstance();
@@ -82,12 +105,23 @@ public class DatabaseInsert extends AppCompatActivity {
                 contentValues.put("modified",created);
                 contentValues.put("limit_date",textView.getText().toString());
                 contentValues.put("delete_flg",0);
-
                 long ret;
-                try {
-                    ret = db.insert("tr_todo", null, contentValues);
-                } finally {
-                    db.close();
+                if(getint != 0){
+                    try {
+                        String id = String.valueOf(getint);
+                        ret = db.update("tr_todo",contentValues,"todo_id = "+ getint,null);
+                    }finally {
+                        db.close();
+                    }
+
+                }else {
+
+
+                    try {
+                        ret = db.insert("tr_todo", null, contentValues);
+                    } finally {
+                        db.close();
+                    }
                 }
                 if (ret == -1L) {
                     Toast.makeText(getApplication(), "Insert失敗", Toast.LENGTH_SHORT).show();

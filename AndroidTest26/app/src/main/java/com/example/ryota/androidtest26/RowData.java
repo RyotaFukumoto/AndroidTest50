@@ -5,12 +5,39 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 class RowData {
+    public String getCreated() {
+        return this.created;
+    }
+
+    public void setCreated(String created) {
+        this.created = created;
+    }
+
+    public String getModified() {
+        return this.modified;
+    }
+
+    public void setModified(String modified) {
+        this.modified = modified;
+    }
+
+    public int getDelete_flg() {
+        return this.delete_flg;
+    }
+
+    public void setDelete_flg(int delete_flg) {
+        this.delete_flg = delete_flg;
+    }
+
     private int todoID;
     private String title;
     private String content;
+    private String created;
+    private String modified;
     private String limit;
+    private int delete_flg;
 
-    public RowData(int todoID, String title, String content, String limit) {
+    RowData(int todoID, String title, String content, String limit) {
         this.todoID = todoID;
         this.title = title;
         this.content = content;
