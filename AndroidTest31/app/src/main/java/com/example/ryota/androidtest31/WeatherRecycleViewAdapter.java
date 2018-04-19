@@ -1,6 +1,5 @@
 package com.example.ryota.androidtest31;
 
-import android.app.Application;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -10,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.bumptech.glide.Glide;
+import com.example.ryota.androidtest31.db.WeathRow;
 
 import java.util.List;
 
@@ -36,10 +36,16 @@ public class WeatherRecycleViewAdapter extends RecyclerView.Adapter<WeatherViewH
         holder.weatherView.setText(this.list.get(position).getWeather());
         holder.maxView.setText("最高気温"+this.list.get(position).getMax());
         holder.minView.setText("最低気温"+this.list.get(position).getMin());
+        Log.d("db","tttt");
     }
 
     @Override
     public int getItemCount() {
-        return this.list.size();
+        if (list != null) {
+            return this.list.size();
+        }
+        return 0;
     }
+
+
 }

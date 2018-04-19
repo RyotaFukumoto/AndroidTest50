@@ -1,16 +1,22 @@
-package com.example.ryota.androidtest31;
+package com.example.ryota.androidtest31.db;
 
+import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.PrimaryKey;
 import android.graphics.drawable.Drawable;
+import android.support.annotation.NonNull;
 import android.util.Log;
 
 import com.example.ryota.androidtest31.api.model.Image;
 
 import java.net.URL;
-
+@Entity
 public class WeathRow {
+    @PrimaryKey
+    @NonNull
+    private String day;
 
     private String image;
-    private String day;
+
     private String weather;
     private String max;
     private String min;
@@ -20,7 +26,6 @@ public class WeathRow {
     }
 
     public void setImage(String image) {
-        Log.d("URL", image);
         this.image = image;
     }
 
