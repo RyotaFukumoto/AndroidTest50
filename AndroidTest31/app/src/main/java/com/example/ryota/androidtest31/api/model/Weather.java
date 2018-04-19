@@ -3,6 +3,8 @@
 package com.example.ryota.androidtest31.api.model;
 
 
+import android.util.Log;
+
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
@@ -16,9 +18,12 @@ public class Weather {
     @SerializedName("location")
     public Location location;
 
+
+
     public Weather(List<Forecast> forecasts, Location location) {
         this.forecasts = forecasts;
         this.location = location;
+
     }
 
     public List<Forecast> getForecasts() {
@@ -28,4 +33,6 @@ public class Weather {
     public Location getLocation() {
         return this.location;
     }
+
+
 }

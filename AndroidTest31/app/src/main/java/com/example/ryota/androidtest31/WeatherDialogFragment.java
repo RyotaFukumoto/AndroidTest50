@@ -1,13 +1,12 @@
 package com.example.ryota.androidtest31;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.Dialog;
-import android.app.DialogFragment;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
+import android.support.v4.app.DialogFragment;
 import android.util.Log;
-
 
 public class WeatherDialogFragment extends DialogFragment {
     interface WeatherDialogFragmentListener{
@@ -33,7 +32,6 @@ public class WeatherDialogFragment extends DialogFragment {
                 Activity activity = getActivity();
                 if(listener != null){
                     listener.onClicked(which);
-
                 }
                 else {
                     Log.e("System.err","listenerがセットされていません。");

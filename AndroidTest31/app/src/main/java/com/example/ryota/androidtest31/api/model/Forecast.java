@@ -23,6 +23,8 @@ package com.example.ryota.androidtest31.api.model;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.List;
+
 /**
  * An Gson class for Weather
  */
@@ -33,18 +35,25 @@ public class Forecast {
     public String telop;
     @SerializedName("date")
     public String date;
+
+    public Temperature temperature;
     //public Temperature temperature;
     @SerializedName("image")
     public Image image;
 
-    public Forecast(String dateLabel, String telop, String date, Image image) {
+    public Forecast(String dateLabel, String telop, String date, Image image,Temperature temperature) {
         this.dateLabel = dateLabel;
         this.telop = telop;
         this.date = date;
         this.image = image;
+        this.temperature = temperature;
     }
 
     public Forecast() {
+    }
+
+    public Temperature getTemperatures() {
+        return this.temperature;
     }
 
     public String getDateLabel() {
