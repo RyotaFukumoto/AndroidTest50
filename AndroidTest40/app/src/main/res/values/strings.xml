@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AndroidTest40</string>
+    <string name="load_image">load_image</string>
+    <string name="loadimage">loadimage</string>
 </resources>

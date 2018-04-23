@@ -9,12 +9,12 @@
         android:id="@+id/loadimage"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="load_image"
+        android:text="@string/load_image"
         />
 
     <ImageView
         android:id="@+id/targetimage"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:contentDescription="loadimage" />
+        android:contentDescription="@string/loadimage" />
 </LinearLayout>

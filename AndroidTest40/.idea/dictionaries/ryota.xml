@@ -1,3 +1,9 @@
 <component name="ProjectDictionaryState">
-  <dictionary name="ryota" />
+  <dictionary name="ryota">
+    <words>
+      <w>@string/l</w>
+      <w>loadimage</w>
+      <w>targetimage</w>
+    </words>
+  </dictionary>
 </component>
