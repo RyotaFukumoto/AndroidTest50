@@ -1,21 +1,22 @@
 package com.example.ryota.androidtest39;
+import android.app.Activity;
 import android.app.Application;
 import android.graphics.Bitmap;
 
-public class MyApplication extends Application {
+class MyApplication extends Application {
     private Bitmap obj;
 
     public void setObj(Bitmap bmp){
-        obj = null;
-        obj = bmp;
+        this.obj = null;
+        this.obj = bmp;
     }
 
     public Bitmap getObj(){
-        return obj;
+        return this.obj;
     }
 
     public void clearObj(){
-        obj = null;
+        this.obj = null;
     }
 
 }

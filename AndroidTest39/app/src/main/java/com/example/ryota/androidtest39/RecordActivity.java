@@ -14,9 +14,6 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
 import android.hardware.Camera;
-import android.hardware.Camera.AutoFocusCallback;
-import android.hardware.Camera.PictureCallback;
-import android.hardware.Camera.Size;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -50,14 +47,14 @@ public class RecordActivity extends Activity {
 
 
 
-    private final PictureCallback mPictureListener =
-            new PictureCallback() {
+    private final Camera.PictureCallback mPictureListener =
+            new Camera.PictureCallback() {
 
                 @Override
                 public void onPictureTaken(byte[] data, Camera camera) {
                     ContentResolver resolver = getContentResolver();
 
-                    int svWidth = mySurfaceView.getHolder().getSurfaceFrame().width();
+                    int svWidth = RecordActivity.this.mySurfaceView.getHolder().getSurfaceFrame().width();
                     int cWidth = camera.getParameters().getSupportedPreviewSizes().get(0).width;
 
                     // データを生成する
@@ -66,16 +63,16 @@ public class RecordActivity extends Activity {
                     int height = tmp_bitmap.getHeight();
 
                     // 画像データを回転する
-                    int rad_y = radianToDegree(orientationValues[2]);
+                    int rad_y = radianToDegree(RecordActivity.this.orientationValues[2]);
                     Matrix matrix = new Matrix();
-                    if ((rad_y > -45 && rad_y <= 0) || (rad_y > 0 && rad_y <= 45)) {
+                    if(isaBoolean(rad_y, -45, 0, rad_y > 0, 45)) {
                         matrix.setRotate(90.0F);
                     } else if (rad_y > 45 && rad_y <= 135) {
                         matrix.setRotate(180.0F);
-                    } else if ((rad_y > 135 && rad_y <= 180) || (rad_y >= -180 && rad_y <= -135)) {
+                    } else if (isaBoolean(rad_y, 135, 180, rad_y >= -180, -135)) {
                         matrix.setRotate(-90.0F);
                     } else if (rad_y > -135 && rad_y <= -45) {
-                        matrix.setRotate(0);
+                        matrix.setRotate((float) 0);
                     }
 
                     Log.i("Cam",width + " , " + height);
@@ -93,6 +90,10 @@ public class RecordActivity extends Activity {
                     setResult(1010,intent);
                     finish();
                 }
+
+                private boolean isaBoolean(int rad_y, int i, int i2, boolean b, int i3) {
+                    return (rad_y > i && rad_y <= i2) || (b && rad_y <= i3);
+                }
             };
 
     /**
@@ -103,16 +104,16 @@ public class RecordActivity extends Activity {
             new SurfaceHolder.Callback() {
                 @Override
                 public void surfaceDestroyed(SurfaceHolder holder) {
-                    myCamera.stopPreview();
-                    myCamera.release();
-                    myCamera = null;
+                    RecordActivity.this.myCamera.stopPreview();
+                    RecordActivity.this.myCamera.release();
+                    RecordActivity.this.myCamera = null;
                 }
 
                 @Override
                 public void surfaceCreated(SurfaceHolder holder) {
-                    myCamera = Camera.open();
+                    RecordActivity.this.myCamera = Camera.open();
                     try {
-                        myCamera.setPreviewDisplay(holder);
+                        RecordActivity.this.myCamera.setPreviewDisplay(holder);
                     } catch (IOException e) {
                         Log.e("System.err",e.getMessage());
                     } catch (RuntimeException e) {
@@ -122,24 +123,24 @@ public class RecordActivity extends Activity {
 
                 @Override
                 public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
-                    myCamera.stopPreview();
+                    RecordActivity.this.myCamera.stopPreview();
 
-                    Camera.Parameters parameters = myCamera.getParameters();
+                    Camera.Parameters parameters = RecordActivity.this.myCamera.getParameters();
 
                     // 画面の向きを設定
                     boolean portrait = isPortrait();
                     if (portrait) {
-                        myCamera.setDisplayOrientation(90);
+                        RecordActivity.this.myCamera.setDisplayOrientation(90);
                     } else {
-                        myCamera.setDisplayOrientation(0);
+                        RecordActivity.this.myCamera.setDisplayOrientation(0);
                     }
 
                     // 対応するプレビューサイズ・保存サイズを取得する
                     List<Camera.Size> previewSizes = parameters.getSupportedPreviewSizes();
                     List<Camera.Size> pictureSizes = parameters.getSupportedPictureSizes();
 
-                    Size previewSize = getOptimalPreviewSize(previewSizes, width, height);
-                    Size pictureSize = pictureSizes.get(0);
+                    Camera.Size previewSize = getOptimalPreviewSize(previewSizes, width, height);
+                    Camera.Size pictureSize = pictureSizes.get(0);
 
                     Log.d("CameraTest", "surface = " +
                             String.valueOf(width) + " , " +
@@ -162,7 +163,7 @@ public class RecordActivity extends Activity {
 //                    int previewWidth = getWindowManager().getDefaultDisplay().getWidth();
                     int previewHeight = previewSize.height;
 //                    int previewHeight = getWindowManager().getDefaultDisplay().getHeight();
-                    android.view.ViewGroup.LayoutParams layoutParams = mySurfaceView.getLayoutParams();
+                    android.view.ViewGroup.LayoutParams layoutParams = RecordActivity.this.mySurfaceView.getLayoutParams();
                     if (portrait) {
                         layoutParams.width = previewHeight;
                         layoutParams.height = previewWidth;
@@ -170,19 +171,19 @@ public class RecordActivity extends Activity {
                         layoutParams.width = previewWidth;
                         layoutParams.height = previewHeight;
                     }
-                    mySurfaceView.setLayoutParams(layoutParams);
+                    RecordActivity.this.mySurfaceView.setLayoutParams(layoutParams);
 
                     // パラメータを設定してカメラを再開
-                    myCamera.setParameters(parameters);
-                    myCamera.startPreview();
+                    RecordActivity.this.myCamera.setParameters(parameters);
+                    RecordActivity.this.myCamera.startPreview();
                 }
             };
 
     /**
      * オートフォーカス処理
      */
-    private final AutoFocusCallback mAutoFocusListener =
-            new AutoFocusCallback() {
+    private final Camera.AutoFocusCallback mAutoFocusListener =
+            new Camera.AutoFocusCallback() {
 
                 @Override
                 public void onAutoFocus(boolean success, Camera camera) { }
@@ -203,11 +204,11 @@ public class RecordActivity extends Activity {
                     switch (event.sensor.getType()) {
                         case Sensor.TYPE_MAGNETIC_FIELD:
                             // 地磁気センサ
-                            magneticValues = event.values.clone();
+                            RecordActivity.this.magneticValues = event.values.clone();
                             break;
                         case Sensor.TYPE_ACCELEROMETER:
                             // 加速度センサ
-                            accelerometerValues = event.values.clone();
+                            RecordActivity.this.accelerometerValues = event.values.clone();
                             break;
 
                         default:
@@ -215,16 +216,16 @@ public class RecordActivity extends Activity {
 
                     }
 
-                    if (magneticValues != null && accelerometerValues != null) {
+                    if (RecordActivity.this.magneticValues != null && RecordActivity.this.accelerometerValues != null) {
                         float[] rotationMatrix = new float[MATRIX_SIZE];
                         float[] inclinationMatrix = new float[MATRIX_SIZE];
 
                         // 加速度センサと地磁気センタから回転行列を取得
-                        SensorManager.getRotationMatrix(rotationMatrix, inclinationMatrix, accelerometerValues, magneticValues);
+                        SensorManager.getRotationMatrix(rotationMatrix, inclinationMatrix, RecordActivity.this.accelerometerValues, RecordActivity.this.magneticValues);
 
                         float[] remapedMatrix = new float[MATRIX_SIZE];
                         SensorManager.remapCoordinateSystem(rotationMatrix, SensorManager.AXIS_X, SensorManager.AXIS_Z, remapedMatrix);
-                        SensorManager.getOrientation(remapedMatrix, orientationValues);
+                        SensorManager.getOrientation(remapedMatrix, RecordActivity.this.orientationValues);
                     }
                 }
 
@@ -240,18 +241,18 @@ public class RecordActivity extends Activity {
     }
 
     @Nullable
-    private Size getOptimalPreviewSize(List<Size> sizes, int w, int h) {
-        double targetRatio = (double) w / h;
+    private Camera.Size getOptimalPreviewSize(List<Camera.Size> sizes, int w, int h) {
+        double targetRatio = (double) w / (double) h;
         if (sizes == null) {
             return null;
         }
 
-        Size optimalSize = null;
+        Camera.Size optimalSize = null;
         double minDiff = Double.MAX_VALUE;
 
         // Try to find an size match aspect ratio and size
         double ASPECT_TOLERANCE = 0.1;
-        for (Size size : sizes) {
+        for (Camera.Size size : sizes) {
             double ratio = (double) size.width / size.height;
             if (Math.abs(ratio - targetRatio) > ASPECT_TOLERANCE) {
                 continue;
@@ -265,7 +266,7 @@ public class RecordActivity extends Activity {
         // Cannot find the one match the aspect ratio, ignore the requirement
         if (optimalSize == null) {
             double maxValue = Double.MAX_VALUE;
-            for (Size size : sizes) {
+            for (Camera.Size size : sizes) {
                 if (Math.abs(size.height - h) < maxValue) {
                     optimalSize = size;
                     maxValue = Math.abs(size.height - h);
@@ -276,7 +277,7 @@ public class RecordActivity extends Activity {
     }
 
     private int radianToDegree(float rad) {
-        return (int)Math.floor(Math.toDegrees(rad));
+        return (int)Math.floor(Math.toDegrees((double) rad));
     }
 
     /**
@@ -284,9 +285,9 @@ public class RecordActivity extends Activity {
      */
     public boolean onTouchEvent(MotionEvent event) {
         if (event.getAction() == MotionEvent.ACTION_DOWN) {
-            Camera.Parameters params = myCamera.getParameters();
+            Camera.Parameters params = this.myCamera.getParameters();
             if (!params.getFocusMode().equals(Camera.Parameters.FOCUS_MODE_FIXED)) {
-                myCamera.autoFocus(mAutoFocusListener);
+                this.myCamera.autoFocus(this.mAutoFocusListener);
             }
         }
         return true;
@@ -306,18 +307,18 @@ public class RecordActivity extends Activity {
         findViewById(R.id.flushButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                myCamera.takePicture(null,null,mPictureListener);
+                RecordActivity.this.myCamera.takePicture(null,null, RecordActivity.this.mPictureListener);
             }
         });
 
         // カメラプレビューの設定
-        mySurfaceView = (SurfaceView)findViewById(R.id.surfaceView);
-        SurfaceHolder holder = mySurfaceView.getHolder();
-        holder.addCallback(mSurfaceListener);
+        this.mySurfaceView = (SurfaceView)findViewById(R.id.surfaceView);
+        SurfaceHolder holder = this.mySurfaceView.getHolder();
+        holder.addCallback(this.mSurfaceListener);
         holder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
 
         // センサーを取得する
-        mySensor = (SensorManager)getSystemService(SENSOR_SERVICE);
+        this.mySensor = (SensorManager)getSystemService(SENSOR_SERVICE);
     }
 
     @Override
@@ -325,20 +326,20 @@ public class RecordActivity extends Activity {
         super.onResume();
 
         // 地磁気センサ
-        mySensor.registerListener(mSensorEventListener,
-                mySensor.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD),
+        this.mySensor.registerListener(this.mSensorEventListener,
+                this.mySensor.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD),
                 SensorManager.SENSOR_DELAY_UI);
 
         // 加速度センサ
-        mySensor.registerListener(mSensorEventListener,
-                mySensor.getDefaultSensor(Sensor.TYPE_ACCELEROMETER),
+        this.mySensor.registerListener(this.mSensorEventListener,
+                this.mySensor.getDefaultSensor(Sensor.TYPE_ACCELEROMETER),
                 SensorManager.SENSOR_DELAY_UI);
     }
 
     @Override
     public void onPause() {
         super.onPause();
-        mySensor.unregisterListener(mSensorEventListener);
+        this.mySensor.unregisterListener(this.mSensorEventListener);
     }
 
 }

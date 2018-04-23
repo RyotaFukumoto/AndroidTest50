@@ -25,12 +25,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        imageView = (ImageView) findViewById(R.id.imageView);
-        imageView.setClickable(true);
+        this.imageView = (ImageView) findViewById(R.id.imageView);
+        this.imageView.setClickable(true);
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (mPermissionReady) {
+                if (MainActivity.this.mPermissionReady) {
                     startActivityForResult(new Intent(getApplication(), RecordActivity.class),1010);
                 }
             }
@@ -39,9 +39,9 @@ public class MainActivity extends AppCompatActivity {
 
         int cameraPermission = ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA);
         int storagePermission = ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE);
-        mPermissionReady = cameraPermission == PackageManager.PERMISSION_GRANTED
+        this.mPermissionReady = cameraPermission == PackageManager.PERMISSION_GRANTED
                 && storagePermission == PackageManager.PERMISSION_GRANTED;
-        if (!mPermissionReady) {
+        if (!this.mPermissionReady) {
             requirePermissions();
         }
     }
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         }
         if (perm.get(Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED
                 && perm.get(Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
-            mPermissionReady = true;
+            this.mPermissionReady = true;
         }
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
     }
@@ -70,9 +70,9 @@ public class MainActivity extends AppCompatActivity {
         switch(requestCode) {
             case (1010):
 
-                app = (MyApplication) getApplication();
-                Bitmap image = app.getObj();
-                imageView.setImageBitmap(image);
+                this.app = (MyApplication) getApplication();
+                Bitmap image = this.app.getObj();
+                this.imageView.setImageBitmap(image);
                 break;
             default:
                 break;
@@ -82,6 +82,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        app.clearObj();
+        this.app.clearObj();
     }
 }
