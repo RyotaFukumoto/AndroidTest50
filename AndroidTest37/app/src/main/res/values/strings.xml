@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AndroidTest37</string>
+    <string name="subject">件名</string>
+    <string name="maintext">件名を入力して下さい</string>
+    <string name="maintexthint">内容を入力して下さい</string>
+    <string name="send">送信</string>
 </resources>

@@ -25,7 +25,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="件名"
+                android:text="@string/subject"
                 android:textSize="25sp" />
 
             <EditText
@@ -35,7 +35,7 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:hint="件名を入力して下さい" />
+                android:hint="@string/maintext" />
 
         </LinearLayout>
 
@@ -50,7 +50,8 @@
                 android:layout_height="40dp"
                 android:layout_weight="1"
                 android:text="内容"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
         </LinearLayout>
 
         <LinearLayout
@@ -65,7 +66,7 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:singleLine="false"
-                android:hint="内容を入力して下さい"
+                android:hint="@string/maintexthint"
                 android:inputType="" />
         </LinearLayout>
 
@@ -75,7 +76,7 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="送信"
+        android:text="@string/send"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
