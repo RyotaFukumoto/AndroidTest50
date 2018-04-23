@@ -14,41 +14,41 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button image2Button;
     private ProgressBar progressBar;
 
-    private boolean downloading;
+    private boolean downloading = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        progressBar = (ProgressBar) findViewById(R.id.progressBar);
+        this.progressBar = (ProgressBar) findViewById(R.id.progressBar);
 
-        imageView = (ImageView) findViewById(R.id.imageView);
-        image1Button = (Button) findViewById(R.id.image1Button);
-        image2Button = (Button) findViewById(R.id.image2Button);
-        image1Button.setOnClickListener(this);
-        image2Button.setOnClickListener(this);
+        this.imageView = (ImageView) findViewById(R.id.imageView);
+        this.image1Button = (Button) findViewById(R.id.image1Button);
+        this.image2Button = (Button) findViewById(R.id.image2Button);
+        this.image1Button.setOnClickListener(this);
+        this.image2Button.setOnClickListener(this);
 
-        downloading = false;
+        this.downloading = true;
     }
 
     @Override
     public void onClick(View view) {
-        if(!downloading) {
-            progressBar.setVisibility(View.VISIBLE);
-            if (view.equals(image1Button)) {
+        if(this.downloading) {
+            this.progressBar.setVisibility(View.VISIBLE);
+            if (view.equals(this.image1Button)) {
                 new DownloadFileFromURL(this).execute("https://s3-ap-northeast-1.amazonaws.com/petpedia/upload_by_admin/pipi_rabbit_ranking_800.jpg");
-            } else if (view.equals(image2Button)) {
+            } else if (view.equals(this.image2Button)) {
                 new DownloadFileFromURL(this).execute("http://image.itmedia.co.jp/nl/articles/1801/15/miya_180113usagikochokocho01.jpg");
             }
-            downloading = true;
+            this.downloading = false;
         }
     }
 
     @Override
     public void succesfully(Bitmap bitmap) {
-        imageView.setImageBitmap(bitmap);
-        progressBar.setVisibility(View.GONE);
-        downloading = false;
+        this.imageView.setImageBitmap(bitmap);
+        this.progressBar.setVisibility(View.GONE);
+        this.downloading = true;
     }
 }

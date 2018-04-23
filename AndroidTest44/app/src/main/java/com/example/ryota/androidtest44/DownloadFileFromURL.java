@@ -9,7 +9,6 @@ import android.util.Log;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 
 class DownloadFileFromURL extends AsyncTask<String, Integer, Bitmap> {
@@ -22,6 +21,7 @@ class DownloadFileFromURL extends AsyncTask<String, Integer, Bitmap> {
 
 
     DownloadFileFromURL(DownloadFileListener listener) {
+        super();
         this.listener = listener;
     }
 
@@ -64,7 +64,7 @@ class DownloadFileFromURL extends AsyncTask<String, Integer, Bitmap> {
                         bmp = BitmapFactory.decodeStream(is);
                         is.close();
                     } catch(IOException e){
-                        Log.d("debug",e.getMessage());
+                        Log.d(BuildConfig.BUILD_TYPE,e.getMessage());
                     } finally{
                         if(is != null){
                             is.close();
@@ -97,6 +97,6 @@ class DownloadFileFromURL extends AsyncTask<String, Integer, Bitmap> {
 
     @Override
     protected void onPostExecute(Bitmap bitmap) {
-        listener.succesfully(bitmap);
+        this.listener.succesfully(bitmap);
     }
 }

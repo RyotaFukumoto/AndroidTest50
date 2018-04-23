@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="downloadimage" />
+        android:contentDescription="@string/downloadimage" />
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -42,7 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="image1"
+            android:text="@string/image1"
             tools:ignore="ButtonStyle" />
 
         <Button
@@ -50,7 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="image2"
+            android:text="@string/image2"
             tools:ignore="ButtonStyle" />
     </LinearLayout>
 
