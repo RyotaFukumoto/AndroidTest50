@@ -1,4 +1,5 @@
 package com.example.ryota.androidtest43;
+import android.annotation.SuppressLint;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -30,9 +31,9 @@ class MusicListRecycleViewAdapter extends RecyclerView.Adapter<MusicListViewHold
     }
 
     @Override
-    public void onBindViewHolder(@NonNull final MusicListViewHolder holder, final int position) {
-        holder.getMusicNameTextView().setText(musicList.get(position).getMusicName());
-        if (position == playing){
+    public void onBindViewHolder(@NonNull final MusicListViewHolder holder, @SuppressLint("RecyclerView") final int position) {
+        holder.getMusicNameTextView().setText(this.musicList.get(position).getMusicName());
+        if (position == this.playing){
             holder.play();
             holder.setPlaying(true);
         }else{
@@ -43,11 +44,11 @@ class MusicListRecycleViewAdapter extends RecyclerView.Adapter<MusicListViewHold
             @Override
             public void onClick(View view) {
                 if(holder.isPlaying()) {
-                    listener.stop();
-                    playing = -1;
+                    MusicListRecycleViewAdapter.this.listener.stop();
+                    MusicListRecycleViewAdapter.this.playing = -1;
                 } else {
-                    listener.play(musicList.get(position).getId());
-                    playing = position;
+                    MusicListRecycleViewAdapter.this.listener.play(MusicListRecycleViewAdapter.this.musicList.get(position).getId());
+                    MusicListRecycleViewAdapter.this.playing = position;
                 }
             }
         });
@@ -56,7 +57,7 @@ class MusicListRecycleViewAdapter extends RecyclerView.Adapter<MusicListViewHold
 
     @Override
     public int getItemCount() {
-        return musicList.size();
+        return this.musicList.size();
     }
     public void setMusicList(List<RowData> musicList) {
         this.musicList = musicList;

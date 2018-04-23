@@ -21,48 +21,48 @@ public class MainActivity extends AppCompatActivity implements MusicListRecycleV
         setContentView(R.layout.activity_main);
 
         RecyclerView rv = (RecyclerView) findViewById(R.id.recyclerView);
-        adapter = new MusicListRecycleViewAdapter();
-        adapter.setListener(this);
+        this.adapter = new MusicListRecycleViewAdapter();
+        this.adapter.setListener(this);
 
         LinearLayoutManager llm = new LinearLayoutManager(this);
         rv.setHasFixedSize(true);
         rv.setLayoutManager(llm);
-        rv.setAdapter(adapter);
+        rv.setAdapter(this.adapter);
 
-        musicList = new ArrayList<>();
-        musicList.add(new RowData("acoustic",R.raw.acoustic));
-        musicList.add(new RowData("healing",R.raw.healing));
-        musicList.add(new RowData("neorock",R.raw.neorock));
-        musicList.add(new RowData("orchestra",R.raw.orchestra));
-        musicList.add(new RowData("piano",R.raw.piano));
-        adapter.setMusicList(musicList);
-        adapter.notifyDataSetChanged();
+        this.musicList = new ArrayList<>();
+        this.musicList.add(new RowData("acoustic",R.raw.acoustic));
+        this.musicList.add(new RowData("healing",R.raw.healing));
+        this.musicList.add(new RowData("neorock",R.raw.neorock));
+        this.musicList.add(new RowData("orchestra",R.raw.orchestra));
+        this.musicList.add(new RowData("piano",R.raw.piano));
+        this.adapter.setMusicList(this.musicList);
+        this.adapter.notifyDataSetChanged();
 
-        mediaPlayer = new MediaPlayer();
+        this.mediaPlayer = new MediaPlayer();
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
     }
 
     @Override
     public void play(int filePath) {
         Log.i("System.out", String.valueOf(filePath));
-        mediaPlayer.stop();
-        mediaPlayer.reset();
-        mediaPlayer = MediaPlayer.create(this, filePath);
-        mediaPlayer.start();
+        this.mediaPlayer.stop();
+        this.mediaPlayer.reset();
+        this.mediaPlayer = MediaPlayer.create(this, filePath);
+        this.mediaPlayer.start();
 
         reload();
     }
 
     @Override
     public void stop() {
-        mediaPlayer.stop();
-        mediaPlayer.reset();
+        this.mediaPlayer.stop();
+        this.mediaPlayer.reset();
 
         reload();
     }
 
     private void reload(){
-        adapter.notifyItemRangeChanged(0, musicList.size());
+        this.adapter.notifyItemRangeChanged(0, this.musicList.size());
     }
 
 }

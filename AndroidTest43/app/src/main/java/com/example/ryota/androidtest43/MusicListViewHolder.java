@@ -12,18 +12,18 @@ public class MusicListViewHolder extends RecyclerView.ViewHolder {
 
     public MusicListViewHolder(View itemView) {
         super(itemView);
-        playImageView = (ImageView)itemView.findViewById(R.id.playImageView);
-        musicNameTextView = (TextView)itemView.findViewById(R.id.musicNameTextView);
-        playing = false;
+        this.playImageView = (ImageView)itemView.findViewById(R.id.playImageView);
+        this.musicNameTextView = (TextView)itemView.findViewById(R.id.musicNameTextView);
+        this.playing = false;
     }
 
     public ImageView getPlayImageView() {
-        return playImageView;
+        return this.playImageView;
     }
 
 
     public TextView getMusicNameTextView() {
-        return musicNameTextView;
+        return this.musicNameTextView;
     }
 
 
@@ -36,10 +36,10 @@ public class MusicListViewHolder extends RecyclerView.ViewHolder {
     }
 
     public void play(){
-        playImageView.setImageResource(R.drawable.stop);
+        this.playImageView.setImageResource(R.drawable.stop);
     }
 
     public void stop(){
-        playImageView.setImageResource(R.drawable.play);
+        this.playImageView.setImageResource(R.drawable.play);
     }
 }

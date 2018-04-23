@@ -1,6 +1,6 @@
 package com.example.ryota.androidtest43;
 
-public class RowData {private final String musicName;
+class RowData {private final String musicName;
     private final int id;
 
     RowData(String musicName, int id) {

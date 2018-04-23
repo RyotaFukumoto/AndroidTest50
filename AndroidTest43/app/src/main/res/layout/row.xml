@@ -27,7 +27,7 @@
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:clickable="true"
-                android:contentDescription="play"
+                android:contentDescription="@string/play"
                 android:focusable="true"
                 app:srcCompat="@drawable/play" />
 
