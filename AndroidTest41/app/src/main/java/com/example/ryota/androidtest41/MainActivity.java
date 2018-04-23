@@ -20,17 +20,17 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        alphaSeekBar = (SeekBar) findViewById(R.id.alphaSeekBar);
-        redSeekBar = (SeekBar) findViewById(R.id.redSeekBar);
-        greenSeekBar = (SeekBar) findViewById(R.id.greenSeekBar);
-        blueSeekBar = (SeekBar) findViewById(R.id.blueSeekBar);
+        this.alphaSeekBar = (SeekBar) findViewById(R.id.alphaSeekBar);
+        this.redSeekBar = (SeekBar) findViewById(R.id.redSeekBar);
+        this.greenSeekBar = (SeekBar) findViewById(R.id.greenSeekBar);
+        this.blueSeekBar = (SeekBar) findViewById(R.id.blueSeekBar);
 
-        imageView = (ImageView) findViewById(R.id.imageView);
+        this.imageView = (ImageView) findViewById(R.id.imageView);
 
-        alphaSeekBar.setOnSeekBarChangeListener(this);
-        redSeekBar.setOnSeekBarChangeListener(this);
-        greenSeekBar.setOnSeekBarChangeListener(this);
-        blueSeekBar.setOnSeekBarChangeListener(this);
+        this.alphaSeekBar.setOnSeekBarChangeListener(this);
+        this.redSeekBar.setOnSeekBarChangeListener(this);
+        this.greenSeekBar.setOnSeekBarChangeListener(this);
+        this.blueSeekBar.setOnSeekBarChangeListener(this);
 
 
 
@@ -39,11 +39,11 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
 
     @Override
     public void onProgressChanged(SeekBar seekBar, int i, boolean bo) {
-        int newColor = (alphaSeekBar.getProgress() << 24)
-                + (redSeekBar.getProgress() << 16)
-                + (greenSeekBar.getProgress() << 8)
-                + blueSeekBar.getProgress();
-        imageView.setColorFilter(newColor, PorterDuff.Mode.MULTIPLY);
+        int newColor = (this.alphaSeekBar.getProgress() << 24)
+                + (this.redSeekBar.getProgress() << 16)
+                + (this.greenSeekBar.getProgress() << 8)
+                + this.blueSeekBar.getProgress();
+        this.imageView.setColorFilter(newColor, PorterDuff.Mode.MULTIPLY);
     }
 
     @Override
