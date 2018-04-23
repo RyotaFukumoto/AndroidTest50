@@ -23,7 +23,7 @@ import java.util.Collections;
 
 import static android.widget.Toast.LENGTH_SHORT;
 
-public class MainActivity extends AppCompatActivity {
+class MainActivity extends AppCompatActivity {
     private CallbackManager callbackManager;
 
     @Override
@@ -42,11 +42,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        callbackManager = CallbackManager.Factory.create();
+        this.callbackManager = CallbackManager.Factory.create();
 
         loginButton.setPublishPermissions(Collections.singletonList("publish_actions"));
 
-        loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
+        loginButton.registerCallback(this.callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
                 Toast.makeText(getApplication(),"ログイン成功", LENGTH_SHORT).show();
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        callbackManager.onActivityResult(requestCode, resultCode, data);
+        this.callbackManager.onActivityResult(requestCode, resultCode, data);
     }
     private void share() {
         if (AccessToken.getCurrentAccessToken() != null && AccessToken.getCurrentAccessToken().getPermissions().contains("publish_actions")) {
