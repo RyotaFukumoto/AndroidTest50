@@ -18,7 +18,7 @@ public class Test02 extends AppCompatActivity {
         arrayList.add("abc");
         arrayList.add("def");
         Log.d("LogOutPut01",arrayList.get(0));
-        Log.d("LogOutPut01",arrayList.get(1));
+        Log.d("LogOutPut02",arrayList.get(1));
         
         HashMap<String, String> hashMap = new HashMap<>();
         hashMap.put("One","1");
@@ -26,8 +26,8 @@ public class Test02 extends AppCompatActivity {
         hashMap.put("One","1");
         hashMap.put("Ten","10");
         hashMap.put("Ten","10");
-        Log.d("LogOutPut02",hashMap.get("One"));
-        Log.d("LogOutPut02",hashMap.get("Ten"));
+        Log.d("LogOutPut03",hashMap.get("One"));
+        Log.d("LogOutPut04",hashMap.get("Ten"));
 
         HashSet<String> hashSet = new HashSet<>();
         hashSet.add("a");
@@ -37,7 +37,7 @@ public class Test02 extends AppCompatActivity {
         hashSet.add("c");
         hashSet.add("c");
         for(String a:hashSet) {
-            Log.d("LogOutPut03", a);
+            Log.d("LogOutPut05", a);
         }
     }
 }
