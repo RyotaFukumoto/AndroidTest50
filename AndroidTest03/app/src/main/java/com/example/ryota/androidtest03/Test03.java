@@ -37,7 +37,7 @@ import java.util.Arrays;
         }
     }
     private void elseifOutPut(){
-        Integer i = 2;
+        int i = 2;
         if (i == 1){
             Log.i("LogOutPut04","1です");
         } else if (i == 2) {
@@ -46,14 +46,14 @@ import java.util.Arrays;
 
     }
     private void operator(){
-        Integer numone = 1;
-        Integer numtwo = 2;
-        Integer result = numone < numtwo ? numone : numtwo;
+        int numone = 1;
+        int numtwo = 2;
+        int result = numone < numtwo ? numone : numtwo;
         String str = String.valueOf(result);
         Log.i("LogOutPut07","大きい値は " + str);
     }
     private void whileOutPut(){
-        Integer i = 0;
+        int i = 0;
         while (i < 3){
             i++;
         }
@@ -61,7 +61,7 @@ import java.util.Arrays;
 
     }
     private void dowhileOutPut(){
-        Integer i = 0;
+        int i = 0;
         do{
             i++;
         }while (i < 3);
@@ -69,7 +69,7 @@ import java.util.Arrays;
     }
     private void forOutput(){
 
-        for (Integer i = 0;i < 3;i++){
+        for (int i = 0;i < 3;i++){
             Log.i("LogOutPut11"," " + i + " 回目");
         }
 
@@ -83,7 +83,7 @@ import java.util.Arrays;
     }
 
     private void switchOutPut(){
-        Integer num = 3;
+        int num = 3;
         switch (num){
             case 1:
                 Log.i("LogOutPut13","値は1です");
