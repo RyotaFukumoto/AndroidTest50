@@ -23,37 +23,25 @@ public class MainActivity extends AppCompatActivity {
 
         this.textView.setClickable(true);
         this.textView.setOnClickListener(new View.OnClickListener() {
-
-
             @Override
             public void onClick(View v) {
-                MainActivity.this.onClick(this);
+                Calendar calendar = Calendar.getInstance();
+                int hour = calendar.get(Calendar.HOUR_OF_DAY);
+                int minute = calendar.get(Calendar.MINUTE);
+                TimePickerDialog timePickerDialog = new TimePickerDialog(MainActivity.this,
+                        new TimePickerDialog.OnTimeSetListener() {
+                            @SuppressLint("SetTextI18n")
+                            @Override
+                            public void onTimeSet(TimePicker view, int hourOfDay, int minut) {
+                                Toast.makeText(MainActivity.this,
+                                        String.valueOf(hourOfDay) + " : " + String.valueOf(minut),Toast.LENGTH_SHORT).show();
+                                MainActivity.this.textView.setText(String.valueOf(hourOfDay) + " : " + String.valueOf(minut));
+                            }
+                        },hour,minute,true);
+                timePickerDialog.show();
             }
+
+
         });
-
-
-
-
     }
-    private void onClick(View.OnClickListener v) {
-        Calendar calendar = Calendar.getInstance();
-        int hour = calendar.get(Calendar.HOUR_OF_DAY);
-        int minute = calendar.get(Calendar.MINUTE);
-
-        TimePickerDialog timePickerDialog = new TimePickerDialog(this,
-                new TimePickerDialog.OnTimeSetListener() {
-                    @SuppressLint("SetTextI18n")
-                    @Override
-                    public void onTimeSet(TimePicker view, int hourOfDay, int minut) {
-                        Toast.makeText(MainActivity.this,
-                                String.valueOf(hourOfDay) + " : " + String.valueOf(minut),
-                                Toast.LENGTH_SHORT).show();
-                        MainActivity.this.textView.setText(String.valueOf(hourOfDay) + " : " + String.valueOf(minut));
-                    }
-                }, hour, minute, true);
-        timePickerDialog.show();
-    }
-
 }
-
-
