@@ -1,12 +1,12 @@
 package com.example.ryota.androidtest05;
 
 class Teacher {
-    private final String name;
-    private final Integer age;
-    private final Boolean sex;
-    private final Double salary;
+    private  String name;
+    private  int age;
+    private  boolean sex;
+    private  double salary;
 
-    Teacher(String name,Integer age,Boolean sex,Double salary){
+    Teacher(String name,int age,boolean sex,double salary){
         this.name = name;
         this.age = age;
         this.sex = sex;
@@ -17,15 +17,15 @@ class Teacher {
         return this.name;
     }
 
-    Integer getAge() {
+    int getAge() {
         return this.age;
     }
 
-    Boolean getSex() {
+    boolean getSex() {
         return this.sex;
     }
 
-    Double getSalary() {
+    double getSalary() {
         return this.salary;
     }
 }

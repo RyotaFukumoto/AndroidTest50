@@ -4,11 +4,11 @@ import android.util.Log;
 
 class FiveYearTeacher extends Teacher{
 
-    FiveYearTeacher(String name, Integer age, Boolean sex, Double salary) {
+    FiveYearTeacher(String name, int age, boolean sex, double salary) {
         super(name, age, sex, salary );
     }
     public void calculateSalary() {
-        Double sala = getSalary() * 1.1;
+        double sala = getSalary() * 1.1;
         Log.i("FiveYearTeasher","5年目の　" + getName() + " さんは " + sala + " 円です");
     }
 }
