@@ -5,6 +5,8 @@ import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -21,7 +23,7 @@ public class NewToDoActivity extends AppCompatActivity{
     private EditText titleText;
     private EditText contentText;
     private Date now;
-
+    Button button;
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
 
@@ -32,16 +34,17 @@ public class NewToDoActivity extends AppCompatActivity{
 
         final ContentValues cv = new ContentValues();
 
-        Button button = findViewById(R.id.button);
+        button = findViewById(R.id.button);
         this.textView = findViewById(R.id.textView);
         this.titleText = findViewById(R.id.editText2);
         this.contentText = findViewById(R.id.editText4);
-
+        button.setEnabled(false);
 
         this.now = new Date(System.currentTimeMillis());
 
 
         this.textView.setText(dateFormat(sevenAdd(this.now)));
+        titleText.addTextChangedListener(watchHandler);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -83,7 +86,26 @@ public class NewToDoActivity extends AppCompatActivity{
         DateFormat format = new SimpleDateFormat("yyyy年MM月dd日");
         return format.format(date);
     }
+    private TextWatcher watchHandler = new TextWatcher() {
 
+        @Override
+        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+        }
+
+        @Override
+        public void onTextChanged(CharSequence s, int start, int before, int count) {
+        }
+
+        @Override
+        public void afterTextChanged(Editable s) {
+            if(titleText.length()>0){
+                button.setEnabled(true);
+            }else {
+                button.setEnabled(false);
+            }
+        }
+    };
 
 
     private void onClick(View.OnClickListener v) {
