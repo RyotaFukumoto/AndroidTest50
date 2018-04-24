@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "614578314830",
+    "firebase_url": "https://androidtest47-6e790.firebaseio.com",
+    "project_id": "androidtest47-6e790",
+    "storage_bucket": "androidtest47-6e790.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614578314830:android:56f22574c0db29e0",
+        "android_client_info": {
+          "package_name": "com.example.ryota.androidtest47"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614578314830-tku1s2uvh921q49fac8vsmq5vc8bvp2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADRdh8zN4UvHjPEkwZc8E_ZLLrO119OTM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
