@@ -24,7 +24,7 @@
             android:layout_centerHorizontal="true"
             android:ems="10"
             android:hint="@string/intinput"
-            android:inputType="textPersonName"
+            android:inputType="number"
             tools:ignore="LabelFor"
             tools:layout_editor_absoluteX="85dp"
             tools:layout_editor_absoluteY="16dp" />
@@ -36,8 +36,9 @@
             android:layout_below="@+id/editText"
             android:layout_centerHorizontal="true"
             android:ems="10"
+
             android:hint="@string/doubleinput"
-            android:inputType="textPersonName"
+            android:inputType="numberDecimal"
             tools:layout_editor_absoluteX="85dp"
             tools:layout_editor_absoluteY="76dp" />
 
@@ -49,7 +50,7 @@
             android:layout_centerHorizontal="true"
             android:ems="10"
             android:hint="@string/stringinput"
-            android:inputType="textPersonName" />
+            android:inputType="text" />
 
         <TextView
             android:id="@+id/textView"
