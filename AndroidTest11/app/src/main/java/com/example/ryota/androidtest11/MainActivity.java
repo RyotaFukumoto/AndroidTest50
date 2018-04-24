@@ -28,9 +28,7 @@ public class MainActivity extends AppCompatActivity  {
         setInputMethodManager((InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE));
         final EditText editText = findViewById(R.id.editText);
         this.mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
-
-
-
+        
         editText.setOnKeyListener(new View.OnKeyListener() {
             @Override
             public boolean onKey(View v, int keyCode, KeyEvent event) {
