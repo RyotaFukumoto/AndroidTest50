@@ -1,15 +1,14 @@
 package com.example.ryota.androidtest26;
 
+import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;
 import android.content.ContentValues;
-import android.content.Context;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -23,8 +22,12 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class DatabaseInsert extends AppCompatActivity {
+    public static final String CREATED = "created";
 
-    private String created;
+    EditText titleEditText;
+    Button registerButton;
+
+    DateFormat df = new SimpleDateFormat("yyyy/MM/dd");
     private int getint;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,20 +36,24 @@ public class DatabaseInsert extends AppCompatActivity {
 
 
 
-        final EditText titleEditText = findViewById(R.id.editText2);
+        titleEditText = findViewById(R.id.editText2);
 
         final EditText contentEditText = findViewById(R.id.editText4);
         final TextView textView = findViewById(R.id.textView);
         textView.setText(String.valueOf(getLimitDateFrom(getNowDate())));
-        Button registerButton = (Button) findViewById(R.id.button);
+        registerButton = (Button) findViewById(R.id.button);
+        registerButton.setEnabled(false);
+
+        titleEditText.addTextChangedListener(watchHandler);
 
 
-        final Intent intent = getIntent();
-        getint = intent.getIntExtra("id",0);
-        if(getint !=0){
+        Intent intent = getIntent();
+        this.getint = intent.getIntExtra("id",0);
+        if(this.getint !=0){
+            registerButton.setText("更新");
             CharSequence charSequence = intent.getCharSequenceExtra("title");
             CharSequence charSequence1 = intent.getCharSequenceExtra("content");
-            created = (String) intent.getCharSequenceExtra("created");
+            String created = (String) intent.getCharSequenceExtra(CREATED);
             CharSequence charSequence3 = intent.getCharSequenceExtra("limit");
 
 
@@ -101,20 +108,12 @@ public class DatabaseInsert extends AppCompatActivity {
                 ContentValues contentValues = new ContentValues();
                 contentValues.put("todo_title",titleEditText.getText().toString());
                 contentValues.put("todo_contents",contentEditText.getText().toString());
-                contentValues.put("created",created);
+                contentValues.put(CREATED,created);
                 contentValues.put("modified",created);
                 contentValues.put("limit_date",textView.getText().toString());
-                contentValues.put("delete_flg",0);
+                contentValues.put(MainActivity.DELETE_FLG,0);
                 long ret;
-                if(getint != 0){
-                    try {
-                        String id = String.valueOf(getint);
-                        ret = db.update("tr_todo",contentValues,"todo_id = "+ getint,null);
-                    }finally {
-                        db.close();
-                    }
-
-                }else {
+                if (DatabaseInsert.this.getint == 0) {
 
 
                     try {
@@ -122,6 +121,14 @@ public class DatabaseInsert extends AppCompatActivity {
                     } finally {
                         db.close();
                     }
+                } else {
+                    try {
+                        String id = String.valueOf(DatabaseInsert.this.getint);
+                        ret = db.update("tr_todo", contentValues, "todo_id = " + DatabaseInsert.this.getint, null);
+                    } finally {
+                        db.close();
+                    }
+
                 }
                 if (ret == -1L) {
                     Toast.makeText(getApplication(), "Insert失敗", Toast.LENGTH_SHORT).show();
@@ -132,27 +139,46 @@ public class DatabaseInsert extends AppCompatActivity {
             }
         });
     }
+    private TextWatcher watchHandler = new TextWatcher() {
+
+        @Override
+        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+        }
+
+        @Override
+        public void onTextChanged(CharSequence s, int start, int before, int count) {
+        }
+
+        @Override
+        public void afterTextChanged(Editable s) {
+            if(titleEditText.length()>0){
+                registerButton.setEnabled(true);
+            }else {
+                registerButton.setEnabled(false);
+            }
+        }
+    };
 
     private  Date getNow(){
-        Date date = new Date(System.currentTimeMillis());
-        return date;
+        return new Date(System.currentTimeMillis());
     }
 
 
     private String getNowDate(){
-        DateFormat df = new SimpleDateFormat("yyyy/MM/dd");
+
         Date date = new Date(System.currentTimeMillis());
-        return df.format(date);
+        return this.df.format(date);
     }
 
     private String getLimitDateFrom(String dateStr){
         Calendar calendar = Calendar.getInstance();
-        DateFormat df = new SimpleDateFormat("yyyy/MM/dd");
+
 
         Date date = new Date(dateStr);
         calendar.setTime(date);
         calendar.add(Calendar.DATE,7);
         Date limitDate = new Date(calendar.getTimeInMillis());
-        return df.format(limitDate);
+        return this.df.format(limitDate);
     }
 }
