@@ -1,19 +1,17 @@
 package com.example.ryota.androidtest04;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
 
 
 class Account {
-    private final String name;
-    private final Integer age;
-    private final String sex;
-    private final String language;
+    private String name;
+    private int age;
+    private String sex;
+    private String language;
 
 
 
-    Account(String name, Integer age, String sex, String language){
+    Account(String name, int age, String sex, String language){
         this.name = name;
         this.age = age;
         this.sex = sex;
