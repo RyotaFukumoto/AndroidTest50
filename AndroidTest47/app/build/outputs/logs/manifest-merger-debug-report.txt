@@ -1,0 +1,350 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [com.google.firebase:firebase-messaging:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.0.aar/f4a498cc2d31f542fa6c8a386bd16456/AndroidManifest.xml:17:1-37:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d7a0280885809fcb03c138d2e4789e85/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/ef60b1f38b2865fd9f3c359d5e8d822d/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/0c2569ff735324099cb0165414e305a1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c37ac65fd8946b0c8d35bb21adff48de/AndroidManifest.xml:17:1-41:12
+MERGED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.0.aar/cb5df9377133118fe45903b9d9fed0bf/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.0.aar/130cd3f6e5dcf0ced80168cc2e28e738/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.0.aar/1239a32eb46b23df4389f7c457dbaee2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.0.aar/7655904bb7cdfdb4f28069214d20aea2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.0.aar/321253f714efdb47f9972013e283a471/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.0.aar/9aadc13d5c50c125640f403ac02e50d9/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/553d07d96c9b3654cb9fc1c70b1892e0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/fa4b2481adbef1b7162cf1c65c194068/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5f342a3f049eb8e354893d61515647d7/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/06472246232972a0e0489be8b9ee6fe9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/cf00d251ae8c86f7fe8f749f0f486a19/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/cd2d191dccae810ca2aba9e51a4a1d39/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/31adc04a3ab2e91b3b886c34d7767995/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/88c7a674ec8f1f08eeee55e6bf943b07/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/a657f62685649bf0e3f657c2b9f665a0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/14d15f9826189e4472010e1f6ff2ef5d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/142cc61bfedf7a63d3f82bbf7660bf41/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/119894da82ceb9a5e05283c0be20ba1d/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:3:5-46
+		INJECTED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:5:5-27:19
+MERGED from [com.google.firebase:firebase-messaging:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.0.aar/f4a498cc2d31f542fa6c8a386bd16456/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.0.aar/f4a498cc2d31f542fa6c8a386bd16456/AndroidManifest.xml:22:5-35:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/ef60b1f38b2865fd9f3c359d5e8d822d/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/ef60b1f38b2865fd9f3c359d5e8d822d/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/0c2569ff735324099cb0165414e305a1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/0c2569ff735324099cb0165414e305a1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c37ac65fd8946b0c8d35bb21adff48de/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c37ac65fd8946b0c8d35bb21adff48de/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-common:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.0.aar/cb5df9377133118fe45903b9d9fed0bf/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.0.aar/cb5df9377133118fe45903b9d9fed0bf/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.0.aar/130cd3f6e5dcf0ced80168cc2e28e738/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.0.aar/130cd3f6e5dcf0ced80168cc2e28e738/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.0.aar/1239a32eb46b23df4389f7c457dbaee2/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.0.aar/1239a32eb46b23df4389f7c457dbaee2/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.0.aar/7655904bb7cdfdb4f28069214d20aea2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.0.aar/7655904bb7cdfdb4f28069214d20aea2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.0.aar/321253f714efdb47f9972013e283a471/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.0.aar/321253f714efdb47f9972013e283a471/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.0.aar/9aadc13d5c50c125640f403ac02e50d9/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.0.aar/9aadc13d5c50c125640f403ac02e50d9/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:26.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5f342a3f049eb8e354893d61515647d7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5f342a3f049eb8e354893d61515647d7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/06472246232972a0e0489be8b9ee6fe9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/06472246232972a0e0489be8b9ee6fe9/AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:11:9-40
+service#com.example.ryota.androidtest47.MyFirebaseMessagingService
+ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:12:9-18:19
+	android:permission
+		ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:14:13-34
+	android:name
+		ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:13:13-55
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:15:13-17:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:16:25-75
+activity#com.example.ryota.androidtest47.MainActivity
+ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:19:9-25:20
+	android:name
+		ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:19:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml:23:27-74
+uses-sdk
+INJECTED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml
+MERGED from [com.google.firebase:firebase-messaging:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.0.aar/f4a498cc2d31f542fa6c8a386bd16456/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.0.aar/f4a498cc2d31f542fa6c8a386bd16456/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d7a0280885809fcb03c138d2e4789e85/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d7a0280885809fcb03c138d2e4789e85/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/ef60b1f38b2865fd9f3c359d5e8d822d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/ef60b1f38b2865fd9f3c359d5e8d822d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/0c2569ff735324099cb0165414e305a1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/0c2569ff735324099cb0165414e305a1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c37ac65fd8946b0c8d35bb21adff48de/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c37ac65fd8946b0c8d35bb21adff48de/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.0.aar/cb5df9377133118fe45903b9d9fed0bf/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.0.aar/cb5df9377133118fe45903b9d9fed0bf/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.0.aar/130cd3f6e5dcf0ced80168cc2e28e738/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.0.aar/130cd3f6e5dcf0ced80168cc2e28e738/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.0.aar/1239a32eb46b23df4389f7c457dbaee2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.0.aar/1239a32eb46b23df4389f7c457dbaee2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.0.aar/7655904bb7cdfdb4f28069214d20aea2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.0.aar/7655904bb7cdfdb4f28069214d20aea2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.0.aar/321253f714efdb47f9972013e283a471/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.0.aar/321253f714efdb47f9972013e283a471/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.0.aar/9aadc13d5c50c125640f403ac02e50d9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.0.aar/9aadc13d5c50c125640f403ac02e50d9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/553d07d96c9b3654cb9fc1c70b1892e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/553d07d96c9b3654cb9fc1c70b1892e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/fa4b2481adbef1b7162cf1c65c194068/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/fa4b2481adbef1b7162cf1c65c194068/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5f342a3f049eb8e354893d61515647d7/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5f342a3f049eb8e354893d61515647d7/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/06472246232972a0e0489be8b9ee6fe9/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/06472246232972a0e0489be8b9ee6fe9/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/cf00d251ae8c86f7fe8f749f0f486a19/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/cf00d251ae8c86f7fe8f749f0f486a19/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/cd2d191dccae810ca2aba9e51a4a1d39/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/cd2d191dccae810ca2aba9e51a4a1d39/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/31adc04a3ab2e91b3b886c34d7767995/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/31adc04a3ab2e91b3b886c34d7767995/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/88c7a674ec8f1f08eeee55e6bf943b07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/88c7a674ec8f1f08eeee55e6bf943b07/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/a657f62685649bf0e3f657c2b9f665a0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/a657f62685649bf0e3f657c2b9f665a0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/14d15f9826189e4472010e1f6ff2ef5d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/14d15f9826189e4472010e1f6ff2ef5d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/142cc61bfedf7a63d3f82bbf7660bf41/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/142cc61bfedf7a63d3f82bbf7660bf41/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/119894da82ceb9a5e05283c0be20ba1d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/119894da82ceb9a5e05283c0be20ba1d/AndroidManifest.xml:20:5-44
+INJECTED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5f342a3f049eb8e354893d61515647d7/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest47/app/src/main/AndroidManifest.xml
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.0.aar/f4a498cc2d31f542fa6c8a386bd16456/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.0.aar/f4a498cc2d31f542fa6c8a386bd16456/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.0.aar/f4a498cc2d31f542fa6c8a386bd16456/AndroidManifest.xml:29:13-82
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c37ac65fd8946b0c8d35bb21adff48de/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c37ac65fd8946b0c8d35bb21adff48de/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:23:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c37ac65fd8946b0c8d35bb21adff48de/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c37ac65fd8946b0c8d35bb21adff48de/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c37ac65fd8946b0c8d35bb21adff48de/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c37ac65fd8946b0c8d35bb21adff48de/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c37ac65fd8946b0c8d35bb21adff48de/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c37ac65fd8946b0c8d35bb21adff48de/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c37ac65fd8946b0c8d35bb21adff48de/AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c37ac65fd8946b0c8d35bb21adff48de/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:34:9-42:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:44:9-47:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c37ac65fd8946b0c8d35bb21adff48de/AndroidManifest.xml:35:9-38:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c37ac65fd8946b0c8d35bb21adff48de/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/a04ed90739c4eabb6958d1429789378f/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:29:9-63
+permission#com.example.ryota.androidtest47.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:32:22-76
+uses-permission#com.example.ryota.androidtest47.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:32:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:35:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:38:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:36:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:39:13-43:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.example.ryota.androidtest47
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:39:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:40:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:40:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:42:27-58
+category#com.example.ryota.androidtest47
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:42:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/4dc2c0c787f7f636c16bbba90c2577cc/AndroidManifest.xml:54:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.0.aar/cb5df9377133118fe45903b9d9fed0bf/AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.0.aar/cb5df9377133118fe45903b9d9fed0bf/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.0.aar/cb5df9377133118fe45903b9d9fed0bf/AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.0.aar/cb5df9377133118fe45903b9d9fed0bf/AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.0.aar/cb5df9377133118fe45903b9d9fed0bf/AndroidManifest.xml:9:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.0.aar/321253f714efdb47f9972013e283a471/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.0.aar/321253f714efdb47f9972013e283a471/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.0.aar/321253f714efdb47f9972013e283a471/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5f342a3f049eb8e354893d61515647d7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/06472246232972a0e0489be8b9ee6fe9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/06472246232972a0e0489be8b9ee6fe9/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5f342a3f049eb8e354893d61515647d7/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5f342a3f049eb8e354893d61515647d7/AndroidManifest.xml:27:13-51

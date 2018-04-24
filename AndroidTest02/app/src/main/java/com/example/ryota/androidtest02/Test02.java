@@ -17,16 +17,27 @@ public class Test02 extends AppCompatActivity {
         ArrayList<String> arrayList = new ArrayList<>();
         arrayList.add("abc");
         arrayList.add("def");
-        Log.d("LogOutPut01","ArrayList = " + arrayList);
-
+        Log.d("LogOutPut01",arrayList.get(0));
+        Log.d("LogOutPut01",arrayList.get(1));
+        
         HashMap<String, String> hashMap = new HashMap<>();
         hashMap.put("One","1");
+        hashMap.put("One","1");
+        hashMap.put("One","1");
         hashMap.put("Ten","10");
-        Log.d("LogOutPut02","HashMap = " + hashMap);
-        HashSet<String> hashSet = new HashSet<>();
-        hashSet.add("abc");
-        hashSet.add("def");
-        Log.d("LogOutPut03","HashSet = " + hashSet);
+        hashMap.put("Ten","10");
+        Log.d("LogOutPut02",hashMap.get("One"));
+        Log.d("LogOutPut02",hashMap.get("Ten"));
 
+        HashSet<String> hashSet = new HashSet<>();
+        hashSet.add("a");
+        hashSet.add("a");
+        hashSet.add("a");
+        hashSet.add("b");
+        hashSet.add("c");
+        hashSet.add("c");
+        for(String a:hashSet) {
+            Log.d("LogOutPut03", a);
+        }
     }
 }
