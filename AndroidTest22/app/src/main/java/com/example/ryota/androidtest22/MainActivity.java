@@ -1,5 +1,6 @@
 package com.example.ryota.androidtest22;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Toolbar toolbar = findViewById(R.id.mainToolbar);
+
+
         toolbar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
