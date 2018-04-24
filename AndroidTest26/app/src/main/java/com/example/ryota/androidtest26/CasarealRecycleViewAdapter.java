@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 
 import java.util.List;
 
-public class CasarealRecycleViewAdapter extends RecyclerView.Adapter<CasarealViewHolder> {
+class CasarealRecycleViewAdapter extends RecyclerView.Adapter<CasarealViewHolder> {
     private  List<RowData> list;
 
     public void setList(List<RowData> list){

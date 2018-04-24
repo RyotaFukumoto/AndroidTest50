@@ -1,6 +1,6 @@
 package com.example.ryota.androidtest26;
 
-public class TodoData {
+class TodoData {
     private String todo_id;
     private String todo_title;
     private String todo_contents;

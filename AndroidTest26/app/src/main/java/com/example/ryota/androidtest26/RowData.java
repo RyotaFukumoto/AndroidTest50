@@ -10,7 +10,7 @@ class RowData {
     private String content;
     private String limit;
 
-    public RowData(int todoID, String title, String content, String limit) {
+    RowData(int todoID, String title, String content, String limit) {
         this.todoID = todoID;
         this.title = title;
         this.content = content;

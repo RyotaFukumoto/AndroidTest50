@@ -10,13 +10,11 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    private List<RowData> todoList;
     private CasarealRecycleViewAdapter adapter;
 
     @Override
@@ -27,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         RecyclerView rv = (RecyclerView) findViewById(R.id.casarealRecyclerView);
-        adapter = new CasarealRecycleViewAdapter();
+        this.adapter = new CasarealRecycleViewAdapter();
 
         LinearLayoutManager llm = new LinearLayoutManager(this);
 
@@ -37,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         rv.setLayoutManager(llm);
 
-        rv.setAdapter(adapter);
+        rv.setAdapter(this.adapter);
 
         FloatingActionButton addButton = findViewById(R.id.floatingActionButton);
         addButton.setOnClickListener(new View.OnClickListener() {
@@ -53,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        todoList = new ArrayList<>();
+        List<RowData> todoList = new ArrayList<>();
         //rawQueryメソッドでデータを取得
         DatabaseHelper dbHelper = new DatabaseHelper(this);
         SQLiteDatabase db = dbHelper.getReadableDatabase();
@@ -76,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         } finally {
             db.close();
         }
-        adapter.setList(todoList);
-        adapter.notifyDataSetChanged();
+        this.adapter.setList(todoList);
+        this.adapter.notifyDataSetChanged();
     }
 }

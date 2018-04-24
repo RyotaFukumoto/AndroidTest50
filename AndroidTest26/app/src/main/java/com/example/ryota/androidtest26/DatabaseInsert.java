@@ -2,13 +2,11 @@ package com.example.ryota.androidtest26;
 
 import android.app.DatePickerDialog;
 import android.content.ContentValues;
-import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -22,18 +20,23 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class DatabaseInsert extends AppCompatActivity {
-
+    Button registerButton;
+    EditText titleEditText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activit_new_todo);
 
 
-        final EditText titleEditText = findViewById(R.id.editText2);
+         titleEditText = findViewById(R.id.editText2);
         final EditText contentEditText = findViewById(R.id.editText4);
         final TextView textView = findViewById(R.id.textView);
         textView.setText(String.valueOf(getLimitDateFrom(getNowDate())));
-        Button registerButton = (Button) findViewById(R.id.button);
+        registerButton = (Button) findViewById(R.id.button);
+        registerButton.setEnabled(false);
+        titleEditText.addTextChangedListener(watchHandler);
+
+
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -99,9 +102,29 @@ public class DatabaseInsert extends AppCompatActivity {
         });
     }
 
+    private TextWatcher watchHandler = new TextWatcher() {
+
+        @Override
+        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+        }
+
+        @Override
+        public void onTextChanged(CharSequence s, int start, int before, int count) {
+        }
+
+        @Override
+        public void afterTextChanged(Editable s) {
+            if(titleEditText.length()>0){
+                registerButton.setEnabled(true);
+            }else {
+                registerButton.setEnabled(false);
+            }
+        }
+    };
+
     private  Date getNow(){
-        Date date = new Date(System.currentTimeMillis());
-        return date;
+        return new Date(System.currentTimeMillis());
     }
 
 
