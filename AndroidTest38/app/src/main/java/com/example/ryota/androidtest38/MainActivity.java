@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                     String filename = System.currentTimeMillis() + ".jpg";
                     ContentValues cValues = new ContentValues();
                     cValues.put(MediaStore.MediaColumns.TITLE, filename);
-                    cValues.put(MediaStore.MediaColumns.MIME_TYPE, "image/jpeg");
+                    cValues.put(MediaStore.MediaColumns.MIME_TYPE, "image/jpg");
                     MainActivity.this.cameraUri = getContentResolver().insert(
                             MediaStore.Images.Media.EXTERNAL_CONTENT_URI, cValues);
                     Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
