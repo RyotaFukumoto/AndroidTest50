@@ -27,10 +27,10 @@ public class MainActivity extends AppCompatActivity {
         this.list = new ArrayList<>();
         this.list.add("00000000000\n0000\n\n0000000000\n\n00000\n\n\n0000000000\n0000000000000000000000000000000000000000000000");
         this.list.add("1\n1\n1\n1\n1");
-        this.list.add("2222" );
-        this.list.add("3333333");
-        this.list.add("444444444444" );
-        this.list.add("5555555" );
+        this.list.add("222\n2" );
+        this.list.add("333\n33\n33");
+        this.list.add("4\n444\n4444\n44\n44" );
+        this.list.add("55\n55\n555" );
 
         RecyclerView recyclerView1 = findViewById(R.id.casarealRecyclerView);
         CasarealRecycleViewAdapter adapter = new CasarealRecycleViewAdapter(this.createDataset());
