@@ -3671,6 +3671,7 @@ public final class R {
     public static final int textSpacerNoButtons=0x7f0800a1;
     public static final int textSpacerNoTitle=0x7f0800a2;
     public static final int textView=0x7f0800a3;
+<<<<<<< HEAD
     public static final int text_input_password_toggle=0x7f0800a4;
     public static final int textinput_counter=0x7f0800a5;
     public static final int textinput_error=0x7f0800a6;
@@ -3694,6 +3695,33 @@ public final class R {
     public static final int withText=0x7f0800b8;
     public static final int wrap=0x7f0800b9;
     public static final int wrap_content=0x7f0800ba;
+=======
+    public static final int textView2=0x7f0800a4;
+    public static final int textView3=0x7f0800a5;
+    public static final int text_input_password_toggle=0x7f0800a6;
+    public static final int textinput_counter=0x7f0800a7;
+    public static final int textinput_error=0x7f0800a8;
+    public static final int time=0x7f0800a9;
+    public static final int title=0x7f0800aa;
+    public static final int titleDividerNoCustom=0x7f0800ab;
+    public static final int title_template=0x7f0800ac;
+    public static final int top=0x7f0800ad;
+    public static final int topPanel=0x7f0800ae;
+    public static final int touch_outside=0x7f0800af;
+    public static final int transition_current_scene=0x7f0800b0;
+    public static final int transition_layout_save=0x7f0800b1;
+    public static final int transition_position=0x7f0800b2;
+    public static final int transition_scene_layoutid_cache=0x7f0800b3;
+    public static final int transition_transform=0x7f0800b4;
+    public static final int uniform=0x7f0800b5;
+    public static final int up=0x7f0800b6;
+    public static final int useLogo=0x7f0800b7;
+    public static final int view_offset_helper=0x7f0800b8;
+    public static final int visible=0x7f0800b9;
+    public static final int withText=0x7f0800ba;
+    public static final int wrap=0x7f0800bb;
+    public static final int wrap_content=0x7f0800bc;
+>>>>>>> AndroidTest13
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f090000;
@@ -3766,10 +3794,18 @@ public final class R {
     public static final int notification_template_media_custom=0x7f0a0037;
     public static final int notification_template_part_chronometer=0x7f0a0038;
     public static final int notification_template_part_time=0x7f0a0039;
+<<<<<<< HEAD
     public static final int select_dialog_item_material=0x7f0a003a;
     public static final int select_dialog_multichoice_material=0x7f0a003b;
     public static final int select_dialog_singlechoice_material=0x7f0a003c;
     public static final int support_simple_spinner_dropdown_item=0x7f0a003d;
+=======
+    public static final int row=0x7f0a003a;
+    public static final int select_dialog_item_material=0x7f0a003b;
+    public static final int select_dialog_multichoice_material=0x7f0a003c;
+    public static final int select_dialog_singlechoice_material=0x7f0a003d;
+    public static final int support_simple_spinner_dropdown_item=0x7f0a003e;
+>>>>>>> AndroidTest13
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f0b0000;

@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">AndroidTest13</string>
+    <string name="background_image">background image</string>
+    <string name="greyimg">TODO</string>
+    <string name="Twitter" tools:keep="@string/Twitter">TODO</string>
+    <string name="test">test</string>
+    <string name="UserName">UserName</string>
+    <string name="Password">password</string>
+    <string name="user_nmae">User Name</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+</resources>
