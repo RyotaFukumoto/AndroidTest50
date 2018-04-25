@@ -14,6 +14,10 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
 import android.hardware.Camera;
+import android.hardware.Camera.AutoFocusCallback;
+import android.hardware.Camera.Parameters;
+import android.hardware.Camera.PictureCallback;
+import android.hardware.Camera.Size;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -23,10 +27,16 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
+import android.view.SurfaceHolder.Callback;
 import android.view.SurfaceView;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.Window;
 import android.view.WindowManager;
+import android.view.WindowManager.LayoutParams;
+
+import com.example.ryota.androidtest39.R.id;
+import com.example.ryota.androidtest39.R.layout;
 
 
 public class RecordActivity extends Activity {
@@ -47,8 +57,8 @@ public class RecordActivity extends Activity {
 
 
 
-    private final Camera.PictureCallback mPictureListener =
-            new Camera.PictureCallback() {
+    private final PictureCallback mPictureListener =
+            new PictureCallback() {
 
                 @Override
                 public void onPictureTaken(byte[] data, Camera camera) {
@@ -100,8 +110,8 @@ public class RecordActivity extends Activity {
      * SurfaceView
      * 生成・変更・破棄
      */
-    private final SurfaceHolder.Callback mSurfaceListener =
-            new SurfaceHolder.Callback() {
+    private final Callback mSurfaceListener =
+            new Callback() {
                 @Override
                 public void surfaceDestroyed(SurfaceHolder holder) {
                     RecordActivity.this.myCamera.stopPreview();
@@ -125,7 +135,7 @@ public class RecordActivity extends Activity {
                 public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
                     RecordActivity.this.myCamera.stopPreview();
 
-                    Camera.Parameters parameters = RecordActivity.this.myCamera.getParameters();
+                    Parameters parameters = RecordActivity.this.myCamera.getParameters();
 
                     // 画面の向きを設定
                     boolean portrait = isPortrait();
@@ -136,11 +146,11 @@ public class RecordActivity extends Activity {
                     }
 
                     // 対応するプレビューサイズ・保存サイズを取得する
-                    List<Camera.Size> previewSizes = parameters.getSupportedPreviewSizes();
-                    List<Camera.Size> pictureSizes = parameters.getSupportedPictureSizes();
+                    List<Size> previewSizes = parameters.getSupportedPreviewSizes();
+                    List<Size> pictureSizes = parameters.getSupportedPictureSizes();
 
-                    Camera.Size previewSize = getOptimalPreviewSize(previewSizes, width, height);
-                    Camera.Size pictureSize = pictureSizes.get(0);
+                    Size previewSize = getOptimalPreviewSize(previewSizes, width, height);
+                    Size pictureSize = pictureSizes.get(0);
 
                     Log.d("CameraTest", "surface = " +
                             String.valueOf(width) + " , " +
@@ -182,8 +192,8 @@ public class RecordActivity extends Activity {
     /**
      * オートフォーカス処理
      */
-    private final Camera.AutoFocusCallback mAutoFocusListener =
-            new Camera.AutoFocusCallback() {
+    private final AutoFocusCallback mAutoFocusListener =
+            new AutoFocusCallback() {
 
                 @Override
                 public void onAutoFocus(boolean success, Camera camera) { }
@@ -241,18 +251,18 @@ public class RecordActivity extends Activity {
     }
 
     @Nullable
-    private Camera.Size getOptimalPreviewSize(List<Camera.Size> sizes, int w, int h) {
+    private Size getOptimalPreviewSize(List<Size> sizes, int w, int h) {
         double targetRatio = (double) w / (double) h;
         if (sizes == null) {
             return null;
         }
 
-        Camera.Size optimalSize = null;
+        Size optimalSize = null;
         double minDiff = Double.MAX_VALUE;
 
         // Try to find an size match aspect ratio and size
         double ASPECT_TOLERANCE = 0.1;
-        for (Camera.Size size : sizes) {
+        for (Size size : sizes) {
             double ratio = (double) size.width / size.height;
             if (Math.abs(ratio - targetRatio) > ASPECT_TOLERANCE) {
                 continue;
@@ -266,7 +276,7 @@ public class RecordActivity extends Activity {
         // Cannot find the one match the aspect ratio, ignore the requirement
         if (optimalSize == null) {
             double maxValue = Double.MAX_VALUE;
-            for (Camera.Size size : sizes) {
+            for (Size size : sizes) {
                 if (Math.abs(size.height - h) < maxValue) {
                     optimalSize = size;
                     maxValue = Math.abs(size.height - h);
@@ -285,8 +295,8 @@ public class RecordActivity extends Activity {
      */
     public boolean onTouchEvent(MotionEvent event) {
         if (event.getAction() == MotionEvent.ACTION_DOWN) {
-            Camera.Parameters params = this.myCamera.getParameters();
-            if (!params.getFocusMode().equals(Camera.Parameters.FOCUS_MODE_FIXED)) {
+            Parameters params = this.myCamera.getParameters();
+            if (!params.getFocusMode().equals(Parameters.FOCUS_MODE_FIXED)) {
                 this.myCamera.autoFocus(this.mAutoFocusListener);
             }
         }
@@ -299,12 +309,12 @@ public class RecordActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         // 全画面設定
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().addFlags(LayoutParams.FLAG_FULLSCREEN);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
 
-        setContentView(R.layout.activity_record);
+        setContentView(layout.activity_record);
 
-        findViewById(R.id.flushButton).setOnClickListener(new View.OnClickListener() {
+        findViewById(id.flushButton).setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 RecordActivity.this.myCamera.takePicture(null,null, RecordActivity.this.mPictureListener);
@@ -312,7 +322,7 @@ public class RecordActivity extends Activity {
         });
 
         // カメラプレビューの設定
-        this.mySurfaceView = (SurfaceView)findViewById(R.id.surfaceView);
+        this.mySurfaceView = (SurfaceView)findViewById(id.surfaceView);
         SurfaceHolder holder = this.mySurfaceView.getHolder();
         holder.addCallback(this.mSurfaceListener);
         holder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);

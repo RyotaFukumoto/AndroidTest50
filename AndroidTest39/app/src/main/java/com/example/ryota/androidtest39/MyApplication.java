@@ -1,5 +1,4 @@
 package com.example.ryota.androidtest39;
-import android.app.Activity;
 import android.app.Application;
 import android.graphics.Bitmap;
 
