@@ -2,9 +2,13 @@ package com.example.ryota.androidtest48;
 
 public class DataRow {
 
-    public String txet;
+    public String getWeek() {
+        return this.week;
+    }
+
+    private String week;
     public DataRow(){}
-    public DataRow(String text){
-        this.txet = text;
+    public DataRow(String week){
+        this.week = week;
     }
 }

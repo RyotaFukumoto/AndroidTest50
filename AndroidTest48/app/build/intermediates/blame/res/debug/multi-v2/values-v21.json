@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest48/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/Users/ryota/Desktop/AndroidTest50/AndroidTest48/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/06472246232972a0e0489be8b9ee6fe9/res/values-v21/values-v21.xml",

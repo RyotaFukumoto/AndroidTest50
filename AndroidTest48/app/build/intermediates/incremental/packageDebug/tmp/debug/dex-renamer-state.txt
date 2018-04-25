@@ -1,7 +1,7 @@
-#Tue Apr 24 10:53:50 JST 2018
-base.0=/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest48/app/build/intermediates/transforms/dexMerger/debug/12
+#Wed Apr 25 16:34:44 JST 2018
+base.0=/Users/ryota/Desktop/AndroidTest50/AndroidTest48/app/build/intermediates/transforms/dexMerger/debug/11
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest48/app/build/intermediates/transforms/dexMerger/debug/11
+base.1=/Users/ryota/Desktop/AndroidTest50/AndroidTest48/app/build/intermediates/transforms/dexMerger/debug/12

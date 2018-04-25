@@ -2,16 +2,20 @@ package com.example.ryota.androidtest48;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -22,60 +26,54 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private DatabaseReference mDatabase;
+    private FirebaseAnalytics mFirebaseAnalytics;
 
+    private ArrayList<DataRow> list;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final EditText editText = findViewById(R.id.editText4);
-        Button button = findViewById(R.id.button2);
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+
+        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.rowRecycle);
+        final  RowRecycleViewAdapter adapter = new RowRecycleViewAdapter();
+
+        LinearLayoutManager llm = new LinearLayoutManager(this);
+
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(llm);
+        recyclerView.setAdapter(adapter);
 
 
-        mDatabase = FirebaseDatabase.getInstance().getReference();
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference reference = database.getReference("week");
 
-        button.setOnClickListener(new View.OnClickListener() {
+        reference.addValueEventListener(new ValueEventListener() {
             @Override
-            public void onClick(View v) {
-                String text = editText.getText().toString();
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                list = new ArrayList<>();
+                Log.d("data1", String.valueOf(dataSnapshot.getValue()));
 
-                writeNewData(text);
-            }
-        });
+                for (DataSnapshot data : dataSnapshot.getChildren()) {
 
-        mDatabase.addChildEventListener(new ChildEventListener() {
-            @Override
-            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                DataRow dataRow = dataSnapshot.child("test").getValue(DataRow.class);
-                Log.d("database",dataRow.txet);
-            }
+                    Log.d("data2",String.valueOf(data.getValue()));
+                    String week = String.valueOf(data.child("theWeek").getValue());
 
-            @Override
-            public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-                Log.d("database","chang");
+                    DataRow row = new DataRow(week);
+                    Log.d("data3",row.getWeek());
+                    list.add(row);
 
-            }
+                }
 
-            @Override
-            public void onChildRemoved(DataSnapshot dataSnapshot) {
-                Log.d("database","Remov");
-            }
-
-            @Override
-            public void onChildMoved(DataSnapshot dataSnapshot, String s) {
-                Log.d("database","move");
+                adapter.setList(list);
+                adapter.notifyDataSetChanged();
             }
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
-                Log.d("database","cancell");
+
             }
         });
     }
 
-
-    private void writeNewData(String text){
-        DataRow dataRow = new DataRow(text);
-        mDatabase.child("test").push().setValue(dataRow);
-    }
 }

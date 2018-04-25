@@ -1,11 +1,11 @@
 #Internal package file, do not edit.
-#Tue Apr 24 10:53:50 JST 2018
-1.base=/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest48/app/build/intermediates/transforms/dexMerger/debug/11
+#Wed Apr 25 16:34:44 JST 2018
+1.base=/Users/ryota/Desktop/AndroidTest50/AndroidTest48/app/build/intermediates/transforms/dexMerger/debug/11
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY
 count=2
 1.set=DEX
 0.path=classes.dex
 0.set=DEX
-0.base=/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest48/app/build/intermediates/transforms/dexMerger/debug/12
+0.base=/Users/ryota/Desktop/AndroidTest50/AndroidTest48/app/build/intermediates/transforms/dexMerger/debug/12
 1.path=classes.dex
