@@ -1,3 +1,11 @@
 <component name="ProjectDictionaryState">
-  <dictionary name="ryota" />
+  <dictionary name="ryota">
+    <words>
+      <w>creat</w>
+      <w>deleteflg</w>
+      <w>formater</w>
+      <w>inserter</w>
+      <w>listerer</w>
+    </words>
+  </dictionary>
 </component>

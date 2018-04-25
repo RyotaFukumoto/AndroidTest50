@@ -24,7 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.ryota.androidtest26.DatabaseInsert" />
+        <activity android:name="com.example.ryota.androidtest26.DatabaseInsertActivity" />
     </application>
 
 </manifest>

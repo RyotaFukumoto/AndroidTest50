@@ -8,15 +8,16 @@ import android.graphics.drawable.Drawable;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-public class DividerItemDecoration extends RecyclerView.ItemDecoration { private static final int[] ATTRS = {
+class DividerItemDecoration extends RecyclerView.ItemDecoration { private static final int[] ATTRS = {
         android.R.attr.listDivider
 };
 
-    private Drawable mDivider;
+    private final Drawable mDivider;
 
     DividerItemDecoration(Context context) {
+        super();
         TypedArray a = context.obtainStyledAttributes(ATTRS);
-        mDivider = a.getDrawable(0);
+        this.mDivider = a.getDrawable(0);
         a.recycle();
     }
 
@@ -25,7 +26,7 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration { private
         drawVertical(c, parent);
     }
 
-    private void drawVertical(Canvas c, RecyclerView parent) {
+    private void drawVertical(Canvas canvas, RecyclerView parent) {
         int left = parent.getPaddingLeft();
         int right = parent.getWidth() - parent.getPaddingRight();
 
@@ -35,14 +36,14 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration { private
             RecyclerView.LayoutParams params = (RecyclerView.LayoutParams) child
                     .getLayoutParams();
             int top = child.getBottom() + params.bottomMargin;
-            int bottom = top + mDivider.getIntrinsicHeight();
-            mDivider.setBounds(left, top, right, bottom);
-            mDivider.draw(c);
+            int bottom = top + this.mDivider.getIntrinsicHeight();
+            this.mDivider.setBounds(left, top, right, bottom);
+            this.mDivider.draw(canvas);
         }
     }
 
     @Override
     public void getItemOffsets(Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {
-        outRect.set(0, 0, 0, mDivider.getIntrinsicHeight());
+        outRect.set(0, 0, 0, this.mDivider.getIntrinsicHeight());
     }
 }
