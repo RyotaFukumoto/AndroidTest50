@@ -24,8 +24,8 @@ class CasarealRecycleViewAdapter extends RecyclerView.Adapter<CasarealViewHolder
 
     @Override
     public void onBindViewHolder(@NonNull CasarealViewHolder holder, int position) {
-    holder.title.setText(this.list.get(position).getTitle());
-    holder.limit.setText(this.list.get(position).getLimit());
+    holder.getTitle().setText(this.list.get(position).getTitle());
+    holder.getLimit().setText(this.list.get(position).getLimit());
     }
 
     @Override

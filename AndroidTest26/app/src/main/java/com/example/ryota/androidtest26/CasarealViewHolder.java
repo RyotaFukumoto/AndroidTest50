@@ -5,8 +5,8 @@ import android.view.View;
 import android.widget.TextView;
 
 public class CasarealViewHolder extends RecyclerView.ViewHolder {
-    public final TextView title;
-    public final TextView limit;
+    private final TextView title;
+    private final TextView limit;
     public CasarealViewHolder(View itemView) {
         super(itemView);
         this.title = itemView.findViewById(R.id.textView3);

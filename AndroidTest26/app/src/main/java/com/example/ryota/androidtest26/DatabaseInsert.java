@@ -3,7 +3,9 @@ package com.example.ryota.androidtest26;
 import android.app.DatePickerDialog;
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -20,21 +22,22 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class DatabaseInsert extends AppCompatActivity {
-    Button registerButton;
-    EditText titleEditText;
+    private Button registerButton;
+    private EditText titleEditText;
+    private DateFormat df;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activit_new_todo);
+        this.df = new SimpleDateFormat("yyyy/MM/dd");
 
-
-         titleEditText = findViewById(R.id.editText2);
+        this.titleEditText = findViewById(R.id.editText2);
         final EditText contentEditText = findViewById(R.id.editText4);
         final TextView textView = findViewById(R.id.textView);
         textView.setText(String.valueOf(getLimitDateFrom(getNowDate())));
-        registerButton = (Button) findViewById(R.id.button);
-        registerButton.setEnabled(false);
-        titleEditText.addTextChangedListener(watchHandler);
+        this.registerButton = (Button) findViewById(R.id.button);
+        this.registerButton.setEnabled(false);
+        this.titleEditText.addTextChangedListener(this.watchHandler);
 
 
         textView.setOnClickListener(new View.OnClickListener() {
@@ -69,17 +72,17 @@ public class DatabaseInsert extends AppCompatActivity {
         });
 
 
-        registerButton.setOnClickListener(new View.OnClickListener() {
+        this.registerButton.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.KITKAT)
             @Override
             public void onClick(View view) {
                 DatabaseHelper databaseHelper = new DatabaseHelper(getApplication());
-                SQLiteDatabase db = databaseHelper.getWritableDatabase();
 
                 String created = getNowDate();
                 String limited = getLimitDateFrom(created);
 
                 ContentValues contentValues = new ContentValues();
-                contentValues.put("todo_title",titleEditText.getText().toString());
+                contentValues.put("todo_title", DatabaseInsert.this.titleEditText.getText().toString());
                 contentValues.put("todo_contents",contentEditText.getText().toString());
                 contentValues.put("created",created);
                 contentValues.put("modified",created);
@@ -87,10 +90,8 @@ public class DatabaseInsert extends AppCompatActivity {
                 contentValues.put("delete_flg",0);
 
                 long ret;
-                try {
+                try (SQLiteDatabase db = databaseHelper.getWritableDatabase()) {
                     ret = db.insert("tr_todo", null, contentValues);
-                } finally {
-                    db.close();
                 }
                 if (ret == -1L) {
                     Toast.makeText(getApplication(), "Insert失敗", Toast.LENGTH_SHORT).show();
@@ -102,7 +103,7 @@ public class DatabaseInsert extends AppCompatActivity {
         });
     }
 
-    private TextWatcher watchHandler = new TextWatcher() {
+    private final TextWatcher watchHandler = new TextWatcher() {
 
         @Override
         public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -115,10 +116,10 @@ public class DatabaseInsert extends AppCompatActivity {
 
         @Override
         public void afterTextChanged(Editable s) {
-            if(titleEditText.length()>0){
-                registerButton.setEnabled(true);
+            if(DatabaseInsert.this.titleEditText.length()>0){
+                DatabaseInsert.this.registerButton.setEnabled(true);
             }else {
-                registerButton.setEnabled(false);
+                DatabaseInsert.this.registerButton.setEnabled(false);
             }
         }
     };
@@ -129,19 +130,19 @@ public class DatabaseInsert extends AppCompatActivity {
 
 
     private String getNowDate(){
-        DateFormat df = new SimpleDateFormat("yyyy/MM/dd");
+
         Date date = new Date(System.currentTimeMillis());
-        return df.format(date);
+        return this.df.format(date);
     }
 
     private String getLimitDateFrom(String dateStr){
         Calendar calendar = Calendar.getInstance();
-        DateFormat df = new SimpleDateFormat("yyyy/MM/dd");
+
 
         Date date = new Date(dateStr);
         calendar.setTime(date);
         calendar.add(Calendar.DATE,7);
         Date limitDate = new Date(calendar.getTimeInMillis());
-        return df.format(limitDate);
+        return this.df.format(limitDate);
     }
 }

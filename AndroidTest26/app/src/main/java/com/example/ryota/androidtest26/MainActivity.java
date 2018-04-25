@@ -3,6 +3,8 @@ package com.example.ryota.androidtest26;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -48,31 +50,28 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
     protected void onResume() {
         super.onResume();
         List<RowData> todoList = new ArrayList<>();
         //rawQueryメソッドでデータを取得
         DatabaseHelper dbHelper = new DatabaseHelper(this);
-        SQLiteDatabase db = dbHelper.getReadableDatabase();
-        try {
+        try (SQLiteDatabase db = dbHelper.getReadableDatabase()) {
             String sql = "select * from " + "tr_todo where " + "delete_flg" + " = 0" +
                     " order by limit_date" + " asc ";
             Cursor cursor = db.rawQuery(sql, null);
             //TextViewに表示
-            StringBuilder text = new StringBuilder();
             while (cursor.moveToNext()) {
                 int todoID = cursor.getInt(0);
                 String title = cursor.getString(1);
                 String content = cursor.getString(2);
                 String limit = cursor.getString(5);
 
-                RowData todo = new RowData(todoID,title,content,limit);
+                RowData todo = new RowData(todoID, title, content, limit);
                 todoList.add(todo);
             }
-            Log.i("System.out",text.toString());
-        } finally {
-            db.close();
+            Log.i("System.out", "");
         }
         this.adapter.setList(todoList);
         this.adapter.notifyDataSetChanged();
