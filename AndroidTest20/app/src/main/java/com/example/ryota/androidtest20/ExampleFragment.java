@@ -10,6 +10,9 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.ryota.androidtest20.R.id;
+import com.example.ryota.androidtest20.R.layout;
+
 public class ExampleFragment extends Fragment {
     private static final String text = "0";
     private static final String BACKGROUND_COLOR = "background_color";
@@ -26,10 +29,10 @@ public class ExampleFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.frament_main,container,false);
-        LinearLayout linearLayout = (LinearLayout) view.findViewById(R.id.fragment_main_linearlayout);
+        View view = inflater.inflate(layout.frament_main,container,false);
+        LinearLayout linearLayout = (LinearLayout) view.findViewById(id.fragment_main_linearlayout);
         linearLayout.setBackgroundResource(getArguments().getInt(BACKGROUND_COLOR));
-        TextView textView = view.findViewById(R.id.textView);
+        TextView textView = view.findViewById(id.textView);
         textView.setText(getArguments().getString(text));
 
         return view;

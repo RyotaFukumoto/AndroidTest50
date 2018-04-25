@@ -1,5 +1,6 @@
 package com.example.ryota.androidtest20;
 
+import android.R.color;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -18,11 +19,11 @@ class ExampleFragmentPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0:
-                return ExampleFragment.newInstance(android.R.color.holo_blue_bright, "1/3");
+                return ExampleFragment.newInstance(color.holo_blue_bright, "1/3");
             case 1:
-                return ExampleFragment.newInstance(android.R.color.holo_green_light, "2/3");
+                return ExampleFragment.newInstance(color.holo_green_light, "2/3");
             case 2:
-                return ExampleFragment.newInstance(android.R.color.holo_red_dark, "3/3");
+                return ExampleFragment.newInstance(color.holo_red_dark, "3/3");
         }
         return null;
     }
