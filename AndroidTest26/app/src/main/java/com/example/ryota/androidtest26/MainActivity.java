@@ -67,7 +67,6 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
                     " order by limit_date" + " asc ";
             Cursor cursor = db.rawQuery(sql, null);
             //TextViewに表示
-            StringBuilder text = new StringBuilder();
             while (cursor.moveToNext()) {
                 int todoID = cursor.getInt(0);
                 String title = cursor.getString(1);
@@ -77,7 +76,7 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
                 RowData todo = new RowData(todoID, title, content, limit);
                 this.todoList.add(todo);
             }
-            Log.i("System.out", text.toString());
+            Log.i("System.out", "");
         }
         this.adapter.setList(this.todoList);
         this.adapter.notifyDataSetChanged();

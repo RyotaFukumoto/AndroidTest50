@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest26/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "/Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b1962e590072a8650a10ecba1765053a/res/values-en-rGB/values-en-rGB.xml",

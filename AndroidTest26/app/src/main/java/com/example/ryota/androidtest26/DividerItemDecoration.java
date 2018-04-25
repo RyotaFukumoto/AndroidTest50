@@ -12,9 +12,10 @@ class DividerItemDecoration extends RecyclerView.ItemDecoration { private static
         android.R.attr.listDivider
 };
 
-    private Drawable mDivider;
+    private final Drawable mDivider;
 
     DividerItemDecoration(Context context) {
+        super();
         TypedArray a = context.obtainStyledAttributes(ATTRS);
         this.mDivider = a.getDrawable(0);
         a.recycle();
@@ -25,7 +26,7 @@ class DividerItemDecoration extends RecyclerView.ItemDecoration { private static
         drawVertical(c, parent);
     }
 
-    private void drawVertical(Canvas c, RecyclerView parent) {
+    private void drawVertical(Canvas canvas, RecyclerView parent) {
         int left = parent.getPaddingLeft();
         int right = parent.getWidth() - parent.getPaddingRight();
 
@@ -37,7 +38,7 @@ class DividerItemDecoration extends RecyclerView.ItemDecoration { private static
             int top = child.getBottom() + params.bottomMargin;
             int bottom = top + this.mDivider.getIntrinsicHeight();
             this.mDivider.setBounds(left, top, right, bottom);
-            this.mDivider.draw(c);
+            this.mDivider.draw(canvas);
         }
     }
 

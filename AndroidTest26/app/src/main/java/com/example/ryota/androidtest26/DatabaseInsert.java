@@ -1,6 +1,5 @@
 package com.example.ryota.androidtest26;
 
-import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;
 import android.content.ContentValues;
 import android.content.Intent;
@@ -24,42 +23,41 @@ import java.util.Date;
 public class DatabaseInsert extends AppCompatActivity {
     public static final String CREATED = "created";
 
-    EditText titleEditText;
-    Button registerButton;
+    private EditText titleEditText;
+    private Button registerButton;
 
-    DateFormat df = new SimpleDateFormat("yyyy/MM/dd");
+    private  DateFormat df;
     private int getint;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activit_new_todo);
+        this.df = new SimpleDateFormat("yyyy/MM/dd");
 
-
-
-        titleEditText = findViewById(R.id.editText2);
+        this.titleEditText = findViewById(R.id.editText2);
 
         final EditText contentEditText = findViewById(R.id.editText4);
         final TextView textView = findViewById(R.id.textView);
         textView.setText(String.valueOf(getLimitDateFrom(getNowDate())));
-        registerButton = (Button) findViewById(R.id.button);
-        registerButton.setEnabled(false);
+        this.registerButton = (Button) findViewById(R.id.button);
+        this.registerButton.setEnabled(false);
 
-        titleEditText.addTextChangedListener(watchHandler);
+        this.titleEditText.addTextChangedListener(this.watchHandler);
 
 
         Intent intent = getIntent();
         this.getint = intent.getIntExtra("id",0);
         if(this.getint !=0){
-            registerButton.setText("更新");
+            this.registerButton.setText("更新");
             CharSequence charSequence = intent.getCharSequenceExtra("title");
             CharSequence charSequence1 = intent.getCharSequenceExtra("content");
-            String created = (String) intent.getCharSequenceExtra(CREATED);
             CharSequence charSequence3 = intent.getCharSequenceExtra("limit");
+            String str = (String) charSequence3;
 
-
-            titleEditText.setText(charSequence);
+            this.titleEditText.setText(charSequence);
             contentEditText.setText(charSequence1);
-            textView.setText(charSequence3);
+            String change = str.replaceAll("-", "/");
+            textView.setText(change);
 
         }
 
@@ -96,7 +94,7 @@ public class DatabaseInsert extends AppCompatActivity {
         });
 
 
-        registerButton.setOnClickListener(new View.OnClickListener() {
+        this.registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 DatabaseHelper databaseHelper = new DatabaseHelper(getApplication());
@@ -106,7 +104,7 @@ public class DatabaseInsert extends AppCompatActivity {
                 String limited = getLimitDateFrom(created);
 
                 ContentValues contentValues = new ContentValues();
-                contentValues.put("todo_title",titleEditText.getText().toString());
+                contentValues.put("todo_title", DatabaseInsert.this.titleEditText.getText().toString());
                 contentValues.put("todo_contents",contentEditText.getText().toString());
                 contentValues.put(CREATED,created);
                 contentValues.put("modified",created);
@@ -117,14 +115,14 @@ public class DatabaseInsert extends AppCompatActivity {
 
 
                     try {
-                        ret = db.insert("tr_todo", null, contentValues);
+                        ret = db.insert(DatabaseHelper.DB_NAME, null, contentValues);
                     } finally {
                         db.close();
                     }
                 } else {
                     try {
                         String id = String.valueOf(DatabaseInsert.this.getint);
-                        ret = db.update("tr_todo", contentValues, "todo_id = " + DatabaseInsert.this.getint, null);
+                        ret = db.update(DatabaseHelper.DB_NAME, contentValues, "todo_id = " + DatabaseInsert.this.getint, null);
                     } finally {
                         db.close();
                     }
@@ -139,7 +137,7 @@ public class DatabaseInsert extends AppCompatActivity {
             }
         });
     }
-    private TextWatcher watchHandler = new TextWatcher() {
+    private final TextWatcher watchHandler = new TextWatcher() {
 
         @Override
         public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -152,10 +150,10 @@ public class DatabaseInsert extends AppCompatActivity {
 
         @Override
         public void afterTextChanged(Editable s) {
-            if(titleEditText.length()>0){
-                registerButton.setEnabled(true);
+            if(DatabaseInsert.this.titleEditText.length()>0){
+                DatabaseInsert.this.registerButton.setEnabled(true);
             }else {
-                registerButton.setEnabled(false);
+                DatabaseInsert.this.registerButton.setEnabled(false);
             }
         }
     };
