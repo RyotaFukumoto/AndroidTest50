@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 #Mon Apr 09 20:59:55 JST 2018
+=======
+#Tue Apr 24 14:36:09 JST 2018
+>>>>>>> AndroidTest22
