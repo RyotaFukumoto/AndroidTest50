@@ -1,3 +1,11 @@
 <component name="ProjectDictionaryState">
+<<<<<<< HEAD
   <dictionary name="ryota" />
+=======
+  <dictionary name="ryota">
+    <words>
+      <w>linearlayout</w>
+    </words>
+  </dictionary>
+>>>>>>> AndroidTest20
 </component>
