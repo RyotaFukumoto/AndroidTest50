@@ -18,7 +18,11 @@ public class ConnectionReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         ConnectivityManager manager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo info = manager.getActiveNetworkInfo();
+<<<<<<< HEAD
         if (!info.isConnected()) {
+=======
+        if (info == null) {
+>>>>>>> AndroidTest17
             this.mObserver.onDisconnect();
         }else {
            this.mObserver.onConnect();

@@ -16,8 +16,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
+<<<<<<< HEAD
             app:srcCompat="@drawable/kansai"
             android:contentDescription="TODO" />
+=======
+            app:srcCompat="@drawable/kansai" />
+>>>>>>> AndroidTest17
 
         <FrameLayout
             android:layout_width="match_parent"
@@ -145,6 +149,7 @@
                         </LinearLayout>
 
                     </RelativeLayout>
+<<<<<<< HEAD
 
                 </FrameLayout>
 
@@ -158,6 +163,10 @@
                     android:textColor="@android:color/white"
                     android:textSize="18sp"
                     android:textStyle="bold" />
+=======
+
+                </FrameLayout>
+>>>>>>> AndroidTest17
 
             </RelativeLayout>
         </FrameLayout>
