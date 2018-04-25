@@ -15,10 +15,13 @@ public class Weather {
     public List<Forecast> forecasts;
     @SerializedName("location")
     public Location location;
+    @SerializedName("description")
+    public Description description;
 
-    public Weather(List<Forecast> forecasts, Location location) {
+    public Weather(List<Forecast> forecasts, Location location,Description description) {
         this.forecasts = forecasts;
         this.location = location;
+        this.description = description;
     }
 
     public List<Forecast> getForecasts() {
@@ -27,5 +30,9 @@ public class Weather {
 
     public Location getLocation() {
         return this.location;
+    }
+
+    public Description getDescription() {
+        return this.description;
     }
 }

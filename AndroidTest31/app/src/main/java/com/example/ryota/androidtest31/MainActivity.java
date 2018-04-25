@@ -1,78 +1,67 @@
 package com.example.ryota.androidtest31;
 
-import android.app.AlertDialog;
-import android.app.DialogFragment;
-import android.os.Handler;
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import android.widget.Button;
+import android.widget.TextView;
 
 import com.example.ryota.androidtest31.api.LicensorWeatherWebService;
 import com.example.ryota.androidtest31.api.model.Forecast;
 import com.example.ryota.androidtest31.api.model.Weather;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
-import java.io.IOException;
+import java.util.List;
 
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
-
-public class MainActivity extends AppCompatActivity implements View.OnClickListener,WeatherDialogFragment.WeatherDialogFragmentListener{
-    public static final String TAG = "MainActivity";
-    public static final String API_URL = "http://weather.livedoor.com/forecast/webservice/json/";
-    private Handler handler = new Handler();
-    private int i = 0;
-    private Button button;
-    LicensorWeatherWebService service;
+public class MainActivity extends AppCompatActivity implements WeatherAPI.WeatherApiCallback{
 
 
+    private WeatherAPI wApi;
+    private LicensorWeatherWebService service;
+    private WeatherRecyclerViewAdapter adapter;
+    private TextView telop;
+    private RowViewHolder holder;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        telop = findViewById(R.id.textView2);
+        adapter = new WeatherRecyclerViewAdapter();
+        holder = new RowViewHolder();
 
-        service = WeatherAPI.getClient().create(LicensorWeatherWebService.class);
+        RecyclerView recyclerView = findViewById(R.id.recyclreView);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
 
-        button = findViewById(R.id.button);
-        button.setOnClickListener(this);
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(layoutManager);
+        recyclerView.setAdapter(adapter);
 
+        wApi = new WeatherAPI(this);
+        getWeather();
+
+    }
+
+
+
+    void getWeather(){
+        wApi.weatherGet();
     }
 
 
     @Override
-    public void onClick(View view) {
-        WeatherDialogFragment weatherDialogFragment = new WeatherDialogFragment();
-        weatherDialogFragment.setListener(this);
-        weatherDialogFragment.show(getFragmentManager(),"fragment");
-    }
+    public void success(Weather weather) {
+        if (weather != null) {
+            telop.setText(weather.getDescription().getText());
+            List<Forecast> list = weather.getForecasts();
 
-    void getForecast(final int position){
-
-                    Call<Weather> call = service.webservice(130010);
-
-                    call.enqueue(new Callback<Weather>() {
-                        @Override
-                        public void onResponse(Call<Weather> call, Response<Weather> response) {
-                            Log.d("onResponse",response.body().getLocation().getCity());
-                            Log.d("onResponse",response.body().forecasts.get(position).telop);
-                        }
-
-                        @Override
-                        public void onFailure(Call<Weather> call, Throwable t) {
-                            Log.d("onFailure",t.getMessage());
-                        }
-                    });
-                   
+            adapter.listSetter(list);
+            adapter.notifyDataSetChanged();
+        }
     }
 
     @Override
-    public void onClicked(int position) {
-        getForecast(position);
+    public void failed() {
+
     }
 }
