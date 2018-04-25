@@ -8,6 +8,10 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="27" />
 
+<<<<<<< HEAD
+=======
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+>>>>>>> AndroidTest21
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application

@@ -1,5 +1,9 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
 #Thu Apr 12 13:53:34 JST 2018
+=======
+#Mon Apr 09 14:18:27 JST 2018
+>>>>>>> AndroidTest21
 1.base=/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest13/app/build/intermediates/transforms/dexMerger/debug/11
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY
