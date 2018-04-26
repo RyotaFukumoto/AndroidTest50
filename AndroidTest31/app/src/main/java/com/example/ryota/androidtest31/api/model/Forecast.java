@@ -28,14 +28,14 @@ import com.google.gson.annotations.SerializedName;
  */
 public class Forecast {
     @SerializedName("dateLabel")
-    public String dateLabel;
+    private String dateLabel;
     @SerializedName("telop")
-    public String telop;
+    private String telop;
     @SerializedName("date")
-    public String date;
+    private String date;
     //public Temperature temperature;
     @SerializedName("image")
-    public Image image;
+    private Image image;
 
     public Forecast(String dateLabel, String telop, String date, Image image) {
         this.dateLabel = dateLabel;

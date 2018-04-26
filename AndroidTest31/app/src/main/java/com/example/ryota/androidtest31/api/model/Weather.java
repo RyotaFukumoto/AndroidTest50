@@ -12,20 +12,17 @@ import java.util.List;
  */
 public class Weather {
     @SerializedName("forecasts")
-    public List<Forecast> forecasts;
-    @SerializedName("location")
-    public Location location;
+    private List<Forecast> forecasts;
 
-    public Weather(List<Forecast> forecasts, Location location) {
+
+    public Weather(List<Forecast> forecasts) {
         this.forecasts = forecasts;
-        this.location = location;
+
     }
 
     public List<Forecast> getForecasts() {
         return this.forecasts;
     }
 
-    public Location getLocation() {
-        return this.location;
-    }
+
 }

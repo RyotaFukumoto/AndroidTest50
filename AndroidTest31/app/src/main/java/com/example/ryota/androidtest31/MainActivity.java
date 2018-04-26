@@ -59,8 +59,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     call.enqueue(new Callback<Weather>() {
                         @Override
                         public void onResponse(Call<Weather> call, Response<Weather> response) {
-                            Log.d("onResponse",response.body().getLocation().getCity());
-                            Log.d("onResponse",response.body().forecasts.get(position).telop);
+                            Log.d("onResponse",response.body().getForecasts().get(position).getTelop());
+                            Log.d("onResponse",response.body().getForecasts().get(position).getDate());
                         }
 
                         @Override

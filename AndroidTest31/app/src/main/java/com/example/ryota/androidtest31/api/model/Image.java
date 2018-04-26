@@ -28,7 +28,7 @@ import com.google.gson.annotations.SerializedName;
  */
 public class Image {
     @SerializedName("url")
-    public String url;
+    private String url;
 
     public Image() {
     }
