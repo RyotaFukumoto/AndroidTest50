@@ -18,7 +18,6 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements RowOnClickedListener{
     public static final String DELETE_FLG = "delete_flg";
-    private List<RowData> todoList;
     private RecyclerAdapter adapter;
 
     @Override
@@ -30,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
         RecyclerView rv = findViewById(R.id.casarealRecyclerView);
         //adapter = new RecyclerAdapter(this,todoList);
 
-        this.adapter = new RecyclerAdapter(this, this.todoList, this);
+        this.adapter = new RecyclerAdapter(this, this);
 
         LinearLayoutManager llm = new LinearLayoutManager(this);
 
@@ -48,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
         addButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, DatabaseInsert.class);
+                Intent intent = new Intent(MainActivity.this, DatabaseInsertActivity.class);
                 startActivity(intent);
             }
         });
@@ -59,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
     @Override
     protected void onResume() {
         super.onResume();
-        this.todoList = new ArrayList<>();
+        List<RowData> todoList = new ArrayList<>();
         //rawQueryメソッドでデータを取得
         DatabaseHelper dbHelper = new DatabaseHelper(this);
         try (SQLiteDatabase db = dbHelper.getReadableDatabase()) {
@@ -74,24 +73,23 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
                 String limit = cursor.getString(5);
 
                 RowData todo = new RowData(todoID, title, content, limit);
-                this.todoList.add(todo);
+                todoList.add(todo);
             }
             Log.i("System.out", "");
         }
-        this.adapter.setList(this.todoList);
+        this.adapter.setList(todoList);
         this.adapter.notifyDataSetChanged();
     }
-
 
 
     @Override
     public void rowClicked(RowData todoData) {
 
-        Intent intent = new Intent(this, DatabaseInsert.class);
+        Intent intent = new Intent(this, DatabaseInsertActivity.class);
         intent.putExtra("id",todoData.getTodoID());
         intent.putExtra("title",todoData.getTitle());
         intent.putExtra("content",todoData.getContent());
-        intent.putExtra(DatabaseInsert.CREATED,todoData.getCreated());
+        intent.putExtra(DatabaseInsertActivity.CREATED,todoData.getCreated());
         intent.putExtra("limit",todoData.getLimit());
 
         startActivity(intent);

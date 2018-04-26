@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -20,7 +21,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-public class DatabaseInsert extends AppCompatActivity {
+public class DatabaseInsertActivity extends AppCompatActivity {
     public static final String CREATED = "created";
 
     private EditText titleEditText;
@@ -75,7 +76,7 @@ public class DatabaseInsert extends AppCompatActivity {
                 Calendar calendar = Calendar.getInstance();
                 calendar.setTime(getNow());
                 calendar.add(Calendar.DATE, 7);
-                DatePickerDialog datePickerDialog = new DatePickerDialog(DatabaseInsert.this, new DatePickerDialog.OnDateSetListener() {
+                DatePickerDialog datePickerDialog = new DatePickerDialog(DatabaseInsertActivity.this, new DatePickerDialog.OnDateSetListener() {
                             @Override
                             public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
                                 //setした日付を取得して表示
@@ -104,14 +105,14 @@ public class DatabaseInsert extends AppCompatActivity {
                 String limited = getLimitDateFrom(created);
 
                 ContentValues contentValues = new ContentValues();
-                contentValues.put("todo_title", DatabaseInsert.this.titleEditText.getText().toString());
+                contentValues.put("todo_title", DatabaseInsertActivity.this.titleEditText.getText().toString());
                 contentValues.put("todo_contents",contentEditText.getText().toString());
                 contentValues.put(CREATED,created);
                 contentValues.put("modified",created);
                 contentValues.put("limit_date",textView.getText().toString());
                 contentValues.put(MainActivity.DELETE_FLG,0);
                 long ret;
-                if (DatabaseInsert.this.getint == 0) {
+                if (DatabaseInsertActivity.this.getint == 0) {
 
 
                     try {
@@ -121,17 +122,21 @@ public class DatabaseInsert extends AppCompatActivity {
                     }
                 } else {
                     try {
-                        String id = String.valueOf(DatabaseInsert.this.getint);
-                        ret = db.update(DatabaseHelper.DB_NAME, contentValues, "todo_id = " + DatabaseInsert.this.getint, null);
+                        String id = String.valueOf(DatabaseInsertActivity.this.getint);
+                        ret = (long) db.update(DatabaseHelper.DB_NAME, contentValues, "todo_id = " + DatabaseInsertActivity.this.getint, null);
                     } finally {
                         db.close();
                     }
 
                 }
-                if (ret == -1L) {
+                if (ret == -1 && getint == 0) {
                     Toast.makeText(getApplication(), "Insert失敗", Toast.LENGTH_SHORT).show();
-                } else {
+                } else if (ret == -1L && getint != 0){
+                    Toast.makeText(getApplication(), "Update失敗", Toast.LENGTH_SHORT).show();
+                } else if (getint == 0) {
                     Toast.makeText(getApplication(), "Insert成功", Toast.LENGTH_SHORT).show();
+                }else {
+                    Toast.makeText(getApplication(), "Update成功", Toast.LENGTH_SHORT).show();
                 }
                 finish();
             }
@@ -150,10 +155,10 @@ public class DatabaseInsert extends AppCompatActivity {
 
         @Override
         public void afterTextChanged(Editable s) {
-            if(DatabaseInsert.this.titleEditText.length()>0){
-                DatabaseInsert.this.registerButton.setEnabled(true);
+            if(DatabaseInsertActivity.this.titleEditText.length()>0){
+                DatabaseInsertActivity.this.registerButton.setEnabled(true);
             }else {
-                DatabaseInsert.this.registerButton.setEnabled(false);
+                DatabaseInsertActivity.this.registerButton.setEnabled(false);
             }
         }
     };

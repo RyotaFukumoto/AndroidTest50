@@ -68,10 +68,10 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
 		ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/AndroidManifest.xml:16:27-74
-activity#com.example.ryota.androidtest26.DatabaseInsert
-ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/AndroidManifest.xml:19:9-51
+activity#com.example.ryota.androidtest26.DatabaseInsertActivity
+ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/AndroidManifest.xml:19:9-59
 	android:name
-		ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/AndroidManifest.xml:19:19-49
+		ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/AndroidManifest.xml:19:19-57
 uses-sdk
 INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/AndroidManifest.xml

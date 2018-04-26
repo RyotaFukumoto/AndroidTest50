@@ -9,6 +9,7 @@ class CasarealViewHolder extends RecyclerView.ViewHolder {
     private final TextView limit;
     CasarealViewHolder(View itemView) {
         super(itemView);
+
         this.title = itemView.findViewById(R.id.textView3);
         this.limit = itemView.findViewById(R.id.textView4);
     }

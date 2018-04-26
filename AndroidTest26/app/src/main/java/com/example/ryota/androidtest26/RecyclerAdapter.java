@@ -20,10 +20,9 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Custom
 
 
 
-    RecyclerAdapter(Context context, List<RowData> list, RowOnClickedListener listener) {
-        super();
+    RecyclerAdapter(Context context, RowOnClickedListener listener) {
         this.context = context;
-        this.list = list;
+
         this.rowOnClickedListener = listener;
     }
 
