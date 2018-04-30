@@ -42,14 +42,14 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     private void locationStart() {
         Log.d(BuildConfig.BUILD_TYPE, "locationStart()");
 
-        // LocationManager インスタンス生成
+
         this.locationManager =
                 (LocationManager) getSystemService(LOCATION_SERVICE);
 
         if (this.locationManager != null && this.locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
             Log.d(BuildConfig.BUILD_TYPE, "location manager Enabled");
         } else {
-            // GPSを設定するように促す
+
             Intent settingsIntent =
                     new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
             startActivity(settingsIntent);
@@ -76,14 +76,14 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     public void onRequestPermissionsResult(
             int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         if (requestCode == 1000) {
-            // 使用が許可された
+            //
             if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 Log.d(BuildConfig.BUILD_TYPE, "checkSelfPermission true");
 
                 locationStart();
 
             } else {
-                // それでも拒否された時の対応
+
                 Toast toast = Toast.makeText(this,
                         "これ以上なにもできません", Toast.LENGTH_SHORT);
                 toast.show();
@@ -108,8 +108,8 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
 
     @Override
     public void onLocationChanged(Location location) {
-        // 緯度の表示
-        Log.d("locationdebug", location.getLatitude() + " " + location.getLongitude());
+
+        Log.d("locationdebug", "緯度:" + location.getLatitude() + " 経度:" + location.getLongitude());
     }
 
     @Override
