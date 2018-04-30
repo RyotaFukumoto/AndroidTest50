@@ -5,14 +5,17 @@ import android.Manifest.permission;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
+import android.graphics.Point;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Display;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 import com.example.ryota.androidtest39.R.id;
 import com.example.ryota.androidtest39.R.layout;
@@ -23,7 +26,7 @@ import java.util.Map;
 public class MainActivity extends AppCompatActivity {
     private ImageView imageView;
     private MyApplication app;
-
+    private LinearLayout.LayoutParams layoutParams;
     private boolean mPermissionReady;
 
     @Override
@@ -32,6 +35,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(layout.activity_main);
         this.imageView = (ImageView) findViewById(id.imageView);
         this.imageView.setClickable(true);
+        LinearLayout layout = new LinearLayout(this);
+        layout.setLayoutParams(new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+        ));
+        Display display = getWindowManager().getDefaultDisplay();
+        Point point = new Point();
+        display.getSize(point);
+        layoutParams = new LinearLayout.LayoutParams(point.x, point.y);
+        imageView.setLayoutParams(layoutParams);
+
+        layout.addView(imageView);
+
         findViewById(id.button).setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -40,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
 
 
         int cameraPermission = ContextCompat.checkSelfPermission(this, permission.CAMERA);
