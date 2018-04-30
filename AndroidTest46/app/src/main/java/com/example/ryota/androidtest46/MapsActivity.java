@@ -3,6 +3,7 @@ package com.example.ryota.androidtest46;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 
+import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -35,10 +36,12 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onMapReady(GoogleMap googleMap) {
         GoogleMap mMap = googleMap;
-
+        CameraUpdate cu =
+                CameraUpdateFactory.newLatLngZoom(
+                        new LatLng(35.623655, 139.724858), 16);
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(35.623655, 139.724858);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng stv = new LatLng(35.623655, 139.724858);
+        mMap.addMarker(new MarkerOptions().position(stv).title("Marker in STV"));
+        mMap.moveCamera(cu);
     }
 }
