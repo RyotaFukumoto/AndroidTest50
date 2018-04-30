@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest26/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+=======
+            "outputFile": "/Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+>>>>>>> AndroidTest28
             "map": [
                 {
                     "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/9f0256fbb77dcf7b33269ac10bfada10/res/values-v24/values-v24.xml",

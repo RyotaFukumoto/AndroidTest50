@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".NewToDoActivity"/>
+=======
+        <activity android:name=".DatabaseInsertActivity"/>
+>>>>>>> AndroidTest28
     </application>
 
 </manifest>

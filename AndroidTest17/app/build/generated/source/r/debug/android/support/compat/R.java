@@ -9,6 +9,9 @@ package android.support.compat;
 public final class R {
     public static final class attr {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest28
         public static final int font = 0x7f020072;
         public static final int fontProviderAuthority = 0x7f020074;
         public static final int fontProviderCerts = 0x7f020075;
@@ -18,6 +21,7 @@ public final class R {
         public static final int fontProviderQuery = 0x7f020079;
         public static final int fontStyle = 0x7f02007a;
         public static final int fontWeight = 0x7f02007b;
+<<<<<<< HEAD
 =======
         public static final int font = 0x7f02007d;
         public static final int fontProviderAuthority = 0x7f02007f;
@@ -29,6 +33,8 @@ public final class R {
         public static final int fontStyle = 0x7f020085;
         public static final int fontWeight = 0x7f020086;
 >>>>>>> AndroidTest22
+=======
+>>>>>>> AndroidTest28
     }
     public static final class bool {
         public static final int abc_action_bar_embed_tabs = 0x7f030000;
@@ -46,6 +52,9 @@ public final class R {
         public static final int compat_button_padding_vertical_material = 0x7f05004e;
         public static final int compat_control_corner_material = 0x7f05004f;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest28
         public static final int notification_action_icon_size = 0x7f050059;
         public static final int notification_action_text_size = 0x7f05005a;
         public static final int notification_big_circle_margin = 0x7f05005b;
@@ -61,6 +70,7 @@ public final class R {
         public static final int notification_subtext_size = 0x7f050065;
         public static final int notification_top_pad = 0x7f050066;
         public static final int notification_top_pad_large_text = 0x7f050067;
+<<<<<<< HEAD
 =======
         public static final int notification_action_icon_size = 0x7f05005f;
         public static final int notification_action_text_size = 0x7f050060;
@@ -78,6 +88,8 @@ public final class R {
         public static final int notification_top_pad = 0x7f05006c;
         public static final int notification_top_pad_large_text = 0x7f05006d;
 >>>>>>> AndroidTest22
+=======
+>>>>>>> AndroidTest28
     }
     public static final class drawable {
         public static final int notification_action_background = 0x7f060056;
@@ -103,6 +115,9 @@ public final class R {
         public static final int blocking = 0x7f070020;
         public static final int chronometer = 0x7f070028;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest28
         public static final int forever = 0x7f070039;
         public static final int icon = 0x7f07003c;
         public static final int icon_group = 0x7f07003d;
@@ -121,6 +136,7 @@ public final class R {
         public static final int text2 = 0x7f070079;
         public static final int time = 0x7f07007d;
         public static final int title = 0x7f07007e;
+<<<<<<< HEAD
 =======
         public static final int forever = 0x7f07003b;
         public static final int icon = 0x7f07003f;
@@ -141,6 +157,8 @@ public final class R {
         public static final int time = 0x7f070084;
         public static final int title = 0x7f070085;
 >>>>>>> AndroidTest22
+=======
+>>>>>>> AndroidTest28
     }
     public static final class integer {
         public static final int status_bar_notification_info_maxnum = 0x7f080004;
@@ -167,10 +185,14 @@ public final class R {
     }
     public static final class styleable {
 <<<<<<< HEAD
+<<<<<<< HEAD
         public static final int[] FontFamily = { 0x7f020074, 0x7f020075, 0x7f020076, 0x7f020077, 0x7f020078, 0x7f020079 };
 =======
         public static final int[] FontFamily = { 0x7f02007f, 0x7f020080, 0x7f020081, 0x7f020082, 0x7f020083, 0x7f020084 };
 >>>>>>> AndroidTest22
+=======
+        public static final int[] FontFamily = { 0x7f020074, 0x7f020075, 0x7f020076, 0x7f020077, 0x7f020078, 0x7f020079 };
+>>>>>>> AndroidTest28
         public static final int FontFamily_fontProviderAuthority = 0;
         public static final int FontFamily_fontProviderCerts = 1;
         public static final int FontFamily_fontProviderFetchStrategy = 2;
@@ -178,10 +200,14 @@ public final class R {
         public static final int FontFamily_fontProviderPackage = 4;
         public static final int FontFamily_fontProviderQuery = 5;
 <<<<<<< HEAD
+<<<<<<< HEAD
         public static final int[] FontFamilyFont = { 0x01010532, 0x01010533, 0x0101053f, 0x7f020072, 0x7f02007a, 0x7f02007b };
 =======
         public static final int[] FontFamilyFont = { 0x01010532, 0x01010533, 0x0101053f, 0x7f02007d, 0x7f020085, 0x7f020086 };
 >>>>>>> AndroidTest22
+=======
+        public static final int[] FontFamilyFont = { 0x01010532, 0x01010533, 0x0101053f, 0x7f020072, 0x7f02007a, 0x7f02007b };
+>>>>>>> AndroidTest28
         public static final int FontFamilyFont_android_font = 0;
         public static final int FontFamilyFont_android_fontWeight = 1;
         public static final int FontFamilyFont_android_fontStyle = 2;

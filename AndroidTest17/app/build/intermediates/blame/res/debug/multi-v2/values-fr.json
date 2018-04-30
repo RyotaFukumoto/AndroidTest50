@@ -5,6 +5,7 @@
             "map": [
                 {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/bfc3cb14b1bc5d3d2f3cae69738be0ca/res/values-fr/values-fr.xml",
 =======
                     "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b1962e590072a8650a10ecba1765053a/res/values-fr/values-fr.xml",
@@ -19,6 +20,9 @@
                 {
                     "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/63294feedf565575bc4c168a646045fa/res/values-fr/values-fr.xml",
 >>>>>>> AndroidTest22
+=======
+                    "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/bfc3cb14b1bc5d3d2f3cae69738be0ca/res/values-fr/values-fr.xml",
+>>>>>>> AndroidTest28
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -34,6 +38,9 @@
                         "endOffsets": "2099"
                     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest28
                 },
                 {
                     "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/3875bb0c6faf37ad7836464e66fad156/res/values-fr/values-fr.xml",
@@ -44,8 +51,11 @@
                         "endColumns": "110,114,110,81,105,129,82,79,85,109,111,102,110,106,106,158,98,85",
                         "endOffsets": "211,326,437,519,625,755,838,918,1004,1114,1226,1329,1440,1547,1654,1813,1912,1998"
                     }
+<<<<<<< HEAD
 =======
 >>>>>>> AndroidTest22
+=======
+>>>>>>> AndroidTest28
                 }
             ]
         }

@@ -5,10 +5,14 @@
             "map": [
                 {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/3875bb0c6faf37ad7836464e66fad156/res/values-watch-v20/values-watch-v20.xml",
 =======
                     "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b1962e590072a8650a10ecba1765053a/res/values-watch-v20/values-watch-v20.xml",
 >>>>>>> AndroidTest22
+=======
+                    "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/3875bb0c6faf37ad7836464e66fad156/res/values-watch-v20/values-watch-v20.xml",
+>>>>>>> AndroidTest28
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

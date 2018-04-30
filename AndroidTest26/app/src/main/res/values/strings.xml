@@ -4,4 +4,8 @@
     <string name="Content">内容</string>
     <string name="button">登録</string>
     <string name="textview">TextView</string>
+<<<<<<< HEAD
+=======
+    <string name="limit">リミット</string>
+>>>>>>> AndroidTest28
 </resources>

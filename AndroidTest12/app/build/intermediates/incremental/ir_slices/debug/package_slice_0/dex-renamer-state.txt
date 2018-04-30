@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Thu Apr 12 13:45:16 JST 2018
 =======
 #Tue Apr 10 13:31:56 JST 2018
 >>>>>>> AndroidTest21
+=======
+#Fri Apr 13 11:27:44 JST 2018
+>>>>>>> AndroidTest28
 base.0=/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest12/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

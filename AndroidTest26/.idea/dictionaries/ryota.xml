@@ -1,3 +1,11 @@
 <component name="ProjectDictionaryState">
+<<<<<<< HEAD
   <dictionary name="ryota" />
+=======
+  <dictionary name="ryota">
+    <words>
+      <w>getint</w>
+    </words>
+  </dictionary>
+>>>>>>> AndroidTest28
 </component>

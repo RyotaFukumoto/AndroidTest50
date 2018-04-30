@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Thu Apr 12 13:45:13 JST 2018
 =======
 #Tue Apr 10 13:43:46 JST 2018
 >>>>>>> AndroidTest21
+=======
+#Fri Apr 13 11:27:38 JST 2018
+>>>>>>> AndroidTest28

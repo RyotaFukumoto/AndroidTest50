@@ -834,10 +834,14 @@
         <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Panel attributes -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Panel attributes -->
+>>>>>>> AndroidTest28
         <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
 
         <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
@@ -889,10 +893,14 @@
         <item name="colorSwitchThumbNormal">@color/switch_thumb_material_dark</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Used by MediaRouter -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Used by MediaRouter -->
+>>>>>>> AndroidTest28
         <item name="isLightTheme">false</item>
     </style>
     <style name="Base.ThemeOverlay.AppCompat.Dark.ActionBar">
@@ -930,10 +938,14 @@
         <item name="colorSwitchThumbNormal">@color/switch_thumb_material_light</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Used by MediaRouter -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Used by MediaRouter -->
+>>>>>>> AndroidTest28
         <item name="isLightTheme">true</item>
     </style>
     <style name="Base.V7.Theme.AppCompat" parent="Platform.AppCompat">
@@ -947,10 +959,14 @@
         <item name="colorBackgroundFloating">@color/background_floating_material_dark</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Used by MediaRouter -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Used by MediaRouter -->
+>>>>>>> AndroidTest28
         <item name="isLightTheme">false</item>
 
         <item name="selectableItemBackground">@drawable/abc_item_background_holo_dark</item>
@@ -962,10 +978,14 @@
         <item name="dividerHorizontal">@drawable/abc_list_divider_mtrl_alpha</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Action Bar Styles -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Action Bar Styles -->
+>>>>>>> AndroidTest28
         <item name="actionBarTabStyle">@style/Widget.AppCompat.ActionBar.TabView</item>
         <item name="actionBarTabBarStyle">@style/Widget.AppCompat.ActionBar.TabBar</item>
         <item name="actionBarTabTextStyle">@style/Widget.AppCompat.ActionBar.TabText</item>
@@ -983,16 +1003,22 @@
         <item name="actionMenuTextColor">?android:attr/textColorPrimaryDisableOnly</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest28
         <!-- Dropdown Spinner Attributes -->
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
 
         <!-- Action Mode -->
+<<<<<<< HEAD
 =======
         
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
 
         
 >>>>>>> AndroidTest21
+=======
+>>>>>>> AndroidTest28
         <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
         <item name="actionModeBackground">@drawable/abc_cab_background_top_material</item>
         <item name="actionModeSplitBackground">?attr/colorPrimaryDark</item>
@@ -1006,10 +1032,14 @@
         <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_mtrl_alpha</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Panel attributes -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Panel attributes -->
+>>>>>>> AndroidTest28
         <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
         <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
         <item name="panelBackground">@drawable/abc_menu_hardkey_panel_mtrl_mult</item>
@@ -1017,10 +1047,14 @@
         <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- List attributes -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- List attributes -->
+>>>>>>> AndroidTest28
         <item name="textAppearanceListItem">@style/TextAppearance.AppCompat.Subhead</item>
         <item name="textAppearanceListItemSmall">@style/TextAppearance.AppCompat.Subhead</item>
         <item name="textAppearanceListItemSecondary">@style/TextAppearance.AppCompat.Body1</item>
@@ -1031,20 +1065,28 @@
         <item name="listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Spinner styles -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Spinner styles -->
+>>>>>>> AndroidTest28
         <item name="spinnerStyle">@style/Widget.AppCompat.Spinner</item>
         <item name="android:spinnerItemStyle">@style/Widget.AppCompat.TextView.SpinnerItem</item>
         <item name="android:dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest28
         <!-- Required for use of support_simple_spinner_dropdown_item.xml -->
         <item name="spinnerDropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
 
         <!-- Popup Menu styles -->
+<<<<<<< HEAD
 =======
         
         <item name="spinnerDropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
@@ -1052,6 +1094,8 @@
 
         
 >>>>>>> AndroidTest21
+=======
+>>>>>>> AndroidTest28
         <item name="popupMenuStyle">@style/Widget.AppCompat.PopupMenu</item>
         <item name="textAppearanceLargePopupMenu">@style/TextAppearance.AppCompat.Widget.PopupMenu.Large</item>
         <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.AppCompat.Widget.PopupMenu.Small</item>
@@ -1061,10 +1105,14 @@
         <item name="listMenuViewStyle">@style/Widget.AppCompat.ListMenuView</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- SearchView attributes -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- SearchView attributes -->
+>>>>>>> AndroidTest28
         <item name="searchViewStyle">@style/Widget.AppCompat.SearchView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="textColorSearchUrl">@color/abc_search_url_text</item>
@@ -1072,16 +1120,22 @@
         <item name="textAppearanceSearchResultSubtitle">@style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest28
         <!-- ShareActionProvider attributes -->
         <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
 
         <!-- Toolbar styles -->
+<<<<<<< HEAD
 =======
         
         <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
 
         
 >>>>>>> AndroidTest21
+=======
+>>>>>>> AndroidTest28
         <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
         <item name="toolbarNavigationButtonStyle">@style/Widget.AppCompat.Toolbar.Button.Navigation</item>
 
@@ -1091,10 +1145,14 @@
         <item name="autoCompleteTextViewStyle">@style/Widget.AppCompat.AutoCompleteTextView</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Color palette -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Color palette -->
+>>>>>>> AndroidTest28
         <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
         <item name="colorPrimary">@color/primary_material_dark</item>
         <item name="colorAccent">@color/accent_material_dark</item>
@@ -1118,10 +1176,14 @@
         <item name="seekBarStyle">@style/Widget.AppCompat.SeekBar</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Button styles -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Button styles -->
+>>>>>>> AndroidTest28
         <item name="buttonStyle">@style/Widget.AppCompat.Button</item>
         <item name="buttonStyleSmall">@style/Widget.AppCompat.Button.Small</item>
         <item name="android:textAppearanceButton">@style/TextAppearance.AppCompat.Widget.Button</item>
@@ -1135,10 +1197,14 @@
         <item name="buttonBarNeutralButtonStyle">?attr/buttonBarButtonStyle</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Dialog attributes -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Dialog attributes -->
+>>>>>>> AndroidTest28
         <item name="dialogTheme">@style/ThemeOverlay.AppCompat.Dialog</item>
         <item name="dialogPreferredPadding">@dimen/abc_dialog_padding_material</item>
 
@@ -1149,21 +1215,30 @@
         <item name="listDividerAlertDialog">@null</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Define these here; ContextThemeWrappers around themes that define them should
              always clear these values. -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Define these here; ContextThemeWrappers around themes that define them should
+             always clear these values. -->
+>>>>>>> AndroidTest28
         <item name="windowFixedWidthMajor">@null</item>
         <item name="windowFixedWidthMinor">@null</item>
         <item name="windowFixedHeightMajor">@null</item>
         <item name="windowFixedHeightMinor">@null</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Tooltip attributes -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Tooltip attributes -->
+>>>>>>> AndroidTest28
         <item name="tooltipFrameBackground">@drawable/tooltip_frame_light</item>
         <item name="tooltipForegroundColor">@color/foreground_material_light</item>
 
@@ -1207,10 +1282,14 @@
         <item name="colorBackgroundFloating">@color/background_floating_material_light</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Used by MediaRouter -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Used by MediaRouter -->
+>>>>>>> AndroidTest28
         <item name="isLightTheme">true</item>
 
         <item name="selectableItemBackground">@drawable/abc_item_background_holo_light</item>
@@ -1222,10 +1301,14 @@
         <item name="dividerHorizontal">@drawable/abc_list_divider_mtrl_alpha</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Action Bar Styles -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Action Bar Styles -->
+>>>>>>> AndroidTest28
         <item name="actionBarTabStyle">@style/Widget.AppCompat.Light.ActionBar.TabView</item>
         <item name="actionBarTabBarStyle">@style/Widget.AppCompat.Light.ActionBar.TabBar</item>
         <item name="actionBarTabTextStyle">@style/Widget.AppCompat.Light.ActionBar.TabText</item>
@@ -1243,10 +1326,14 @@
         <item name="actionMenuTextColor">?android:attr/textColorPrimaryDisableOnly</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Action Mode -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Action Mode -->
+>>>>>>> AndroidTest28
         <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
         <item name="actionModeBackground">@drawable/abc_cab_background_top_material</item>
         <item name="actionModeSplitBackground">?attr/colorPrimaryDark</item>
@@ -1260,16 +1347,22 @@
         <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_mtrl_alpha</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest28
         <!-- Dropdown Spinner Attributes -->
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar</item>
 
         <!-- Panel attributes -->
+<<<<<<< HEAD
 =======
         
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar</item>
 
         
 >>>>>>> AndroidTest21
+=======
+>>>>>>> AndroidTest28
         <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
         <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
         <item name="panelBackground">@drawable/abc_menu_hardkey_panel_mtrl_mult</item>
@@ -1277,10 +1370,14 @@
         <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_light</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- List attributes -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- List attributes -->
+>>>>>>> AndroidTest28
         <item name="textAppearanceListItem">@style/TextAppearance.AppCompat.Subhead</item>
         <item name="textAppearanceListItemSmall">@style/TextAppearance.AppCompat.Subhead</item>
         <item name="textAppearanceListItemSecondary">@style/TextAppearance.AppCompat.Body1</item>
@@ -1291,20 +1388,28 @@
         <item name="listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Spinner styles -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Spinner styles -->
+>>>>>>> AndroidTest28
         <item name="spinnerStyle">@style/Widget.AppCompat.Spinner</item>
         <item name="android:spinnerItemStyle">@style/Widget.AppCompat.TextView.SpinnerItem</item>
         <item name="android:dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest28
         <!-- Required for use of support_simple_spinner_dropdown_item.xml -->
         <item name="spinnerDropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
 
         <!-- Popup Menu styles -->
+<<<<<<< HEAD
 =======
         
         <item name="spinnerDropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
@@ -1312,6 +1417,8 @@
 
         
 >>>>>>> AndroidTest21
+=======
+>>>>>>> AndroidTest28
         <item name="popupMenuStyle">@style/Widget.AppCompat.Light.PopupMenu</item>
         <item name="textAppearanceLargePopupMenu">@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large</item>
         <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small</item>
@@ -1321,10 +1428,14 @@
         <item name="listMenuViewStyle">@style/Widget.AppCompat.ListMenuView</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- SearchView attributes -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- SearchView attributes -->
+>>>>>>> AndroidTest28
         <item name="searchViewStyle">@style/Widget.AppCompat.Light.SearchView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="textColorSearchUrl">@color/abc_search_url_text</item>
@@ -1332,16 +1443,22 @@
         <item name="textAppearanceSearchResultSubtitle">@style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest28
         <!-- ShareActionProvider attributes -->
         <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
 
         <!-- Toolbar styles -->
+<<<<<<< HEAD
 =======
         
         <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
 
         
 >>>>>>> AndroidTest21
+=======
+>>>>>>> AndroidTest28
         <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
         <item name="toolbarNavigationButtonStyle">@style/Widget.AppCompat.Toolbar.Button.Navigation</item>
 
@@ -1351,10 +1468,14 @@
         <item name="autoCompleteTextViewStyle">@style/Widget.AppCompat.AutoCompleteTextView</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Color palette -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Color palette -->
+>>>>>>> AndroidTest28
         <item name="colorPrimaryDark">@color/primary_dark_material_light</item>
         <item name="colorPrimary">@color/primary_material_light</item>
         <item name="colorAccent">@color/accent_material_light</item>
@@ -1378,10 +1499,14 @@
         <item name="seekBarStyle">@style/Widget.AppCompat.SeekBar</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Button styles -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Button styles -->
+>>>>>>> AndroidTest28
         <item name="buttonStyle">@style/Widget.AppCompat.Button</item>
         <item name="buttonStyleSmall">@style/Widget.AppCompat.Button.Small</item>
         <item name="android:textAppearanceButton">@style/TextAppearance.AppCompat.Widget.Button</item>
@@ -1395,10 +1520,14 @@
         <item name="buttonBarNeutralButtonStyle">?attr/buttonBarButtonStyle</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Dialog attributes -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Dialog attributes -->
+>>>>>>> AndroidTest28
         <item name="dialogTheme">@style/ThemeOverlay.AppCompat.Dialog</item>
         <item name="dialogPreferredPadding">@dimen/abc_dialog_padding_material</item>
 
@@ -1409,21 +1538,30 @@
         <item name="listDividerAlertDialog">@null</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Define these here; ContextThemeWrappers around themes that define them should
              always clear these values. -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Define these here; ContextThemeWrappers around themes that define them should
+             always clear these values. -->
+>>>>>>> AndroidTest28
         <item name="windowFixedWidthMajor">@null</item>
         <item name="windowFixedWidthMinor">@null</item>
         <item name="windowFixedHeightMajor">@null</item>
         <item name="windowFixedHeightMinor">@null</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Tooltip attributes -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Tooltip attributes -->
+>>>>>>> AndroidTest28
         <item name="tooltipFrameBackground">@drawable/tooltip_frame_dark</item>
         <item name="tooltipForegroundColor">@color/foreground_material_dark</item>
 
@@ -1813,10 +1951,14 @@
         <item name="android:borderlessButtonStyle">?attr/borderlessButtonStyle</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Window colors -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Window colors -->
+>>>>>>> AndroidTest28
         <item name="android:colorForeground">@color/foreground_material_dark</item>
         <item name="android:colorForegroundInverse">@color/foreground_material_light</item>
         <item name="android:colorBackground">@color/background_material_dark</item>
@@ -1826,10 +1968,14 @@
         <item name="android:windowBackground">@color/background_material_dark</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Text colors -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Text colors -->
+>>>>>>> AndroidTest28
         <item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>
         <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_light</item>
         <item name="android:textColorPrimaryDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>
@@ -1846,10 +1992,14 @@
         <item name="android:textColorAlertDialogListItem">@color/abc_primary_text_material_dark</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Text styles -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Text styles -->
+>>>>>>> AndroidTest28
         <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
         <item name="android:textAppearanceInverse">@style/TextAppearance.AppCompat.Inverse</item>
         <item name="android:textAppearanceLarge">@style/TextAppearance.AppCompat.Large</item>
@@ -1883,10 +2033,14 @@
         <item name="android:borderlessButtonStyle">?attr/borderlessButtonStyle</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Window colors -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Window colors -->
+>>>>>>> AndroidTest28
         <item name="android:colorForeground">@color/foreground_material_light</item>
         <item name="android:colorForegroundInverse">@color/foreground_material_dark</item>
         <item name="android:colorBackground">@color/background_material_light</item>
@@ -1896,10 +2050,14 @@
         <item name="android:windowBackground">@color/background_material_light</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Text colors -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Text colors -->
+>>>>>>> AndroidTest28
         <item name="android:textColorPrimary">@color/abc_primary_text_material_light</item>
         <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_dark</item>
         <item name="android:textColorSecondary">@color/abc_secondary_text_material_light</item>
@@ -1917,10 +2075,14 @@
         <item name="android:textColorAlertDialogListItem">@color/abc_primary_text_material_light</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Text styles -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Text styles -->
+>>>>>>> AndroidTest28
         <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
         <item name="android:textAppearanceInverse">@style/TextAppearance.AppCompat.Inverse</item>
         <item name="android:textAppearanceLarge">@style/TextAppearance.AppCompat.Large</item>
@@ -1948,19 +2110,27 @@
     <style name="Platform.ThemeOverlay.AppCompat" parent=""/>
     <style name="Platform.ThemeOverlay.AppCompat.Dark">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Action Bar styles -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- Action Bar styles -->
+>>>>>>> AndroidTest28
         <item name="actionBarItemBackground">@drawable/abc_item_background_holo_dark</item>
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
         <item name="selectableItemBackground">@drawable/abc_item_background_holo_dark</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- SearchView styles -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- SearchView styles -->
+>>>>>>> AndroidTest28
         <item name="android:autoCompleteTextViewStyle">@style/Widget.AppCompat.AutoCompleteTextView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
     </style>
@@ -1970,10 +2140,14 @@
         <item name="selectableItemBackground">@drawable/abc_item_background_holo_light</item>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- SearchView attributes -->
 =======
         
 >>>>>>> AndroidTest21
+=======
+        <!-- SearchView attributes -->
+>>>>>>> AndroidTest28
         <item name="android:autoCompleteTextViewStyle">@style/Widget.AppCompat.Light.AutoCompleteTextView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
     </style>

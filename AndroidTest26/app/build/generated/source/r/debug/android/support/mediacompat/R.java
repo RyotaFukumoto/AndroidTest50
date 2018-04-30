@@ -8,6 +8,7 @@ package android.support.mediacompat;
 
 public final class R {
     public static final class attr {
+<<<<<<< HEAD
         public static final int font = 0x7f030092;
         public static final int fontProviderAuthority = 0x7f030094;
         public static final int fontProviderCerts = 0x7f030095;
@@ -17,6 +18,17 @@ public final class R {
         public static final int fontProviderQuery = 0x7f030099;
         public static final int fontStyle = 0x7f03009a;
         public static final int fontWeight = 0x7f03009b;
+=======
+        public static final int font = 0x7f030098;
+        public static final int fontProviderAuthority = 0x7f03009a;
+        public static final int fontProviderCerts = 0x7f03009b;
+        public static final int fontProviderFetchStrategy = 0x7f03009c;
+        public static final int fontProviderFetchTimeout = 0x7f03009d;
+        public static final int fontProviderPackage = 0x7f03009e;
+        public static final int fontProviderQuery = 0x7f03009f;
+        public static final int fontStyle = 0x7f0300a0;
+        public static final int fontWeight = 0x7f0300a1;
+>>>>>>> AndroidTest28
     }
     public static final class bool {
         public static final int abc_action_bar_embed_tabs = 0x7f040000;
@@ -76,6 +88,7 @@ public final class R {
         public static final int async = 0x7f08001e;
         public static final int blocking = 0x7f080022;
         public static final int cancel_action = 0x7f080026;
+<<<<<<< HEAD
         public static final int chronometer = 0x7f08002c;
         public static final int end_padder = 0x7f080041;
         public static final int forever = 0x7f08004c;
@@ -98,6 +111,30 @@ public final class R {
         public static final int text2 = 0x7f0800a0;
         public static final int time = 0x7f0800a7;
         public static final int title = 0x7f0800a8;
+=======
+        public static final int chronometer = 0x7f08002d;
+        public static final int end_padder = 0x7f080044;
+        public static final int forever = 0x7f08004f;
+        public static final int icon = 0x7f080054;
+        public static final int icon_group = 0x7f080055;
+        public static final int info = 0x7f080058;
+        public static final int italic = 0x7f08005a;
+        public static final int line1 = 0x7f08005e;
+        public static final int line3 = 0x7f08005f;
+        public static final int media_actions = 0x7f080064;
+        public static final int normal = 0x7f08006c;
+        public static final int notification_background = 0x7f08006d;
+        public static final int notification_main_column = 0x7f08006e;
+        public static final int notification_main_column_container = 0x7f08006f;
+        public static final int right_icon = 0x7f08007b;
+        public static final int right_side = 0x7f08007c;
+        public static final int status_bar_latest_event_content = 0x7f0800a2;
+        public static final int tag_transition_group = 0x7f0800a6;
+        public static final int text = 0x7f0800a7;
+        public static final int text2 = 0x7f0800a8;
+        public static final int time = 0x7f0800b1;
+        public static final int title = 0x7f0800b2;
+>>>>>>> AndroidTest28
     }
     public static final class integer {
         public static final int cancel_button_image_alpha = 0x7f090004;
@@ -121,7 +158,11 @@ public final class R {
         public static final int notification_template_part_time = 0x7f0a0039;
     }
     public static final class string {
+<<<<<<< HEAD
         public static final int status_bar_notification_info_overflow = 0x7f0c0029;
+=======
+        public static final int status_bar_notification_info_overflow = 0x7f0c002a;
+>>>>>>> AndroidTest28
     }
     public static final class style {
         public static final int TextAppearance_Compat_Notification = 0x7f0d00ed;
@@ -138,14 +179,22 @@ public final class R {
         public static final int Widget_Compat_NotificationActionText = 0x7f0d016c;
     }
     public static final class styleable {
+<<<<<<< HEAD
         public static final int[] FontFamily = { 0x7f030094, 0x7f030095, 0x7f030096, 0x7f030097, 0x7f030098, 0x7f030099 };
+=======
+        public static final int[] FontFamily = { 0x7f03009a, 0x7f03009b, 0x7f03009c, 0x7f03009d, 0x7f03009e, 0x7f03009f };
+>>>>>>> AndroidTest28
         public static final int FontFamily_fontProviderAuthority = 0;
         public static final int FontFamily_fontProviderCerts = 1;
         public static final int FontFamily_fontProviderFetchStrategy = 2;
         public static final int FontFamily_fontProviderFetchTimeout = 3;
         public static final int FontFamily_fontProviderPackage = 4;
         public static final int FontFamily_fontProviderQuery = 5;
+<<<<<<< HEAD
         public static final int[] FontFamilyFont = { 0x01010532, 0x01010533, 0x0101053f, 0x7f030092, 0x7f03009a, 0x7f03009b };
+=======
+        public static final int[] FontFamilyFont = { 0x01010532, 0x01010533, 0x0101053f, 0x7f030098, 0x7f0300a0, 0x7f0300a1 };
+>>>>>>> AndroidTest28
         public static final int FontFamilyFont_android_font = 0;
         public static final int FontFamilyFont_android_fontWeight = 1;
         public static final int FontFamilyFont_android_fontStyle = 2;

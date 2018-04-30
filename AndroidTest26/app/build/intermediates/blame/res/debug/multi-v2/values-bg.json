@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest26/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml",
+=======
+            "outputFile": "/Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml",
+>>>>>>> AndroidTest28
             "map": [
                 {
                     "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/63294feedf565575bc4c168a646045fa/res/values-bg/values-bg.xml",
