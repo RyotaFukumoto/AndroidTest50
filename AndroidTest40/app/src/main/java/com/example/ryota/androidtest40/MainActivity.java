@@ -13,11 +13,9 @@ import android.widget.ImageView;
 
 import java.io.FileNotFoundException;
 
-@SuppressWarnings({"UnqualifiedFieldAccess", "UnnecessarilyQualifiedInnerClassAccess"})
 public class MainActivity extends AppCompatActivity {
     private ImageView targetImage;
 
-    /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View arg0) {
                 Intent intent = new Intent(Intent.ACTION_PICK,
                         android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
-                startActivityForResult(intent, 0);
+                startActivityForResult(intent, 1001);
             }});
     }
 
@@ -39,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-        if (resultCode == RESULT_OK){
+        if (resultCode == RESULT_OK && requestCode == 1001){
             try {
                 Uri targetUri = data.getData();
                 if (targetUri == null) {
@@ -51,5 +49,6 @@ public class MainActivity extends AppCompatActivity {
                 Log.e("System.err",e.getMessage());
             }
         }
+
     }
 }
