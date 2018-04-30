@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -24,6 +26,7 @@ public class DatabaseInsertActivity extends AppCompatActivity {
     private TextView textView;
     private SQLiteDatabase db;
     private DateFormater dateFormater;
+    private int count;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,51 +37,76 @@ public class DatabaseInsertActivity extends AppCompatActivity {
         this.contentEditText = findViewById(R.id.editText4);
         this.textView = findViewById(R.id.textView);
         this.textView.setText(String.valueOf(this.dateFormater.getLimitDateFrom(this.dateFormater.getNowDate())));
-        Button registerButton = (Button) findViewById(R.id.button);
+        final Button registerButton = (Button) findViewById(R.id.button);
+
+        registerButton.setEnabled(false);
+        titleEditText.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                if(count != 0) {
+                    registerButton.setEnabled(true);
+                }
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
+
+
 
         final Intent intent = getIntent();
 
-        this.getint = intent.getIntExtra("id",0);
-        if(this.getint !=0){
-            registerButton.setText("更新");
-            CharSequence charSequence = intent.getCharSequenceExtra("title");
-            CharSequence charSequence1 = intent.getCharSequenceExtra("content");
 
-            String created = (String) intent.getCharSequenceExtra("created");
-            String str = (String) intent.getCharSequenceExtra("limit");
+            this.getint = intent.getIntExtra("id", 0);
+            if (this.count != 0) {
+                registerButton.setText("更新");
+                CharSequence charSequence = intent.getCharSequenceExtra("title");
+                CharSequence charSequence1 = intent.getCharSequenceExtra("content");
 
-            this.titleEditText.setText(charSequence);
-            this.contentEditText.setText(charSequence1);
-            CharSequence charSequence3 = str.replace("-", "/");
-            this.textView.setText(charSequence3);
+                String created = (String) intent.getCharSequenceExtra("created");
+                String str = (String) intent.getCharSequenceExtra("limit");
 
-        }
+                this.titleEditText.setText(charSequence);
+                this.contentEditText.setText(charSequence1);
+                CharSequence charSequence3 = str.replace("-", "/");
+                this.textView.setText(charSequence3);
 
-
-        this.textView.setOnClickListener(
-                new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Calendar calendar = Calendar.getInstance();
-                calendar.setTime(DatabaseInsertActivity.this.dateFormater.getNow());
-                calendar.add(Calendar.DATE, 7);
-                DatePickerDialog datePickerDialog = new DatePickerDialog(DatabaseInsertActivity.this, new DatePickerDialog.OnDateSetListener() {
-                            @Override
-                            public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
-                                //setした日付を取得して表示
-
-                                DatabaseInsertActivity.this.textView.setText(String.format("%d/%02d/%02d", year, month + 1, dayOfMonth));
-                            }
-                        },
-                        calendar.get(Calendar.YEAR),
-                        calendar.get(Calendar.MONTH),
-                        calendar.get(Calendar.DATE)
-                );
-
-                //dialogを表示
-                datePickerDialog.show();
             }
-        });
+
+
+            this.textView.setOnClickListener(
+                    new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Calendar calendar = Calendar.getInstance();
+                            calendar.setTime(DatabaseInsertActivity.this.dateFormater.getNow());
+                            calendar.add(Calendar.DATE, 7);
+                            DatePickerDialog datePickerDialog = new DatePickerDialog(DatabaseInsertActivity.this, new DatePickerDialog.OnDateSetListener() {
+                                @Override
+                                public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+                                    //setした日付を取得して表示
+
+                                    DatabaseInsertActivity.this.textView.setText(String.format("%d/%02d/%02d", year, month + 1, dayOfMonth));
+                                }
+                            },
+                                    calendar.get(Calendar.YEAR),
+                                    calendar.get(Calendar.MONTH),
+                                    calendar.get(Calendar.DATE)
+                            );
+
+                            //dialogを表示
+                            datePickerDialog.show();
+                        }
+                    });
+
+
 
 
         registerButton.setOnClickListener(new View.OnClickListener() {
@@ -145,6 +173,7 @@ public class DatabaseInsertActivity extends AppCompatActivity {
         }
         finish();
     }
+
 
 
 }
