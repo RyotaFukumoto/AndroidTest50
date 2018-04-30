@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "/Users/ryota/Desktop/AndroidTest50/AndroidTest31/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-et/values-et.xml",
+=======
+            "outputFile": "/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest31/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-et/values-et.xml",
+>>>>>>> AndroidTest37
             "map": [
                 {
                     "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8064a1118012dbea71c0f2374b38656f/res/values-et/values-et.xml",

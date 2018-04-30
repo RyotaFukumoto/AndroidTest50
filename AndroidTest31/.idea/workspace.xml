@@ -6,11 +6,20 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+<<<<<<< HEAD
     <option name="TOOL_WINDOW_CUSTOM_FILTER" value="test" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="604796d7-daaa-4f67-b3a3-b9b617137043" name="Default" comment="" />
+=======
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd5449b5-636e-463a-acda-153072d36a31" name="Default" comment="" />
+>>>>>>> AndroidTest37
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +41,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -40,21 +50,44 @@
               <folding>
                 <element signature="e#1479#1480#0" expanded="true" />
                 <element signature="e#1512#1513#0" expanded="true" />
+=======
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="104" column="19" lean-forward="false" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
+              <folding>
+                <element signature="e#3901#4262#0" expanded="true" />
+                <element signature="e#4261#4262#0" expanded="true" />
+>>>>>>> AndroidTest37
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="WeatherRecyclerViewAdapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherRecyclerViewAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding />
+=======
+      <file leaf-file-name="WeatherDBTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherDBTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="20" />
+              <folding>
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+              </folding>
+>>>>>>> AndroidTest37
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="RowViewHolder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/RowViewHolder.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,20 +108,37 @@
                 <element signature="e#1021#1022#0" expanded="true" />
                 <element signature="e#1063#1064#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="WeatherAPI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="9" column="95" lean-forward="false" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
+              <folding />
+>>>>>>> AndroidTest37
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Forecast.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Forecast.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+=======
+      <file leaf-file-name="WeatherRecycleViewAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherRecycleViewAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+>>>>>>> AndroidTest37
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Description.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Description.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,56 +149,111 @@
                 <element signature="e#164#165#0" expanded="true" />
                 <element signature="e#203#204#0" expanded="true" />
                 <element signature="e#235#236#0" expanded="true" />
+=======
+      <file leaf-file-name="ImageListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/ImageListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+>>>>>>> AndroidTest37
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Copyright.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Copyright.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+=======
+      <file leaf-file-name="DatabaseListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/db/DatabaseListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="8" />
+>>>>>>> AndroidTest37
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Image.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Image.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
               <folding />
+=======
+      <file leaf-file-name="DBInsert.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/DBInsert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="64" lean-forward="false" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> AndroidTest37
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Location.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Location.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+=======
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="59" lean-forward="false" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+>>>>>>> AndroidTest37
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="WeatherAPI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherAPI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-145">
               <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+=======
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="70" lean-forward="false" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
+>>>>>>> AndroidTest37
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Pinpointlocation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Pinpointlocation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+=======
+      <file leaf-file-name="WeathRow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/db/WeathRow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="22" />
+>>>>>>> AndroidTest37
               <folding />
             </state>
           </provider>
@@ -159,19 +264,35 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< HEAD
         <option value="layoutResourceFile" />
+=======
+        <option value="valueResourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Interface" />
+>>>>>>> AndroidTest37
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
       <find>WeathRow</find>
       <find>service</find>
       <find>weather</find>
       <find>success</find>
       <find>fi</find>
       <find>item</find>
+=======
+      <find>TAG</find>
+      <find>position</find>
+      <find>tool</find>
+      <find>too</find>
+      <find>setOnClickListener</find>
+      <find>description</find>
+      <find>onBindViewHolder</find>
+>>>>>>> AndroidTest37
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -2206,6 +2327,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherDialogFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/MyTask.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/row.xml" />
@@ -2218,6 +2340,55 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Description.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherAPI.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/MainActivity.java" />
+=======
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/example/ryota/androidtest31/ExampleInstrumentedTest.java" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/example/ryota/androidtest31/ExampleUnitTest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherWebService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/LivedoorWeatherWebService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/GsonConverterFactory.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/RetrofitActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/Weather.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/LiveDoorWeatherApi.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/GsonConverterFactor.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/style.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/LivedoorWeatherWebService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Pinpointlocation.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherAPI.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Location.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Image.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/LicensorWeatherWebService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/row.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherDialogFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/description_row.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeathDescription.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Description.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Weather.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Temperature.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Forecast.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Min.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Max.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherViewInterface.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/weatheer_row.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherViewHolder.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/db/Weather.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeathRow.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/AppDatabese.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/db/AppDatabese.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/db/WeathRow.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/db/Weath_DAO.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/ImageListener.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/db/DatabaseListener.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/DBInsert.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherViewListener.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherRecycleViewAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherDBTask.java" />
+>>>>>>> AndroidTest37
       </list>
     </option>
   </component>
@@ -2257,10 +2428,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+=======
+>>>>>>> AndroidTest37
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2291,12 +2465,17 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="androidtest31" type="cbb59c9e:AndroidPsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+>>>>>>> AndroidTest37
             </path>
             <path>
               <item name="AndroidTest31" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
+<<<<<<< HEAD
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
             </path>
             <path>
@@ -2308,11 +2487,76 @@
             <path>
               <item name="AndroidTest31" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+=======
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="androidtest31" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidTest31" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AndroidTest31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidTest31" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidTest31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidTest31" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidTest31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidTest31" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="buildOutputCleanup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidTest31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidTest31" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidTest31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidTest31" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidTest31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidTest31" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="androidTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidTest31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidTest31" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidTest31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+>>>>>>> AndroidTest37
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+<<<<<<< HEAD
+=======
+      <pane id="PackagesPane" />
+>>>>>>> AndroidTest37
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2320,6 +2564,7 @@
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="device.picker.selection" value="QV700G9B11" />
   </component>
@@ -2327,6 +2572,29 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.ryota.androidtest31" />
     </key>
+=======
+    <property name="run.code.analysis.last.selected.profile" value="astv inspections" />
+    <property name="device.picker.selection" value="QV700G9B11" />
+    <property name="android.profiler.active" value="true" />
+    <property name="DEBUGGABLE_DEVICE" value="emulator-5556" />
+    <property name="DEBUGGABLE_PROCESS" value="com.example.ryota.androidtest31" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="DEBUGGER_ID" value="Auto" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.example.ryota.androidtest31" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.ryota.androidtest31" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.ryota.androidtest31" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31" />
+    </key>
+>>>>>>> AndroidTest37
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2499,6 +2767,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="604796d7-daaa-4f67-b3a3-b9b617137043" name="Default" comment="" />
       <created>1524650876715</created>
       <option name="number" value="Default" />
@@ -2507,10 +2776,30 @@
     </task>
     <servers />
   </component>
+=======
+      <changelist id="fd5449b5-636e-463a-acda-153072d36a31" name="Default" comment="" />
+      <created>1523951733513</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523951733513</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+>>>>>>> AndroidTest37
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2533,6 +2822,32 @@
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.519536" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893288" sideWeight="0.48046398" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.47802198" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39933994" sideWeight="0.495116" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.485348" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> AndroidTest37
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2540,13 +2855,51 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+=======
+    </layout>
+    <layout-to-restore>
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.507326" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893288" sideWeight="0.492674" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.497558" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39933994" sideWeight="0.497558" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+>>>>>>> AndroidTest37
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
+<<<<<<< HEAD
     <breakpoint-manager />
     <watches-manager />
   </component>
@@ -2566,18 +2919,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+=======
+    <breakpoint-manager>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/RetrofitActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/Weather.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/LiveDoorWeatherApi.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/ServiceCallback.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/GsonConverterFactor.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/style.xml" />
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> AndroidTest37
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/LicensorWeatherWebService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> AndroidTest37
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Weather.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -2593,10 +2980,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> AndroidTest37
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Description.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -2614,10 +3016,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidTest31.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> AndroidTest37
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -2633,6 +3050,20 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/description_row.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+>>>>>>> AndroidTest37
           <folding />
         </state>
       </provider>
@@ -2640,14 +3071,22 @@
         <state />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="38" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeathDescription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+>>>>>>> AndroidTest37
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2663,18 +3102,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Description.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Copyright.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+>>>>>>> AndroidTest37
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+=======
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.4.0/451207353948708405a08287e2a315c3f23553fe/retrofit-2.4.0-sources.jar!/retrofit2/ExecutorCallAdapterFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+>>>>>>> AndroidTest37
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherDialogFragment.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/MyTask.java" />
     <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/com/example/ryota/androidtest31/db/Weath_DAO_Impl.java" />
@@ -2711,22 +3172,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Min.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#102#103#0" expanded="false" />
+            <element signature="e#137#138#0" expanded="false" />
+            <element signature="e#183#184#0" expanded="false" />
+            <element signature="e#221#222#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Pinpointlocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Temperature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+>>>>>>> AndroidTest37
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="50" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Weather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+>>>>>>> AndroidTest37
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/weatheer_row.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+>>>>>>> AndroidTest37
           <folding />
         </state>
       </provider>
@@ -2736,8 +3238,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="525">
           <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+=======
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+>>>>>>> AndroidTest37
           <folding />
         </state>
       </provider>
@@ -2745,14 +3252,22 @@
         <state />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/LicensorWeatherWebService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Max.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+>>>>>>> AndroidTest37
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Weather.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -2760,42 +3275,232 @@
           <folding>
             <element signature="e#796#797#0" expanded="false" />
             <element signature="e#835#836#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Pinpointlocation.java">
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Forecast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Location.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="210">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Image.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        <state relative-caret-position="195">
+          <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-27/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8509">
+          <caret line="97" column="24" lean-forward="false" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-27/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="250" column="0" lean-forward="false" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Thread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="215" column="0" lean-forward="false" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
+          <folding>
+            <marker date="1521706200000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1521706200000" expanded="false" signature="133:725" ph="..." />
+            <marker date="1521706200000" expanded="false" signature="2322:2333" ph=" { " />
+            <marker date="1521706200000" expanded="false" signature="2359:2365" ph=" }" />
+            <marker date="1521706200000" expanded="false" signature="2418:2429" ph=" { " />
+            <marker date="1521706200000" expanded="false" signature="2454:2460" ph=" }" />
+            <marker date="1521706200000" expanded="true" signature="2501:2632" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="2879:3279" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="3360:3438" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="3546:5089" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="5154:5209" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="5231:5325" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="5360:5444" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="5499:5589" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="5642:5713" ph="{...}" />
+            <marker date="1521706200000" expanded="false" signature="5745:5756" ph=" { " />
+            <marker date="1521706200000" expanded="false" signature="5811:5817" ph=" }" />
+            <marker date="1521706200000" expanded="false" signature="5867:5878" ph=" { " />
+            <marker date="1521706200000" expanded="false" signature="5920:5926" ph=" }" />
+            <marker date="1521706200000" expanded="false" signature="5973:5984" ph=" { " />
+            <marker date="1521706200000" expanded="false" signature="6029:6035" ph=" }" />
+            <marker date="1521706200000" expanded="false" signature="6100:6111" ph=" { " />
+            <marker date="1521706200000" expanded="false" signature="6143:6149" ph=" }" />
+            <marker date="1521706200000" expanded="true" signature="6226:6276" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="6315:6847" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="6906:6990" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="7016:7379" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="7385:7403" ph="/**...*/" />
+            <marker date="1521706200000" expanded="true" signature="7449:7839" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="7845:7863" ph="/**...*/" />
+            <marker date="1521706200000" expanded="true" signature="7936:7994" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="8024:8422" ph="{...}" />
+            <marker date="1521706200000" expanded="false" signature="8463:8474" ph=" { " />
+            <marker date="1521706200000" expanded="false" signature="8517:8523" ph=" }" />
+            <marker date="1521706200000" expanded="false" signature="8559:8570" ph=" { " />
+            <marker date="1521706200000" expanded="false" signature="8603:8609" ph=" }" />
+            <marker date="1521706200000" expanded="true" signature="8672:8690" ph="/**...*/" />
+            <marker date="1521706200000" expanded="false" signature="8732:8743" ph=" { " />
+            <marker date="1521706200000" expanded="false" signature="8773:8779" ph=" }" />
+            <marker date="1521706200000" expanded="true" signature="8829:8847" ph="/**...*/" />
+            <marker date="1521706200000" expanded="true" signature="8896:8956" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="8962:8980" ph="/**...*/" />
+            <marker date="1521706200000" expanded="true" signature="9028:9087" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="9133:9565" ph="{...}" />
+            <marker date="1521706200000" expanded="false" signature="9601:9612" ph=" { " />
+            <marker date="1521706200000" expanded="false" signature="9633:9639" ph=" }" />
+            <marker date="1521706200000" expanded="true" signature="9697:9983" ph="{...}" />
+            <marker date="1521706200000" expanded="false" signature="10018:10029" ph=" { " />
+            <marker date="1521706200000" expanded="false" signature="10046:10052" ph=" }" />
+            <marker date="1521706200000" expanded="false" signature="10099:10110" ph=" { " />
+            <marker date="1521706200000" expanded="false" signature="10128:10134" ph=" }" />
+            <marker date="1521706200000" expanded="false" signature="10171:10182" ph=" { " />
+            <marker date="1521706200000" expanded="false" signature="10236:10242" ph=" }" />
+            <marker date="1521706200000" expanded="true" signature="10291:10363" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="10369:10387" ph="/**...*/" />
+            <marker date="1521706200000" expanded="true" signature="10526:11187" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="11278:11682" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="11741:11771" ph="{...}" />
+            <marker date="1521706200000" expanded="false" signature="11807:11818" ph=" { " />
+            <marker date="1521706200000" expanded="false" signature="11867:11873" ph=" }" />
+            <marker date="1521706200000" expanded="true" signature="11921:12098" ph="{...}" />
+            <marker date="1521706200000" expanded="false" signature="12135:12146" ph=" { " />
+            <marker date="1521706200000" expanded="false" signature="12165:12171" ph=" }" />
+            <marker date="1521706200000" expanded="true" signature="12209:12351" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="12382:12616" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="12686:13057" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="13115:13343" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="13450:14144" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="14217:14859" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="14919:15473" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="15537:16469" ph="{...}" />
+            <marker date="1521706200000" expanded="false" signature="15601:15669" ph="run() → {" />
+            <marker date="1521706200000" expanded="false" signature="16425:16440" ph="}" />
+            <marker date="1521706200000" expanded="false" signature="16621:16632" ph=" { " />
+            <marker date="1521706200000" expanded="false" signature="16648:16654" ph=" }" />
+            <marker date="1521706200000" expanded="false" signature="16690:16701" ph=" { " />
+            <marker date="1521706200000" expanded="false" signature="16744:16750" ph=" }" />
+            <marker date="1521706200000" expanded="true" signature="16848:17097" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="17186:17241" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="17316:17457" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="17541:17622" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="17683:17764" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="17884:18003" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="18275:18467" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="18531:19180" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="18633:18730" ph="{...}" />
+            <marker date="1521706200000" expanded="false" signature="18761:18776" ph=" { " />
+            <marker date="1521706200000" expanded="false" signature="18793:18803" ph=" }" />
+            <marker date="1521706200000" expanded="true" signature="18848:19174" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="19253:19321" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="19352:19504" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="19487:19498" ph="{}" />
+            <marker date="1521706200000" expanded="true" signature="19538:19780" ph="{...}" />
+            <marker date="1521706200000" expanded="true" signature="19763:19774" ph="{}" />
+>>>>>>> AndroidTest37
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Pinpointlocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/db/Weather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+>>>>>>> AndroidTest37
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+=======
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-27/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="67" column="25" lean-forward="false" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+>>>>>>> AndroidTest37
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/LicensorWeatherWebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+>>>>>>> AndroidTest37
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Forecast.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/com/example/ryota/androidtest31/db/Weath_DAO_Impl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <marker date="1524128425471" expanded="true" signature="3847:5159" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherViewListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherViewHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+>>>>>>> AndroidTest37
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Description.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -2805,34 +3510,75 @@
             <element signature="e#164#165#0" expanded="true" />
             <element signature="e#203#204#0" expanded="true" />
             <element signature="e#235#236#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherDialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="34" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/db/AppDatabese.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="70" lean-forward="false" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="false" />
+>>>>>>> AndroidTest37
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Copyright.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/db/Weath_DAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+>>>>>>> AndroidTest37
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-145">
           <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/db/WeathRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="22" />
+>>>>>>> AndroidTest37
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherRecyclerViewAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="59" lean-forward="false" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+>>>>>>> AndroidTest37
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -2840,10 +3586,35 @@
           <folding>
             <element signature="e#1479#1480#0" expanded="true" />
             <element signature="e#1512#1513#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="70" lean-forward="false" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherRecycleViewAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/ImageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> AndroidTest37
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/RowViewHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -2862,6 +3633,52 @@
             <element signature="e#969#970#0" expanded="true" />
             <element signature="e#1021#1022#0" expanded="true" />
             <element signature="e#1063#1064#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/db/DatabaseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/DBInsert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="64" lean-forward="false" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherDBTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="95" lean-forward="false" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="104" column="19" lean-forward="false" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
+          <folding>
+            <element signature="e#3901#4262#0" expanded="true" />
+            <element signature="e#4261#4262#0" expanded="true" />
+>>>>>>> AndroidTest37
           </folding>
         </state>
       </provider>
