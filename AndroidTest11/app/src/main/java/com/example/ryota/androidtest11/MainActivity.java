@@ -25,11 +25,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        this.mainLayout = (ConstraintLayout) findViewById(R.id.layout);
 
-        this.inputMethodManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
         setContentView(R.layout.activity_main);
+        this.mainLayout = (ConstraintLayout) findViewById(R.id.layout);
         editText = findViewById(R.id.editText);
+        this.inputMethodManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
 
         editText.setOnKeyListener(new View.OnKeyListener() {
             @Override
@@ -60,9 +60,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void hideKeyboard() {
 
-        this.inputMethodManager.hideSoftInputFromWindow(this.mainLayout.getWindowToken(),
-                InputMethodManager.HIDE_NOT_ALWAYS);
-        this.mainLayout.requestFocus();
+            this.inputMethodManager.hideSoftInputFromWindow(this.mainLayout.getWindowToken(),
+                    InputMethodManager.HIDE_NOT_ALWAYS);
+            this.mainLayout.requestFocus();
+
+
 
     }
 
