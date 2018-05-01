@@ -25,10 +25,14 @@
             </intent-filter>
         </activity>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <activity android:name="com.example.ryota.androidtest26.NewToDoActivity" />
 =======
         <activity android:name="com.example.ryota.androidtest26.DatabaseInsertActivity" />
 >>>>>>> AndroidTest28
+=======
+        <activity android:name="com.example.ryota.androidtest26.DatabaseInsertActivity" />
+>>>>>>> AndroidTest27
     </application>
 
 </manifest>

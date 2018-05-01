@@ -17,10 +17,14 @@
             </intent-filter>
         </activity>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <activity android:name=".NewToDoActivity"/>
 =======
         <activity android:name=".DatabaseInsertActivity"/>
 >>>>>>> AndroidTest28
+=======
+        <activity android:name=".DatabaseInsertActivity"/>
+>>>>>>> AndroidTest27
     </application>
 
 </manifest>

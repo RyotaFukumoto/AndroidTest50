@@ -24,10 +24,15 @@ import android.view.View;
 import java.util.ArrayList;
 import java.util.List;
 
+<<<<<<< HEAD
 public class MainActivity extends AppCompatActivity implements RowOnClickedListener{
     public static final String DELETE_FLG = "delete_flg";
     private RecyclerAdapter adapter;
 >>>>>>> AndroidTest28
+=======
+public class MainActivity extends AppCompatActivity {
+    private CasarealRecycleViewAdapter adapter;
+>>>>>>> AndroidTest27
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,7 +56,12 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
         RecyclerView rv = findViewById(R.id.casarealRecyclerView);
         //adapter = new RecyclerAdapter(this,todoList);
 
+<<<<<<< HEAD
         this.adapter = new RecyclerAdapter(this, this);
+=======
+        RecyclerView rv = (RecyclerView) findViewById(R.id.casarealRecyclerView);
+        this.adapter = new CasarealRecycleViewAdapter();
+>>>>>>> AndroidTest27
 
         LinearLayoutManager llm = new LinearLayoutManager(this);
 
@@ -62,8 +72,11 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
         rv.setLayoutManager(llm);
 
         rv.setAdapter(this.adapter);
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> AndroidTest27
 
         FloatingActionButton addButton = findViewById(R.id.floatingActionButton);
         addButton.setOnClickListener(new View.OnClickListener() {
@@ -84,7 +97,11 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
         //rawQueryメソッドでデータを取得
         DatabaseHelper dbHelper = new DatabaseHelper(this);
         try (SQLiteDatabase db = dbHelper.getReadableDatabase()) {
+<<<<<<< HEAD
             String sql = "select * from " + "tr_todo where " + DELETE_FLG + " = 0" +
+=======
+            String sql = "select * from " + "tr_todo where " + "delete_flg" + " = 0" +
+>>>>>>> AndroidTest27
                     " order by limit_date" + " asc ";
             Cursor cursor = db.rawQuery(sql, null);
             //TextViewに表示
@@ -101,6 +118,7 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
         }
         this.adapter.setList(todoList);
         this.adapter.notifyDataSetChanged();
+<<<<<<< HEAD
     }
 
 
@@ -116,5 +134,7 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
 
         startActivity(intent);
 >>>>>>> AndroidTest28
+=======
+>>>>>>> AndroidTest27
     }
 }

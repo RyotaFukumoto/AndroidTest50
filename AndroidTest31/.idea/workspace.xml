@@ -7,11 +7,15 @@
   </component>
   <component name="AndroidLogFilters">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <option name="TOOL_WINDOW_CUSTOM_FILTER" value="test" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="604796d7-daaa-4f67-b3a3-b9b617137043" name="Default" comment="" />
+<<<<<<< HEAD
 =======
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
@@ -20,6 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fd5449b5-636e-463a-acda-153072d36a31" name="Default" comment="" />
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +46,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
 <<<<<<< HEAD
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
@@ -260,10 +267,14 @@
         </entry>
       </file>
     </leaf>
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+>>>>>>> AndroidTest27
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <option value="layoutResourceFile" />
 =======
@@ -271,6 +282,9 @@
         <option value="layoutResourceFile" />
         <option value="Interface" />
 >>>>>>> AndroidTest37
+=======
+        <option value="layoutResourceFile" />
+>>>>>>> AndroidTest27
         <option value="Class" />
       </list>
     </option>
@@ -278,12 +292,16 @@
   <component name="FindInProjectRecents">
     <findStrings>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
       <find>WeathRow</find>
       <find>service</find>
       <find>weather</find>
       <find>success</find>
       <find>fi</find>
       <find>item</find>
+<<<<<<< HEAD
 =======
       <find>TAG</find>
       <find>position</find>
@@ -293,6 +311,8 @@
       <find>description</find>
       <find>onBindViewHolder</find>
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -2328,6 +2348,9 @@
     <option name="CHANGED_PATHS">
       <list>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherDialogFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/MyTask.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/row.xml" />
@@ -2340,6 +2363,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Description.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherAPI.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/MainActivity.java" />
+<<<<<<< HEAD
 =======
         <option value="$PROJECT_DIR$/app/src/androidTest/java/com/example/ryota/androidtest31/ExampleInstrumentedTest.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/example/ryota/androidtest31/ExampleUnitTest.java" />
@@ -2389,11 +2413,17 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherDBTask.java" />
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="y" value="23" />
+=======
+    <option name="y" value="53" />
+>>>>>>> AndroidTest27
     <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
@@ -2429,12 +2459,18 @@
     </navigator>
     <panes>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
       <pane id="Scope" />
       <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+<<<<<<< HEAD
 =======
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2466,16 +2502,24 @@
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="androidtest31" type="cbb59c9e:AndroidPsiDirectoryNode" />
 <<<<<<< HEAD
+<<<<<<< HEAD
               <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
 =======
               <item name="db" type="462c0819:PsiDirectoryNode" />
 >>>>>>> AndroidTest37
+=======
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+>>>>>>> AndroidTest27
             </path>
             <path>
               <item name="AndroidTest31" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
             </path>
             <path>
@@ -2487,6 +2531,7 @@
             <path>
               <item name="AndroidTest31" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+<<<<<<< HEAD
 =======
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="androidtest31" type="cbb59c9e:AndroidPsiDirectoryNode" />
@@ -2494,11 +2539,14 @@
             <path>
               <item name="AndroidTest31" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+=======
+>>>>>>> AndroidTest27
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -2557,6 +2605,8 @@
 =======
       <pane id="PackagesPane" />
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2565,6 +2615,9 @@
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="device.picker.selection" value="QV700G9B11" />
   </component>
@@ -2572,6 +2625,7 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.ryota.androidtest31" />
     </key>
+<<<<<<< HEAD
 =======
     <property name="run.code.analysis.last.selected.profile" value="astv inspections" />
     <property name="device.picker.selection" value="QV700G9B11" />
@@ -2595,6 +2649,8 @@
       <recent name="$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31" />
     </key>
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2768,6 +2824,9 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
       <changelist id="604796d7-daaa-4f67-b3a3-b9b617137043" name="Default" comment="" />
       <created>1524650876715</created>
       <option name="number" value="Default" />
@@ -2776,6 +2835,7 @@
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
 =======
       <changelist id="fd5449b5-636e-463a-acda-153072d36a31" name="Default" comment="" />
       <created>1523951733513</created>
@@ -2800,6 +2860,11 @@
     <editor active="true" />
     <layout>
 <<<<<<< HEAD
+=======
+  <component name="ToolWindowManager">
+    <frame x="0" y="53" width="1680" height="1027" extended-state="0" />
+    <layout>
+>>>>>>> AndroidTest27
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2808,20 +2873,29 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> AndroidTest27
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> AndroidTest27
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.330033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
 =======
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -2848,6 +2922,8 @@
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2855,6 +2931,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2894,12 +2971,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
 >>>>>>> AndroidTest37
+=======
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+>>>>>>> AndroidTest27
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <breakpoint-manager />
     <watches-manager />
   </component>
@@ -2908,10 +2992,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
           <folding>
             <element signature="e#1479#1480#0" expanded="true" />
             <element signature="e#1512#1513#0" expanded="true" />
           </folding>
+=======
+          <folding />
+>>>>>>> AndroidTest27
         </state>
       </provider>
     </entry>
@@ -2919,6 +3007,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+<<<<<<< HEAD
 =======
     <breakpoint-manager>
       <option name="time" value="8" />
@@ -2945,34 +3034,49 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/LicensorWeatherWebService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Weather.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+<<<<<<< HEAD
           <folding>
             <element signature="e#796#797#0" expanded="false" />
             <element signature="e#835#836#0" expanded="false" />
           </folding>
+=======
+          <folding />
+>>>>>>> AndroidTest27
         </state>
       </provider>
     </entry>
@@ -2980,15 +3084,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2999,16 +3107,22 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Description.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+<<<<<<< HEAD
           <folding>
             <element signature="e#132#133#0" expanded="true" />
             <element signature="e#164#165#0" expanded="true" />
             <element signature="e#203#204#0" expanded="true" />
             <element signature="e#235#236#0" expanded="true" />
           </folding>
+=======
+          <folding />
+>>>>>>> AndroidTest27
         </state>
       </provider>
     </entry>
@@ -3016,15 +3130,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/app/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/AndroidTest31.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -3035,6 +3153,8 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -3050,6 +3170,7 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -3064,6 +3185,8 @@
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
@@ -3072,29 +3195,42 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="38" />
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeathDescription.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
           <folding>
             <element signature="e#1479#1480#0" expanded="true" />
             <element signature="e#1512#1513#0" expanded="true" />
           </folding>
+=======
+          <folding />
+>>>>>>> AndroidTest27
         </state>
       </provider>
     </entry>
@@ -3102,6 +3238,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Description.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -3116,26 +3253,37 @@
         <state relative-caret-position="105">
           <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+<<<<<<< HEAD
 =======
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.4.0/451207353948708405a08287e2a315c3f23553fe/retrofit-2.4.0-sources.jar!/retrofit2/ExecutorCallAdapterFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherDialogFragment.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/MyTask.java" />
     <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/com/example/ryota/androidtest31/db/Weath_DAO_Impl.java" />
@@ -3172,6 +3320,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Min.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -3199,36 +3348,50 @@
         <state relative-caret-position="165">
           <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="50" />
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Weather.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/weatheer_row.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
@@ -3239,12 +3402,17 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="525">
           <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
 =======
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
 >>>>>>> AndroidTest37
+=======
+        <state relative-caret-position="525">
+          <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
@@ -3253,25 +3421,35 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/LicensorWeatherWebService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Max.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Weather.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+<<<<<<< HEAD
           <folding>
             <element signature="e#796#797#0" expanded="false" />
             <element signature="e#835#836#0" expanded="false" />
@@ -3280,10 +3458,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Location.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -3421,55 +3602,76 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Pinpointlocation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/db/Weather.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Location.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+<<<<<<< HEAD
 =======
     <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-27/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="67" column="25" lean-forward="false" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Image.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/LicensorWeatherWebService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Forecast.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/com/example/ryota/androidtest31/db/Weath_DAO_Impl.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -3496,15 +3698,21 @@
         <state relative-caret-position="60">
           <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Description.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+<<<<<<< HEAD
           <folding>
             <element signature="e#132#133#0" expanded="true" />
             <element signature="e#164#165#0" expanded="true" />
@@ -3515,10 +3723,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="34" column="17" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="34" selection-end-column="17" />
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/db/AppDatabese.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -3531,40 +3742,55 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/api/model/Copyright.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/db/Weath_DAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-145">
           <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/db/WeathRow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="22" />
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherRecyclerViewAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest">
@@ -3574,15 +3800,21 @@
         <state relative-caret-position="60">
           <caret line="4" column="59" lean-forward="false" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
 >>>>>>> AndroidTest37
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="30" column="35" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+<<<<<<< HEAD
           <folding>
             <element signature="e#1479#1480#0" expanded="true" />
             <element signature="e#1512#1513#0" expanded="true" />
@@ -3591,10 +3823,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="70" lean-forward="false" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/WeatherRecycleViewAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -3615,10 +3850,13 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+=======
+>>>>>>> AndroidTest27
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/RowViewHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="24" />
+<<<<<<< HEAD
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#624#625#0" expanded="true" />
@@ -3638,10 +3876,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="8" />
+=======
+>>>>>>> AndroidTest27
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ryota/androidtest31/DBInsert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -3683,5 +3924,7 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> AndroidTest27
   </component>
 </project>

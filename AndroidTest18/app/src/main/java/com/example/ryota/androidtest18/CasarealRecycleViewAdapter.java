@@ -9,7 +9,11 @@ import android.view.ViewGroup;
 import java.util.List;
 
 class CasarealRecycleViewAdapter extends RecyclerView.Adapter<CasarealViewHolder> {
+<<<<<<< HEAD:AndroidTest18/app/src/main/java/com/example/ryota/androidtest18/CasarealRecycleViewAdapter.java
     private final List<RowData> list;
+=======
+    private  List<RowData> list;
+>>>>>>> AndroidTest27:AndroidTest26/app/src/main/java/com/example/ryota/androidtest26/CasarealRecycleViewAdapter.java
 
     CasarealRecycleViewAdapter(List<RowData> list) {
         super();
@@ -25,8 +29,13 @@ class CasarealRecycleViewAdapter extends RecyclerView.Adapter<CasarealViewHolder
 
     @Override
     public void onBindViewHolder(@NonNull CasarealViewHolder holder, int position) {
+<<<<<<< HEAD:AndroidTest18/app/src/main/java/com/example/ryota/androidtest18/CasarealRecycleViewAdapter.java
         holder.textView.setText(this.list.get(position).getTitle());
         holder.imageView.setImageDrawable(this.list.get(position).getImage());
+=======
+    holder.getTitle().setText(this.list.get(position).getTitle());
+    holder.getLimit().setText(this.list.get(position).getLimit());
+>>>>>>> AndroidTest27:AndroidTest26/app/src/main/java/com/example/ryota/androidtest26/CasarealRecycleViewAdapter.java
     }
 
     @Override

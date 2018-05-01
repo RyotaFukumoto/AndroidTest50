@@ -9,6 +9,7 @@ package android.support.graphics.drawable;
 public final class R {
     public static final class attr {
 <<<<<<< HEAD
+<<<<<<< HEAD
         public static final int font = 0x7f030092;
         public static final int fontProviderAuthority = 0x7f030094;
         public static final int fontProviderCerts = 0x7f030095;
@@ -19,6 +20,8 @@ public final class R {
         public static final int fontStyle = 0x7f03009a;
         public static final int fontWeight = 0x7f03009b;
 =======
+=======
+>>>>>>> AndroidTest27
         public static final int font = 0x7f030098;
         public static final int fontProviderAuthority = 0x7f03009a;
         public static final int fontProviderCerts = 0x7f03009b;
@@ -28,7 +31,10 @@ public final class R {
         public static final int fontProviderQuery = 0x7f03009f;
         public static final int fontStyle = 0x7f0300a0;
         public static final int fontWeight = 0x7f0300a1;
+<<<<<<< HEAD
 >>>>>>> AndroidTest28
+=======
+>>>>>>> AndroidTest27
     }
     public static final class bool {
         public static final int abc_action_bar_embed_tabs = 0x7f040000;
@@ -112,6 +118,7 @@ public final class R {
         public static final int italic = 0x7f08005a;
         public static final int line1 = 0x7f08005e;
         public static final int line3 = 0x7f08005f;
+<<<<<<< HEAD
         public static final int normal = 0x7f08006c;
         public static final int notification_background = 0x7f08006d;
         public static final int notification_main_column = 0x7f08006e;
@@ -124,6 +131,19 @@ public final class R {
         public static final int time = 0x7f0800b1;
         public static final int title = 0x7f0800b2;
 >>>>>>> AndroidTest28
+=======
+        public static final int normal = 0x7f08006b;
+        public static final int notification_background = 0x7f08006c;
+        public static final int notification_main_column = 0x7f08006d;
+        public static final int notification_main_column_container = 0x7f08006e;
+        public static final int right_icon = 0x7f08007a;
+        public static final int right_side = 0x7f08007b;
+        public static final int tag_transition_group = 0x7f0800a5;
+        public static final int text = 0x7f0800a6;
+        public static final int text2 = 0x7f0800a7;
+        public static final int time = 0x7f0800b0;
+        public static final int title = 0x7f0800b1;
+>>>>>>> AndroidTest27
     }
     public static final class integer {
         public static final int status_bar_notification_info_maxnum = 0x7f090009;
@@ -154,10 +174,14 @@ public final class R {
     }
     public static final class styleable {
 <<<<<<< HEAD
+<<<<<<< HEAD
         public static final int[] FontFamily = { 0x7f030094, 0x7f030095, 0x7f030096, 0x7f030097, 0x7f030098, 0x7f030099 };
 =======
         public static final int[] FontFamily = { 0x7f03009a, 0x7f03009b, 0x7f03009c, 0x7f03009d, 0x7f03009e, 0x7f03009f };
 >>>>>>> AndroidTest28
+=======
+        public static final int[] FontFamily = { 0x7f03009a, 0x7f03009b, 0x7f03009c, 0x7f03009d, 0x7f03009e, 0x7f03009f };
+>>>>>>> AndroidTest27
         public static final int FontFamily_fontProviderAuthority = 0;
         public static final int FontFamily_fontProviderCerts = 1;
         public static final int FontFamily_fontProviderFetchStrategy = 2;
@@ -165,10 +189,14 @@ public final class R {
         public static final int FontFamily_fontProviderPackage = 4;
         public static final int FontFamily_fontProviderQuery = 5;
 <<<<<<< HEAD
+<<<<<<< HEAD
         public static final int[] FontFamilyFont = { 0x01010532, 0x01010533, 0x0101053f, 0x7f030092, 0x7f03009a, 0x7f03009b };
 =======
         public static final int[] FontFamilyFont = { 0x01010532, 0x01010533, 0x0101053f, 0x7f030098, 0x7f0300a0, 0x7f0300a1 };
 >>>>>>> AndroidTest28
+=======
+        public static final int[] FontFamilyFont = { 0x01010532, 0x01010533, 0x0101053f, 0x7f030098, 0x7f0300a0, 0x7f0300a1 };
+>>>>>>> AndroidTest27
         public static final int FontFamilyFont_android_font = 0;
         public static final int FontFamilyFont_android_fontWeight = 1;
         public static final int FontFamilyFont_android_fontStyle = 2;
