@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest48/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml",
+            "outputFile": "/Users/ryota/Desktop/AndroidTest50/AndroidTest48/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml",
             "map": [
                 {
                     "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.0.aar/321253f714efdb47f9972013e283a471/res/values-pa/values.xml",
