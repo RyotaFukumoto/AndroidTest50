@@ -24,7 +24,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name="com.example.ryota.androidtest26.NewToDoActivity" />
+=======
+        <activity android:name="com.example.ryota.androidtest26.DatabaseInsert" />
+>>>>>>> AndroidTest31
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
