@@ -9,10 +9,14 @@
     </facet>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="NewModuleRootManager" inherit-compiler-output="true">
 =======
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="true">
 >>>>>>> AndroidTest40
+=======
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="true">
+>>>>>>> AndroidTest46
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.gradle" />

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="/Users/ryota/Desktop/AndroidTest50/AndroidTest39/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/ryota/Desktop/AndroidTest50/AndroidTest39/app/src/debug/jniLibs"/></dataSet></merger>
 =======
 <merger version="3"><dataSet config="main"><source path="/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest39/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest39/app/src/debug/jniLibs"/></dataSet></merger>
 >>>>>>> AndroidTest40
+=======
+<merger version="3"><dataSet config="main"><source path="/Users/ryota/Desktop/AndroidTest50/AndroidTest39/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/ryota/Desktop/AndroidTest50/AndroidTest39/app/src/debug/jniLibs"/></dataSet></merger>
+>>>>>>> AndroidTest46

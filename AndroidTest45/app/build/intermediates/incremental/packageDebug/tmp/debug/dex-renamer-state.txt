@@ -1,4 +1,14 @@
+<<<<<<< HEAD
 #Mon Apr 30 17:48:51 JST 2018
 base.0=/Users/ryota/Desktop/AndroidTest50/AndroidTest45/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
+=======
+#Mon Apr 23 13:20:50 JST 2018
+base.0=/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest45/app/build/intermediates/transforms/dexMerger/debug/12
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest45/app/build/intermediates/transforms/dexMerger/debug/11
+>>>>>>> AndroidTest46

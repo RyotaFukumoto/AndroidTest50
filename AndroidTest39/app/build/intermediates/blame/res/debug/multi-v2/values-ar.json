@@ -1,6 +1,7 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest39/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml",
             "map": [
                 {
@@ -19,6 +20,12 @@
                 {
                     "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8064a1118012dbea71c0f2374b38656f/res/values-ar/values-ar.xml",
 >>>>>>> AndroidTest40
+=======
+            "outputFile": "/Users/ryota/Desktop/AndroidTest50/AndroidTest39/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml",
+            "map": [
+                {
+                    "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/63294feedf565575bc4c168a646045fa/res/values-ar/values-ar.xml",
+>>>>>>> AndroidTest46
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -34,6 +41,9 @@
                         "endOffsets": "2014"
                     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> AndroidTest46
                 },
                 {
                     "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b1962e590072a8650a10ecba1765053a/res/values-ar/values-ar.xml",
@@ -44,8 +54,11 @@
                         "endColumns": "116,103,108,81,100,113,78,78,78,104,100,95,107,102,102,154,96,80",
                         "endOffsets": "217,321,430,512,613,727,806,885,964,1069,1170,1266,1374,1477,1580,1735,1832,1913"
                     }
+<<<<<<< HEAD
 =======
 >>>>>>> AndroidTest40
+=======
+>>>>>>> AndroidTest46
                 }
             ]
         }

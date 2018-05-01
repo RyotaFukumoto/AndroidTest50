@@ -30,9 +30,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         android:testOnly="true"
 >>>>>>> AndroidTest40
+=======
+>>>>>>> AndroidTest46
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.ryota.androidtest39.MainActivity" >
             <intent-filter>

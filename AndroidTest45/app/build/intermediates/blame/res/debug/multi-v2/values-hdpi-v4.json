@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "/Users/ryota/Desktop/AndroidTest50/AndroidTest45/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+=======
+            "outputFile": "/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest45/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+>>>>>>> AndroidTest46
             "map": [
                 {
                     "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b1962e590072a8650a10ecba1765053a/res/values-hdpi-v4/values-hdpi-v4.xml",

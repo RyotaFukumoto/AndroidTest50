@@ -1686,10 +1686,14 @@ public final class R {
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
 <<<<<<< HEAD
+<<<<<<< HEAD
      * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
 =======
      * <tr><td>direct</td><td>1</td><td></td></tr>
 >>>>>>> AndroidTest40
+=======
+     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
+>>>>>>> AndroidTest46
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>
@@ -7625,10 +7629,14 @@ public final class R {
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
 <<<<<<< HEAD
+<<<<<<< HEAD
      * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
 =======
      * <tr><td>direct</td><td>1</td><td></td></tr>
 >>>>>>> AndroidTest40
+=======
+     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
+>>>>>>> AndroidTest46
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>

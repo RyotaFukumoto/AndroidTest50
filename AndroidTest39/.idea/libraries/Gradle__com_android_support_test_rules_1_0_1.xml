@@ -2,12 +2,17 @@
   <library name="Gradle: com.android.support.test:rules-1.0.1">
     <CLASSES>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rules-1.0.1.aar/0cb9c4592f6f3c8a4728813eb898f1cd/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rules-1.0.1.aar/0cb9c4592f6f3c8a4728813eb898f1cd/res" />
 =======
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rules-1.0.1.aar/fab80695e6ae58a2a6ca2e93f5ab3c76/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rules-1.0.1.aar/fab80695e6ae58a2a6ca2e93f5ab3c76/res" />
 >>>>>>> AndroidTest40
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rules-1.0.1.aar/0cb9c4592f6f3c8a4728813eb898f1cd/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rules-1.0.1.aar/0cb9c4592f6f3c8a4728813eb898f1cd/res" />
+>>>>>>> AndroidTest46
     </CLASSES>
     <JAVADOC />
     <SOURCES>

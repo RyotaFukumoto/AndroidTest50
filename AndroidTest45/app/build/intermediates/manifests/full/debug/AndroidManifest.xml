@@ -9,7 +9,10 @@
         android:targetSdkVersion="27" />
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+=======
+>>>>>>> AndroidTest46
 
     <application
         android:allowBackup="true"
