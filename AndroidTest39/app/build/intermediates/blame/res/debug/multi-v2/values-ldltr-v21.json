@@ -4,7 +4,11 @@
             "outputFile": "/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest39/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b1962e590072a8650a10ecba1765053a/res/values-ldltr-v21/values-ldltr-v21.xml",
+=======
+                    "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ce6b88132770f8739f106bc4ab9f4113/res/values-ldltr-v21/values-ldltr-v21.xml",
+>>>>>>> AndroidTest40
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

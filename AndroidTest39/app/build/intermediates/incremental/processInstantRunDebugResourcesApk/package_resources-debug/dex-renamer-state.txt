@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 #Wed Apr 25 13:58:38 JST 2018
+=======
+#Sun Apr 22 16:26:15 JST 2018
+>>>>>>> AndroidTest40
