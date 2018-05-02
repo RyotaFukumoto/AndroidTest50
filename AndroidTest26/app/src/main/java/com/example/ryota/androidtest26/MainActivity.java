@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 
 import java.util.ArrayList;
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
     private RecyclerAdapter adapter;
     private int position;
     private RowData rowData;
+    private DatabaseInsertActivity databaseInsertActivity;
 
 
 
@@ -27,7 +29,11 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        databaseInsertActivity = new DatabaseInsertActivity();
 
+
+        databaseInsertActivity.recreate();
+        todoList = databaseInsertActivity.getTodoList();
         recyclerViewCreat();
 
 
@@ -45,9 +51,8 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
 
     private void recyclerViewCreat(){
         RecyclerView rv = findViewById(R.id.casarealRecyclerView);
-        //adapter = new RecyclerAdapter(this,todoList);
 
-        this.adapter = new RecyclerAdapter(this, this.todoList, this);
+        this.adapter = new RecyclerAdapter(this,todoList, this);
 
         LinearLayoutManager llm = new LinearLayoutManager(this);
 
@@ -59,37 +64,6 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
 
         rv.setAdapter(this.adapter);
     }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        this.todoList = new ArrayList<>();
-        //rawQueryメソッドでデータを取得
-        DatabaseHelper dbHelper = new DatabaseHelper(this);
-        SQLiteDatabase db = dbHelper.getReadableDatabase();
-        try {
-            String sql = "select * from " + "tr_todo where " + "delete_flg" + " = 0" +
-                    " order by limit_date" + " asc ";
-            Cursor cursor = db.rawQuery(sql, null);
-            //TextViewに表示
-            StringBuilder text = new StringBuilder();
-            while (cursor.moveToNext()) {
-                int todoID = cursor.getInt(0);
-                String title = cursor.getString(1);
-                String content = cursor.getString(2);
-                String limit = cursor.getString(5);
-
-                RowData todo = new RowData(todoID, title, content, limit);
-
-                this.todoList.add(todo);
-            }
-        } finally {
-            db.close();
-        }
-        this.adapter.setList(this.todoList);
-        this.adapter.notifyDataSetChanged();
-    }
-
 
 
 
@@ -129,7 +103,10 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
         } finally {
             db.close();
         }
-        onResume();
+        databaseInsertActivity.recreate();
+        this.todoList = databaseInsertActivity.getTodoList();
+        this.adapter.setList(this.todoList);
+        this.adapter.notifyDataSetChanged();
 
     }
 }

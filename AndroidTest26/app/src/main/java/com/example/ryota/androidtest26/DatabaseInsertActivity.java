@@ -3,6 +3,7 @@ package com.example.ryota.androidtest26;
 import android.app.DatePickerDialog;
 import android.content.ContentValues;
 import android.content.Intent;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -16,7 +17,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
 
 public class DatabaseInsertActivity extends AppCompatActivity {
 
@@ -27,6 +30,14 @@ public class DatabaseInsertActivity extends AppCompatActivity {
     private SQLiteDatabase db;
     private DateFormater dateFormater;
     private int count;
+    private RecyclerAdapter adapter;
+
+    public List<RowData> getTodoList() {
+        return todoList;
+    }
+
+    private List<RowData> todoList = new ArrayList<>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -91,7 +102,7 @@ public class DatabaseInsertActivity extends AppCompatActivity {
                             DatePickerDialog datePickerDialog = new DatePickerDialog(DatabaseInsertActivity.this, new DatePickerDialog.OnDateSetListener() {
                                 @Override
                                 public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
-                                    //setした日付を取得して表示
+
 
                                     DatabaseInsertActivity.this.textView.setText(String.format("%d/%02d/%02d", year, month + 1, dayOfMonth));
                                 }
@@ -174,6 +185,33 @@ public class DatabaseInsertActivity extends AppCompatActivity {
         finish();
     }
 
+    public void reading() {
+
+        this.todoList = new ArrayList<>();
+
+        DatabaseHelper dbHelper = new DatabaseHelper(this);
+        SQLiteDatabase db = dbHelper.getReadableDatabase();
+        try {
+            String sql = "select * from " + "tr_todo where " + "delete_flg" + " = 0" +
+                    " order by limit_date" + " asc ";
+            Cursor cursor = db.rawQuery(sql, null);
+            StringBuilder text = new StringBuilder();
+            while (cursor.moveToNext()) {
+                int todoID = cursor.getInt(0);
+                String title = cursor.getString(1);
+                String content = cursor.getString(2);
+                String limit = cursor.getString(5);
+
+                RowData todo = new RowData(todoID, title, content, limit);
+
+                this.todoList.add(todo);
+            }
+        } finally {
+            db.close();
+        }
+
+
+    }
 
 
 }

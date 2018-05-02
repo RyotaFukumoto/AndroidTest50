@@ -9,21 +9,22 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.CustomViewHolder> {
     private final Context context;
-    private List<RowData> list;
+    private List<RowData> list = new ArrayList<>();
     private View.OnClickListener listener;
 
     private final RowOnClickedListener rowOnClickedListener;
 
 
 
-    public RecyclerAdapter(Context context, List<RowData> list, RowOnClickedListener listener) {
+    public RecyclerAdapter(Context context, List<RowData> list,RowOnClickedListener listener) {
         super();
         this.context = context;
-        this.list = list;
+        this.list = new ArrayList<>();
         this.rowOnClickedListener = listener;
     }
 
