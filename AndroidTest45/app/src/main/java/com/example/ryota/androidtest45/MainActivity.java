@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
             locationStart();
 
             this.locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,
-                    1000L, 50.0F, this);
+                    500, 1, this);
 
         } else {
             ActivityCompat.requestPermissions(this,
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         }
 
         this.locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,
-                1000L, 50.0F, this);
+                500, 1, this);
 
     }
 
