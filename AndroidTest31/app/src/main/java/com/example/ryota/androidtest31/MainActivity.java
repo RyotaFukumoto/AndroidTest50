@@ -1,67 +1,57 @@
 package com.example.ryota.androidtest31;
 
-import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.View;
 import android.widget.TextView;
 
-import com.example.ryota.androidtest31.api.LicensorWeatherWebService;
+import com.example.ryota.androidtest31.api.WeatherApi;
 import com.example.ryota.androidtest31.api.model.Forecast;
 import com.example.ryota.androidtest31.api.model.Weather;
 
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements WeatherAPI.WeatherApiCallback{
+public class MainActivity extends AppCompatActivity implements WeatherApi.WeatherApiCallback{
 
+    private WeatherApi weatherApi;
+    private int position;
+    private ForecastRecyclerViewAdapter adapter;
+    private TextView description;
 
-    private WeatherAPI wApi;
-    private LicensorWeatherWebService service;
-    private WeatherRecyclerViewAdapter adapter;
-    private TextView telop;
-    private RowViewHolder holder;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        telop = findViewById(R.id.textView2);
-        adapter = new WeatherRecyclerViewAdapter();
-        holder = new RowViewHolder();
 
-        RecyclerView recyclerView = findViewById(R.id.recyclreView);
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        RecyclerView recyclerView = (RecyclerView)findViewById(R.id.recyclreView);
+        this.description = (TextView) findViewById(R.id.textView2);
+        this.adapter = new ForecastRecyclerViewAdapter();
 
+        LinearLayoutManager llm = new LinearLayoutManager(this);
         recyclerView.setHasFixedSize(true);
-        recyclerView.setLayoutManager(layoutManager);
-        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(llm);
+        recyclerView.setAdapter(this.adapter);
 
-        wApi = new WeatherAPI(this);
-        getWeather();
-
+        this.weatherApi = new WeatherApi(this);
+        getForecast();
     }
-
-
-
-    void getWeather(){
-        wApi.weatherGet();
-    }
-
-
     @Override
     public void success(Weather weather) {
         if (weather != null) {
-            telop.setText(weather.getDescription().getText());
-            List<Forecast> list = weather.getForecasts();
+            this.description.setText(weather.getDescription().getText());
+            List<Forecast> forecasts = weather.getForecasts();
 
-            adapter.listSetter(list);
-            adapter.notifyDataSetChanged();
+            this.adapter.setForecasts(forecasts);
+            this.adapter.notifyDataSetChanged();
         }
     }
-
     @Override
     public void failed() {
 
     }
+    private void getForecast(){
+        this.weatherApi.getWeather();
+    }
+
 }

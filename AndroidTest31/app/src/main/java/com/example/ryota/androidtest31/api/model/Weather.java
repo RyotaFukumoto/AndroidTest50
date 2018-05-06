@@ -3,29 +3,19 @@
 package com.example.ryota.androidtest31.api.model;
 
 
-import com.google.gson.annotations.SerializedName;
-
+import java.util.Collections;
 import java.util.List;
 
 /**
  * An Gson class for Weather
  */
 public class Weather {
-    @SerializedName("forecasts")
-    public List<Forecast> forecasts;
-    @SerializedName("location")
-    public Location location;
-    @SerializedName("description")
-    public Description description;
-
-    public Weather(List<Forecast> forecasts, Location location,Description description) {
-        this.forecasts = forecasts;
-        this.location = location;
-        this.description = description;
-    }
+    private List<Forecast> forecasts;
+    private Location location;
+    private Description description;
 
     public List<Forecast> getForecasts() {
-        return this.forecasts;
+        return Collections.unmodifiableList(this.forecasts);
     }
 
     public Location getLocation() {
@@ -34,5 +24,17 @@ public class Weather {
 
     public Description getDescription() {
         return this.description;
+    }
+
+    public void setForecasts(List<Forecast> forecasts) {
+        this.forecasts = forecasts;
+    }
+
+    public void setLocation(Location location) {
+        this.location = location;
+    }
+
+    public void setDescription(Description description) {
+        this.description = description;
     }
 }

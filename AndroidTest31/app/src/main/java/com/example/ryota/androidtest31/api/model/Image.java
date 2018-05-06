@@ -1,44 +1,52 @@
-/**
- * Copyright (C) 2016 Programming Java Android Development Project
- * Programming Java is
- * <p>
- * http://java-lang-programming.com/
- * <p>
- * Gson Generator version : 1.0.0
- * <p>
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- * <p>
- * http://www.apache.org/licenses/LICENSE-2.0
- * <p>
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 package com.example.ryota.androidtest31.api.model;
-
-import com.google.gson.annotations.SerializedName;
 
 /**
  * An Gson class for Weather
  */
 public class Image {
-    @SerializedName("url")
-    public String url;
+    private String width;
+    private String link;
+    private String url;
+    private String title;
+    private String height;
 
-    public Image() {
+    public String getWidth() {
+        return this.width;
     }
 
-    public Image(String url) {
-        this.url = url;
+    public String getLink() {
+        return this.link;
     }
 
     public String getUrl() {
         return this.url;
     }
-}
 
+    public String getTitle() {
+        return this.title;
+    }
+
+    public String getHeight() {
+        return this.height;
+    }
+
+    public void setWidth(String width) {
+        this.width = width;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setHeight(String height) {
+        this.height = height;
+    }
+}
