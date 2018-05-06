@@ -12,7 +12,7 @@ import com.example.ryota.androidtest31.api.model.Forecast;
 
 import java.util.ArrayList;
 import java.util.List;
-class ForecastRecyclerViewAdapter extends RecyclerView.Adapter<ForecastViewHolder> {
+class WeatherRecyclerViewAdapter extends RecyclerView.Adapter<WeatherViewHolder> {
     private Context context;
     private List<Forecast> forecasts = new ArrayList<>();
 
@@ -22,14 +22,14 @@ class ForecastRecyclerViewAdapter extends RecyclerView.Adapter<ForecastViewHolde
 
     @NonNull
     @Override
-    public ForecastViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public WeatherViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View inflate = LayoutInflater.from(parent.getContext()).inflate(R.layout.row, parent,false);
         this.context = parent.getContext();
-        return new ForecastViewHolder(inflate);
+        return new WeatherViewHolder(inflate);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ForecastViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull WeatherViewHolder holder, int position) {
         holder.getDateTextView().setText(this.forecasts.get(position).getDateLabel());
         holder.getForecastTextView().setText(this.forecasts.get(position).getTelop());
         Glide.with(this.context).load(this.forecasts.get(position).getImage().getUrl()).into(holder.getIconImageView());

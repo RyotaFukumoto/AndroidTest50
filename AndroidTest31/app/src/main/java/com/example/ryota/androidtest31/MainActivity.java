@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements WeatherApi.Weathe
 
     private WeatherApi weatherApi;
     private int position;
-    private ForecastRecyclerViewAdapter adapter;
+    private WeatherRecyclerViewAdapter adapter;
     private TextView description;
     private ForecastDatabase forecastDB;
 
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements WeatherApi.Weathe
 
         RecyclerView recyclerView = (RecyclerView)findViewById(R.id.recyclreView);
         this.description = (TextView) findViewById(R.id.textView2);
-        this.adapter = new ForecastRecyclerViewAdapter();
+        this.adapter = new WeatherRecyclerViewAdapter();
 
         LinearLayoutManager llm = new LinearLayoutManager(this);
         recyclerView.setHasFixedSize(true);
