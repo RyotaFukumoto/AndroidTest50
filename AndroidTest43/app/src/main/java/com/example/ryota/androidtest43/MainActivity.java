@@ -23,11 +23,13 @@ public class MainActivity extends AppCompatActivity implements MusicListRecycleV
         RecyclerView rv = (RecyclerView) findViewById(R.id.recyclerView);
         this.adapter = new MusicListRecycleViewAdapter();
         this.adapter.setListener(this);
-
         LinearLayoutManager llm = new LinearLayoutManager(this);
         rv.setHasFixedSize(true);
+        rv.getItemAnimator().setChangeDuration(0);
+        
         rv.setLayoutManager(llm);
         rv.setAdapter(this.adapter);
+
 
         this.musicList = new ArrayList<>();
         this.musicList.add(new RowData("acoustic",R.raw.acoustic));
@@ -63,6 +65,11 @@ public class MainActivity extends AppCompatActivity implements MusicListRecycleV
 
     private void reload(){
         this.adapter.notifyItemRangeChanged(0, this.musicList.size());
+    }
+
+    public void onCompletion(MediaPlayer mp) {
+        Log.i("System.out","finished");
+        adapter.complete();
     }
 
 }
