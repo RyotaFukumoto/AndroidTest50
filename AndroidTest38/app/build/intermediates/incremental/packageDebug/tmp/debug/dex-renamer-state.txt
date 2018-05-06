@@ -1,0 +1,4 @@
+#Sun May 06 00:38:20 JST 2018
+base.0=/Users/ryota/Desktop/AndroidTest50/AndroidTest38/app/build/intermediates/transforms/dexMerger/debug/59
+path.0=classes.dex
+renamed.0=classes.dex
