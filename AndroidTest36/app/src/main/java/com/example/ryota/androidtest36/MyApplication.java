@@ -8,7 +8,7 @@ import com.twitter.sdk.android.core.Twitter;
 import com.twitter.sdk.android.core.TwitterAuthConfig;
 import com.twitter.sdk.android.core.TwitterConfig;
 
-public class MyApplication extends Application {
+class MyApplication extends Application {
     private static final String CONSUMER_KEY = "BrQBtGdXUZVm4gzqf25K0CtUm";
     private static final String CONSUMER_SECRET = "iYO4WvYL0QUDwSdAgainxZy3WHNELkAsoWavA5ojjY0o14yYA1";
 

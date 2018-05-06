@@ -19,13 +19,15 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        loginButton = (TwitterLoginButton) findViewById(R.id.login_button);
-        loginButton.setCallback(new Callback<TwitterSession>() {
+        this.loginButton = (TwitterLoginButton) findViewById(R.id.login_button);
+        this.loginButton.setCallback(new Callback<TwitterSession>() {
             @Override
             public void success(Result<TwitterSession> result) {
                 // Do something with result, which provides a TwitterSession for making API calls
 
                 Toast toast = Toast.makeText(LoginActivity.this, "ログイン成功", Toast.LENGTH_LONG);
+                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                startActivity(intent);
                 toast.show();
             }
 
@@ -44,6 +46,6 @@ public class LoginActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
 
         // Pass the activity result to the login button.
-        loginButton.onActivityResult(requestCode, resultCode, data);
+        this.loginButton.onActivityResult(requestCode, resultCode, data);
     }
 }
