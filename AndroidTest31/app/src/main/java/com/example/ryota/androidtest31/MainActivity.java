@@ -42,7 +42,9 @@ public class MainActivity extends AppCompatActivity implements WeatherApi.Weathe
         recyclerView.setAdapter(this.adapter);
 
         this.weatherApi = new WeatherApi(this);
-        this.forecastDB = Room.databaseBuilder(getApplicationContext(),ForecastDatabase.class, "forecastDatabase").build();
+        this.forecastDB = Room.databaseBuilder(getApplicationContext(),
+                ForecastDatabase.class,
+                "forecastDatabase").build();
         getForecast();
     }
 

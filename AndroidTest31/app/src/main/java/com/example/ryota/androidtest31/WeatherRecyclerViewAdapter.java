@@ -32,7 +32,11 @@ class WeatherRecyclerViewAdapter extends RecyclerView.Adapter<WeatherViewHolder>
     public void onBindViewHolder(@NonNull WeatherViewHolder holder, int position) {
         holder.getDateTextView().setText(this.forecasts.get(position).getDateLabel());
         holder.getForecastTextView().setText(this.forecasts.get(position).getTelop());
-        Glide.with(this.context).load(this.forecasts.get(position).getImage().getUrl()).into(holder.getIconImageView());
+        Glide.with(this.context).load(this.forecasts
+                .get(position)
+                .getImage()
+                .getUrl())
+                .into(holder.getIconImageView());
 
     }
 
