@@ -5,12 +5,12 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class ForecastViewHolder extends RecyclerView.ViewHolder {
+public class WeatherViewHolder extends RecyclerView.ViewHolder {
     private ImageView iconImageView;
     private TextView dateTextView;
     private TextView forecastTextView;
 
-    public ForecastViewHolder(View itemView) {
+    public WeatherViewHolder(View itemView) {
         super(itemView);
 
         this.iconImageView = (ImageView) itemView.findViewById(R.id.imageView);
