@@ -1,8 +1,6 @@
 package com.example.ryota.androidtest31.api.model;
 
-/**
- * An Gson class for Weather
- */
+
 public class Image {
     private String width;
     private String link;

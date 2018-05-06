@@ -5,6 +5,8 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
+
+import android.support.annotation.NonNull;
 import android.util.Log;
 
 import com.example.ryota.androidtest31.api.model.Weather;
@@ -34,12 +36,12 @@ public class WeatherApi {
                 .build();
 
         LicensorWeatherWebService service = retrofit.create(LicensorWeatherWebService.class);
-        Call<Weather> call = service.webservice("130010");
+        Call<Weather> call = service.webservice(130010);
 
 
         call.enqueue(new Callback<Weather>() {
             @Override
-            public void onResponse(Call<Weather> call, Response<Weather> response) {
+            public void onResponse(@NonNull Call<Weather> call, @NonNull Response<Weather> response) {
                 Weather weather = response.body();
                 if (weather != null) {
                     WeatherApi.this.callback.success(weather);
@@ -50,9 +52,9 @@ public class WeatherApi {
             }
 
             @Override
-            public void onFailure(Call<Weather> call, Throwable t) {
+            public void onFailure(@NonNull Call<Weather> call, @NonNull Throwable t) {
                 WeatherApi.this.callback.failed();
-                Log.d(TAG, "error");
+
             }
         });
     }

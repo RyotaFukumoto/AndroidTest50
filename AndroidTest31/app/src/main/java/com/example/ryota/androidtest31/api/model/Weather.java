@@ -6,9 +6,7 @@ package com.example.ryota.androidtest31.api.model;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * An Gson class for Weather
- */
+
 public class Weather {
     private List<Forecast> forecasts;
     private Location location;

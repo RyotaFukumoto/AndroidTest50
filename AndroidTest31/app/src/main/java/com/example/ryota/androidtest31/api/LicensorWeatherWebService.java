@@ -9,5 +9,5 @@ import retrofit2.http.Query;
 
 interface LicensorWeatherWebService {
     @GET("v1")
-    Call<Weather> webservice(@Query("city") String city);
+    Call<Weather> webservice(@Query("city") int city);
 }

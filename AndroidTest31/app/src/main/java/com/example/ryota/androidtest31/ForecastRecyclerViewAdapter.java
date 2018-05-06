@@ -30,7 +30,7 @@ class ForecastRecyclerViewAdapter extends RecyclerView.Adapter<ForecastViewHolde
 
     @Override
     public void onBindViewHolder(@NonNull ForecastViewHolder holder, int position) {
-        holder.getDateTextView().setText(this.forecasts.get(position).getDate());
+        holder.getDateTextView().setText(this.forecasts.get(position).getDateLabel());
         holder.getForecastTextView().setText(this.forecasts.get(position).getTelop());
         Glide.with(this.context).load(this.forecasts.get(position).getImage().getUrl()).into(holder.getIconImageView());
 

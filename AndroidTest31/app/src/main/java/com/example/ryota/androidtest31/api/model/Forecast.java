@@ -1,9 +1,13 @@
 package com.example.ryota.androidtest31.api.model;
 
-/**
- * An Gson class for Weather
- */
+import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.PrimaryKey;
+
+@Entity
+
 public class Forecast {
+    @PrimaryKey(autoGenerate = true)
+    private long uid;
     private String dateLabel;
     private String telop;
     private String date;
@@ -39,5 +43,13 @@ public class Forecast {
 
     public Image getImage() {
         return this.image;
+    }
+
+    public long getUid() {
+        return this.uid;
+    }
+
+    public void setUid(long uid) {
+        this.uid = uid;
     }
 }
