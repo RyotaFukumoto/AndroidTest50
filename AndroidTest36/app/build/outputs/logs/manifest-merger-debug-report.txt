@@ -1,0 +1,151 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d6052d13985c22f914f32453585188ca/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/82ef296e08fb4efed4b5836ca8fa3520/AndroidManifest.xml:2:1-11:12
+MERGED from [com.twitter.sdk.android:tweet-composer:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.2.0.aar/88263536ebe66fda6c72ba08f01566c6/AndroidManifest.xml:18:1-39:12
+MERGED from [com.twitter.sdk.android:twitter-core:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/twitter-core-3.2.0.aar/0f124152b287406e5c4c042ba2e681dc/AndroidManifest.xml:18:1-35:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/48ca8f9df7fc3c0eba371609fe015dae/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/b1da8fd6adb42096562ce0cd4969abc7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6026cbdf070c5dea36ea8c715f747bd4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e2178a93e0a7f0b3afd17493f41871a7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/2b530dd781968711549047196778c5c9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/73a18e9eecc375a5aa0ebfd995ced669/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/343372414fecd67c53ff1cfa4d4e56df/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/2703d072ff2c1f17f09eb5213014070e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f1379b824ae0fdf0be2d7ff818eb1a41/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3aa840899ec1afc9f88ee0d0dd5ecd7f/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:3:5-46
+		INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:5:5-22:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/82ef296e08fb4efed4b5836ca8fa3520/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/82ef296e08fb4efed4b5836ca8fa3520/AndroidManifest.xml:9:5-20
+MERGED from [com.twitter.sdk.android:tweet-composer:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.2.0.aar/88263536ebe66fda6c72ba08f01566c6/AndroidManifest.xml:27:5-37:19
+MERGED from [com.twitter.sdk.android:tweet-composer:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.2.0.aar/88263536ebe66fda6c72ba08f01566c6/AndroidManifest.xml:27:5-37:19
+MERGED from [com.twitter.sdk.android:twitter-core:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/twitter-core-3.2.0.aar/0f124152b287406e5c4c042ba2e681dc/AndroidManifest.xml:27:5-33:19
+MERGED from [com.twitter.sdk.android:twitter-core:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/twitter-core-3.2.0.aar/0f124152b287406e5c4c042ba2e681dc/AndroidManifest.xml:27:5-33:19
+	android:supportsRtl
+		ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:12:9-40
+	android:name
+		ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:6:9-38
+activity#com.example.ryota.androidtest36.MainActivity
+ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:13:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:17:27-74
+activity#com.example.ryota.androidtest36.LoginActivity
+ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:20:9-21:20
+	android:name
+		ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml:20:19-48
+uses-sdk
+INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d6052d13985c22f914f32453585188ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d6052d13985c22f914f32453585188ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/82ef296e08fb4efed4b5836ca8fa3520/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/82ef296e08fb4efed4b5836ca8fa3520/AndroidManifest.xml:5:5-7:41
+MERGED from [com.twitter.sdk.android:tweet-composer:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.2.0.aar/88263536ebe66fda6c72ba08f01566c6/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-composer:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.2.0.aar/88263536ebe66fda6c72ba08f01566c6/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter-core:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/twitter-core-3.2.0.aar/0f124152b287406e5c4c042ba2e681dc/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter-core:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/twitter-core-3.2.0.aar/0f124152b287406e5c4c042ba2e681dc/AndroidManifest.xml:23:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/48ca8f9df7fc3c0eba371609fe015dae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/48ca8f9df7fc3c0eba371609fe015dae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/b1da8fd6adb42096562ce0cd4969abc7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/b1da8fd6adb42096562ce0cd4969abc7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6026cbdf070c5dea36ea8c715f747bd4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6026cbdf070c5dea36ea8c715f747bd4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e2178a93e0a7f0b3afd17493f41871a7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e2178a93e0a7f0b3afd17493f41871a7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/2b530dd781968711549047196778c5c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/2b530dd781968711549047196778c5c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/73a18e9eecc375a5aa0ebfd995ced669/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/73a18e9eecc375a5aa0ebfd995ced669/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/343372414fecd67c53ff1cfa4d4e56df/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/343372414fecd67c53ff1cfa4d4e56df/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/2703d072ff2c1f17f09eb5213014070e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/2703d072ff2c1f17f09eb5213014070e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f1379b824ae0fdf0be2d7ff818eb1a41/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f1379b824ae0fdf0be2d7ff818eb1a41/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3aa840899ec1afc9f88ee0d0dd5ecd7f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3aa840899ec1afc9f88ee0d0dd5ecd7f/AndroidManifest.xml:20:5-44
+INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [com.twitter.sdk.android:tweet-composer:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.2.0.aar/88263536ebe66fda6c72ba08f01566c6/AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:twitter-core:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/twitter-core-3.2.0.aar/0f124152b287406e5c4c042ba2e681dc/AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:twitter-core:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/twitter-core-3.2.0.aar/0f124152b287406e5c4c042ba2e681dc/AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.2.0.aar/88263536ebe66fda6c72ba08f01566c6/AndroidManifest.xml:25:22-64
+activity#com.twitter.sdk.android.tweetcomposer.ComposerActivity
+ADDED from [com.twitter.sdk.android:tweet-composer:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.2.0.aar/88263536ebe66fda6c72ba08f01566c6/AndroidManifest.xml:28:9-31:71
+	android:windowSoftInputMode
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.2.0.aar/88263536ebe66fda6c72ba08f01566c6/AndroidManifest.xml:31:13-68
+	android:exported
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.2.0.aar/88263536ebe66fda6c72ba08f01566c6/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.2.0.aar/88263536ebe66fda6c72ba08f01566c6/AndroidManifest.xml:29:13-82
+service#com.twitter.sdk.android.tweetcomposer.TweetUploadService
+ADDED from [com.twitter.sdk.android:tweet-composer:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.2.0.aar/88263536ebe66fda6c72ba08f01566c6/AndroidManifest.xml:33:9-36:40
+	android:enabled
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.2.0.aar/88263536ebe66fda6c72ba08f01566c6/AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.2.0.aar/88263536ebe66fda6c72ba08f01566c6/AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.2.0.aar/88263536ebe66fda6c72ba08f01566c6/AndroidManifest.xml:34:13-84
+activity#com.twitter.sdk.android.core.identity.OAuthActivity
+ADDED from [com.twitter.sdk.android:twitter-core:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/twitter-core-3.2.0.aar/0f124152b287406e5c4c042ba2e681dc/AndroidManifest.xml:28:9-32:40
+	android:excludeFromRecents
+		ADDED from [com.twitter.sdk.android:twitter-core:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/twitter-core-3.2.0.aar/0f124152b287406e5c4c042ba2e681dc/AndroidManifest.xml:31:13-46
+	android:exported
+		ADDED from [com.twitter.sdk.android:twitter-core:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/twitter-core-3.2.0.aar/0f124152b287406e5c4c042ba2e681dc/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-core:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/twitter-core-3.2.0.aar/0f124152b287406e5c4c042ba2e681dc/AndroidManifest.xml:30:13-59
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-core:3.2.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/twitter-core-3.2.0.aar/0f124152b287406e5c4c042ba2e681dc/AndroidManifest.xml:29:13-79

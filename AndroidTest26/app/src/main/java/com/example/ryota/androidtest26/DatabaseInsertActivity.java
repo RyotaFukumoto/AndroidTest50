@@ -2,6 +2,7 @@ package com.example.ryota.androidtest26;
 
 import android.app.DatePickerDialog;
 import android.content.ContentValues;
+import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -31,7 +32,7 @@ public class DatabaseInsertActivity extends AppCompatActivity {
     private DateFormater dateFormater;
     private int count;
     private RecyclerAdapter adapter;
-
+    private MainActivity mainActivity;
     public List<RowData> getTodoList() {
         return todoList;
     }
@@ -49,7 +50,7 @@ public class DatabaseInsertActivity extends AppCompatActivity {
         this.textView = findViewById(R.id.textView);
         this.textView.setText(String.valueOf(this.dateFormater.getLimitDateFrom(this.dateFormater.getNowDate())));
         final Button registerButton = (Button) findViewById(R.id.button);
-
+        mainActivity = new MainActivity();
         registerButton.setEnabled(false);
         titleEditText.addTextChangedListener(new TextWatcher() {
             @Override
@@ -158,6 +159,7 @@ public class DatabaseInsertActivity extends AppCompatActivity {
         } else {
             Toast.makeText(getApplication(), "Insert成功", Toast.LENGTH_SHORT).show();
         }
+
         finish();
     }
 
@@ -185,12 +187,11 @@ public class DatabaseInsertActivity extends AppCompatActivity {
         finish();
     }
 
-    public void reading() {
+    public List<RowData> reading(SQLiteDatabase db) {
 
         this.todoList = new ArrayList<>();
 
-        DatabaseHelper dbHelper = new DatabaseHelper(this);
-        SQLiteDatabase db = dbHelper.getReadableDatabase();
+
         try {
             String sql = "select * from " + "tr_todo where " + "delete_flg" + " = 0" +
                     " order by limit_date" + " asc ";
@@ -209,7 +210,7 @@ public class DatabaseInsertActivity extends AppCompatActivity {
         } finally {
             db.close();
         }
-
+        return todoList;
 
     }
 

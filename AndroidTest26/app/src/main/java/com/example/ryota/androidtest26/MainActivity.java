@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
     private int position;
     private RowData rowData;
     private DatabaseInsertActivity databaseInsertActivity;
-
+    private SQLiteDatabase db;
 
 
     @Override
@@ -30,14 +30,16 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         databaseInsertActivity = new DatabaseInsertActivity();
+//        databaseInsertActivity.recreate();
+        DatabaseHelper dbHelper = new DatabaseHelper(this);
+        db = dbHelper.getReadableDatabase();
 
 
-        databaseInsertActivity.recreate();
-        todoList = databaseInsertActivity.getTodoList();
+
         recyclerViewCreat();
 
 
-        FloatingActionButton addButton = findViewById(R.id.floatingActionButton);
+        final FloatingActionButton addButton = findViewById(R.id.floatingActionButton);
         addButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -46,9 +48,15 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
             }
         });
 
+        callData();
 
     }
 
+    public void callData(){
+        todoList = databaseInsertActivity.reading(db);
+        adapter.setList(todoList);
+        adapter.notifyDataSetChanged();
+    }
     private void recyclerViewCreat(){
         RecyclerView rv = findViewById(R.id.casarealRecyclerView);
 
@@ -63,6 +71,7 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
         rv.setLayoutManager(llm);
 
         rv.setAdapter(this.adapter);
+
     }
 
 
@@ -103,7 +112,7 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
         } finally {
             db.close();
         }
-        databaseInsertActivity.recreate();
+
         this.todoList = databaseInsertActivity.getTodoList();
         this.adapter.setList(this.todoList);
         this.adapter.notifyDataSetChanged();

@@ -4,23 +4,23 @@ ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/Android
 INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/AndroidManifest.xml:2:1-22:12
 INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/AndroidManifest.xml:2:1-22:12
 INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/AndroidManifest.xml:2:1-22:12
-MERGED from [com.android.support:design:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/a1affc8e039217350640fe9393c4b209/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b1962e590072a8650a10ecba1765053a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/4f3c706520436b03ff46a1efd8e0c42c/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-v4:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/7c1b2e6bf07b9ae133f8487c1b26579e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/405673cc60cc5b59b51dafc39817e3c0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/52a7e0d9fb113da0309556872abee632/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/cd3f0faeff41f1da3b1de89007bd7af3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/379a2aec49667a79f9c65f252979b87e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/65cb1c2558e804d4df6922567ce158c3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/9862823c235708cef4a5bcec23bd1911/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/8f81ca1db8fda586c33f5bb54e7ddb45/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/9f0256fbb77dcf7b33269ac10bfada10/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/63294feedf565575bc4c168a646045fa/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c084aeea785ca25d2349e85c9073a376/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/0f4024ba9dcb10baaffb944865ed9f22/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c22ff6fe8aa30b5b4b4a7c6eb159430e/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2908547c0451a343bc4336cfbbc86b76/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/2d2fa6d842a17aff1ba3b2c85bd9dbea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6cad21bcbee68cee76f4df29ec7e4c47/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/56dd08eed401321acc706e34ade1a04d/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/1d54364f1940dbd0985d49ef03c68642/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/9d4a2608e3886d692d576e76715ae060/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/9d78b8207b790f9086493d7ab4421d5a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/027700d83a9742e58c302910b5c55353/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/fd4eb85f2723bd17ff2c2672ac2236b5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e9a7e2eadf7409beda56e790262fe650/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/5cec057215d8f33f30d915dfcf8a479a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/2d4c39bf74cb8afb76d6ef88d6533dcc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/0027c43e5cc858701731ef40a0e00f7e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/80cf91605ceff2db81d75f9160c33622/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/156e71a3c2dc25a5cfee676911de4f9b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/2b0b1a4db5037ce144d9bf964ebec220/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a4a2dfe8233e2833d0fdaae4f4b113c1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/840413a9d9afa04f839a41cdbf203624/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/AndroidManifest.xml:2:1-22:12
 INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/AndroidManifest.xml:2:1-22:12
 INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/AndroidManifest.xml:2:1-22:12
@@ -40,8 +40,8 @@ INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/Andr
 		ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/AndroidManifest.xml:2:11-69
 application
 ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/AndroidManifest.xml:5:5-20:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/4f3c706520436b03ff46a1efd8e0c42c/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/4f3c706520436b03ff46a1efd8e0c42c/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/56dd08eed401321acc706e34ade1a04d/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/56dd08eed401321acc706e34ade1a04d/AndroidManifest.xml:9:5-20
 	android:supportsRtl
 		ADDED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
@@ -76,40 +76,40 @@ uses-sdk
 INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/AndroidManifest.xml
 INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:design:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/a1affc8e039217350640fe9393c4b209/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/a1affc8e039217350640fe9393c4b209/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b1962e590072a8650a10ecba1765053a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b1962e590072a8650a10ecba1765053a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/4f3c706520436b03ff46a1efd8e0c42c/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/4f3c706520436b03ff46a1efd8e0c42c/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/7c1b2e6bf07b9ae133f8487c1b26579e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/7c1b2e6bf07b9ae133f8487c1b26579e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/405673cc60cc5b59b51dafc39817e3c0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/405673cc60cc5b59b51dafc39817e3c0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/52a7e0d9fb113da0309556872abee632/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/52a7e0d9fb113da0309556872abee632/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/cd3f0faeff41f1da3b1de89007bd7af3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/cd3f0faeff41f1da3b1de89007bd7af3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/379a2aec49667a79f9c65f252979b87e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/379a2aec49667a79f9c65f252979b87e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/65cb1c2558e804d4df6922567ce158c3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/65cb1c2558e804d4df6922567ce158c3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/9862823c235708cef4a5bcec23bd1911/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/9862823c235708cef4a5bcec23bd1911/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/8f81ca1db8fda586c33f5bb54e7ddb45/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/8f81ca1db8fda586c33f5bb54e7ddb45/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/9f0256fbb77dcf7b33269ac10bfada10/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/9f0256fbb77dcf7b33269ac10bfada10/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/63294feedf565575bc4c168a646045fa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/63294feedf565575bc4c168a646045fa/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c084aeea785ca25d2349e85c9073a376/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c084aeea785ca25d2349e85c9073a376/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/0f4024ba9dcb10baaffb944865ed9f22/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/0f4024ba9dcb10baaffb944865ed9f22/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c22ff6fe8aa30b5b4b4a7c6eb159430e/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c22ff6fe8aa30b5b4b4a7c6eb159430e/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2908547c0451a343bc4336cfbbc86b76/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2908547c0451a343bc4336cfbbc86b76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/2d2fa6d842a17aff1ba3b2c85bd9dbea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/2d2fa6d842a17aff1ba3b2c85bd9dbea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6cad21bcbee68cee76f4df29ec7e4c47/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6cad21bcbee68cee76f4df29ec7e4c47/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/56dd08eed401321acc706e34ade1a04d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/56dd08eed401321acc706e34ade1a04d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/1d54364f1940dbd0985d49ef03c68642/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/1d54364f1940dbd0985d49ef03c68642/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/9d4a2608e3886d692d576e76715ae060/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/9d4a2608e3886d692d576e76715ae060/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/9d78b8207b790f9086493d7ab4421d5a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/9d78b8207b790f9086493d7ab4421d5a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/027700d83a9742e58c302910b5c55353/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/027700d83a9742e58c302910b5c55353/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/fd4eb85f2723bd17ff2c2672ac2236b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/fd4eb85f2723bd17ff2c2672ac2236b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e9a7e2eadf7409beda56e790262fe650/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e9a7e2eadf7409beda56e790262fe650/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/5cec057215d8f33f30d915dfcf8a479a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/5cec057215d8f33f30d915dfcf8a479a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/2d4c39bf74cb8afb76d6ef88d6533dcc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/2d4c39bf74cb8afb76d6ef88d6533dcc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/0027c43e5cc858701731ef40a0e00f7e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/0027c43e5cc858701731ef40a0e00f7e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/80cf91605ceff2db81d75f9160c33622/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/ryota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/80cf91605ceff2db81d75f9160c33622/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/156e71a3c2dc25a5cfee676911de4f9b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/156e71a3c2dc25a5cfee676911de4f9b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/2b0b1a4db5037ce144d9bf964ebec220/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/2b0b1a4db5037ce144d9bf964ebec220/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a4a2dfe8233e2833d0fdaae4f4b113c1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a4a2dfe8233e2833d0fdaae4f4b113c1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/840413a9d9afa04f839a41cdbf203624/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/ryota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/840413a9d9afa04f839a41cdbf203624/AndroidManifest.xml:20:5-44
 INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/AndroidManifest.xml
 INJECTED from /Users/ryota/Desktop/AndroidTest50/AndroidTest26/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion

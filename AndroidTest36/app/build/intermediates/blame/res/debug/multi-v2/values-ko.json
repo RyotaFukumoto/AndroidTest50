@@ -1,0 +1,70 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/ryota/Desktop/AndroidTest50/AndroidTest36/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
+            "map": [
+                {
+                    "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d6052d13985c22f914f32453585188ca/res/values-ko/values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,200,294,396,478,576,682,761,837,917,1015,1110,1205,1305,1401,1500,1652,1746",
+                        "endColumns": "94,93,101,81,97,105,78,75,79,97,94,94,99,95,98,151,93,77",
+                        "endOffsets": "195,289,391,473,571,677,756,832,912,1010,1105,1200,1300,1396,1495,1647,1741,1819"
+                    }
+                },
+                {
+                    "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/73a18e9eecc375a5aa0ebfd995ced669/res/values-ko/values-ko.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1824",
+                        "endColumns": "100",
+                        "endOffsets": "1920"
+                    }
+                },
+                {
+                    "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.2.0.aar/88263536ebe66fda6c72ba08f01566c6/res/values-ko/values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,122,174",
+                        "endColumns": "66,51,45",
+                        "endOffsets": "117,169,215"
+                    },
+                    "to": {
+                        "startLines": "21,23,24",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1925,2051,2103",
+                        "endColumns": "66,51,45",
+                        "endOffsets": "1987,2098,2144"
+                    }
+                },
+                {
+                    "source": "/Users/ryota/.gradle/caches/transforms-1/files-1.1/twitter-core-3.2.0.aar/0f124152b287406e5c4c042ba2e681dc/res/values-ko/values-ko.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    },
+                    "to": {
+                        "startLines": "22",
+                        "startColumns": "4",
+                        "startOffsets": "1992",
+                        "endColumns": "58",
+                        "endOffsets": "2046"
+                    }
+                }
+            ]
+        }
+    ]
+}
