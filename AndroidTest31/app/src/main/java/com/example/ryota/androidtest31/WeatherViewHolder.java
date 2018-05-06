@@ -29,7 +29,7 @@ public class WeatherViewHolder extends RecyclerView.ViewHolder {
     public TextView getForecastTextView() {
         return this.forecastTextView;
     }
-
+    
     public void setIconImageView(ImageView iconImageView) {
         this.iconImageView = iconImageView;
     }
