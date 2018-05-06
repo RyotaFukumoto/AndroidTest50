@@ -15,9 +15,6 @@ public class Insert extends AsyncTask<Void,Void,Boolean> {
     private final Description description;
     private final List<Forecast> forecastEntities;
 
-    // only retain a weak reference to the activity
-
-
     public Insert(MainActivity context, Description description, List<Forecast> forecastEntities) {
         super();
         this.activityReference = new WeakReference<>(context);
@@ -25,7 +22,6 @@ public class Insert extends AsyncTask<Void,Void,Boolean> {
         this.forecastEntities = forecastEntities;
     }
 
-    // doInBackground methods runs on a worker thread
     @Override
     protected Boolean doInBackground(Void... objs) {
         // retrieve auto incremented note id
@@ -41,7 +37,6 @@ public class Insert extends AsyncTask<Void,Void,Boolean> {
         return true;
     }
 
-    // onPostExecute runs on main thread
     @Override
     protected void onPostExecute(Boolean bool) {
         if (bool){

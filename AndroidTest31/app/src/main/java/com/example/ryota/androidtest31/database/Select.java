@@ -12,8 +12,6 @@ public class Select extends AsyncTask<Void,Void,ResponseData> {
 
     private ForecastDatabase forecastDB;
     private final WeakReference<MainActivity> activityReference;
-
-    // only retain a weak reference to the activity
     public Select(MainActivity context) {
         super();
         this.activityReference = new WeakReference<>(context);
@@ -33,8 +31,6 @@ public class Select extends AsyncTask<Void,Void,ResponseData> {
         res.setForecastList(forecastEntities);
         return res;
     }
-
-    // onPostExecute runs on main thread
     @Override
     protected void onPostExecute(ResponseData responseData) {
         if (responseData != null){
