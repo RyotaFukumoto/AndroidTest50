@@ -50,8 +50,8 @@ public class MainActivity extends AppCompatActivity {
                 Uri myImageUri = Uri.fromFile(myImageFile);
 
                 TweetComposer.Builder builder = new TweetComposer.Builder(MainActivity.this)
-                        .text("just setting up my Twitter Kit.");
-//                        .image(myImageUri);
+                        .text("just setting up my Twitter Kit.")
+                        .image(myImageUri);
                 builder.show();
             }
         });
