@@ -46,13 +46,12 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                File myImageFile = new File("/storage/self/primary/sample.jpg");
+                Uri myImageUri = Uri.fromFile(myImageFile);
 
-                Uri imageUri = FileProvider.getUriForFile(MainActivity.this,
-                        BuildConfig.APPLICATION_ID + ".file_provider",
-                        new File("/storage/self/primary/sample.jpg"));
                 TweetComposer.Builder builder = new TweetComposer.Builder(MainActivity.this)
-                        .text("just setting up my Twitter Kit.")
-                        .image(imageUri);
+                        .text("just setting up my Twitter Kit.");
+//                        .image(myImageUri);
                 builder.show();
             }
         });
