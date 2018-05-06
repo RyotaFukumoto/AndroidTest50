@@ -101,34 +101,7 @@ public class MainActivity extends AppCompatActivity {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
     }
 
-    private final android.hardware.Camera.PictureCallback mPictureListener =
-            new android.hardware.Camera.PictureCallback() {
 
-                @Override
-                public void onPictureTaken(byte[] data, android.hardware.Camera camera) {
-                    ContentResolver resolver = getContentResolver();
-
-                    int svWidth = MainActivity.this.mySurfaceView.getHolder().getSurfaceFrame().width();
-                    int cWidth = camera.getParameters().getSupportedPreviewSizes().get(0).width;
-                    Bitmap tmp_bitmap = BitmapFactory.decodeByteArray(data, 0, data.length);
-                    int width = tmp_bitmap.getWidth();
-                    int height = tmp_bitmap.getHeight();
-
-                    Matrix matrix = new Matrix();
-                    matrix.setRotate(90.0F);
-
-                    Log.i("Cam",width + " , " + height);
-
-                    // 画像データを保存する
-                    Bitmap temp_bitmap = Bitmap.createBitmap(tmp_bitmap, 0, 0, width, height, matrix, true);
-
-
-                    MainActivity.this.imageView.setImageBitmap(temp_bitmap);
-                    MainActivity.this.imageView.setVisibility(View.VISIBLE);
-                    MainActivity.this.mySurfaceView.setVisibility(View.INVISIBLE);
-                }
-
-            };
 
     private final SurfaceHolder.Callback mSurfaceListener =
             new SurfaceHolder.Callback() {
@@ -200,6 +173,29 @@ public class MainActivity extends AppCompatActivity {
 
             };
 
+    private final android.hardware.Camera.PictureCallback mPictureListener =
+            new android.hardware.Camera.PictureCallback() {
+                @Override
+                public void onPictureTaken(byte[] data, android.hardware.Camera camera) {
+                    ContentResolver resolver = getContentResolver();
+
+                    int svWidth = MainActivity.this.mySurfaceView.getHolder().getSurfaceFrame().width();
+                    int cWidth = camera.getParameters().getSupportedPreviewSizes().get(0).width;
+                    Bitmap tmp_bitmap = BitmapFactory.decodeByteArray(data, 0, data.length);
+                    int width = tmp_bitmap.getWidth();
+                    int height = tmp_bitmap.getHeight();
+
+                    Matrix matrix = new Matrix();
+                    matrix.setRotate(90.0F);
+
+                    Bitmap temp_bitmap = Bitmap.createBitmap(tmp_bitmap, 0, 0, width, height, matrix, true);
+
+                    MainActivity.this.imageView.setImageBitmap(temp_bitmap);
+                    MainActivity.this.imageView.setVisibility(View.VISIBLE);
+                    MainActivity.this.mySurfaceView.setVisibility(View.INVISIBLE);
+                }
+
+            };
 
     @Nullable
     private android.hardware.Camera.Size getOptimalPreviewSize(List<android.hardware.Camera.Size> sizes, int w, int h) {
