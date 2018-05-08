@@ -3,6 +3,7 @@
 package com.example.ryota.androidtest31.api.model;
 
 
+<<<<<<< HEAD
 import android.util.Log;
 
 import com.google.gson.annotations.SerializedName;
@@ -28,9 +29,19 @@ public class Weather {
 >>>>>>> AndroidTest35
 
     }
+=======
+import java.util.Collections;
+import java.util.List;
+
+
+public class Weather {
+    private List<Forecast> forecasts;
+    private Location location;
+    private Description description;
+>>>>>>> AndroidTest33
 
     public List<Forecast> getForecasts() {
-        return this.forecasts;
+        return Collections.unmodifiableList(this.forecasts);
     }
 
 <<<<<<< HEAD
@@ -39,6 +50,25 @@ public class Weather {
         return this.location;
     }
 
+<<<<<<< HEAD
 >>>>>>> AndroidTest35
 
 }
+=======
+    public Description getDescription() {
+        return this.description;
+    }
+
+    public void setForecasts(List<Forecast> forecasts) {
+        this.forecasts = forecasts;
+    }
+
+    public void setLocation(Location location) {
+        this.location = location;
+    }
+
+    public void setDescription(Description description) {
+        this.description = description;
+    }
+}
+>>>>>>> AndroidTest33

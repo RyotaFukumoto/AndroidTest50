@@ -7,8 +7,7 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 
-public interface LicensorWeatherWebService {
+interface LicensorWeatherWebService {
     @GET("v1")
     Call<Weather> webservice(@Query("city") int city);
-
 }
