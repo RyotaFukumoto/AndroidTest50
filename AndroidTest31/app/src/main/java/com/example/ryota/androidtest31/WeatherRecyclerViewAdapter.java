@@ -29,7 +29,11 @@ class WeatherRecyclerViewAdapter extends RecyclerView.Adapter<WeatherViewHolder>
     }
     @Override
     public void onBindViewHolder(@NonNull WeatherViewHolder holder, int position) {
+<<<<<<< HEAD:AndroidTest31/app/src/main/java/com/example/ryota/androidtest31/WeatherRecyclerViewAdapter.java
         holder.getDateTextView().setText(this.forecasts.get(position).getDateLabel());
+=======
+        holder.getDateTextView().setText(this.forecasts.get(position).getDate());
+>>>>>>> AndroidTest32:AndroidTest31/app/src/main/java/com/example/ryota/androidtest31/WeatherRecyclerViewAdapter.java
         holder.getForecastTextView().setText(this.forecasts.get(position).getTelop());
         Glide.with(this.context).load(this.forecasts.get(position).getImage().getUrl()).into(holder.getIconImageView());
     }

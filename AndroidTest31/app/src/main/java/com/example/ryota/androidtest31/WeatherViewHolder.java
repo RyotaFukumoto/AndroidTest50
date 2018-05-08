@@ -5,6 +5,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+<<<<<<< HEAD:AndroidTest31/app/src/main/java/com/example/ryota/androidtest31/WeatherViewHolder.java
 <<<<<<< HEAD
 public class WeatherViewHolder extends RecyclerView.ViewHolder{
     public final ImageView imageView;
@@ -20,6 +21,8 @@ public class WeatherViewHolder extends RecyclerView.ViewHolder{
         this.maxView = itemView.findViewById(R.id.maxView);
         this.minView = itemView.findViewById(R.id.minView);
 =======
+=======
+>>>>>>> AndroidTest32:AndroidTest31/app/src/main/java/com/example/ryota/androidtest31/WeatherViewHolder.java
 public class WeatherViewHolder extends RecyclerView.ViewHolder {
     private ImageView iconImageView;
     private TextView dateTextView;
@@ -44,7 +47,7 @@ public class WeatherViewHolder extends RecyclerView.ViewHolder {
     public TextView getForecastTextView() {
         return this.forecastTextView;
     }
-
+    
     public void setIconImageView(ImageView iconImageView) {
         this.iconImageView = iconImageView;
     }
