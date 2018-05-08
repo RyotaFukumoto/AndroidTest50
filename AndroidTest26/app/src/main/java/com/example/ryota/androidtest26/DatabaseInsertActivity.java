@@ -38,7 +38,6 @@ public class DatabaseInsertActivity extends AppCompatActivity {
     }
 
     private List<RowData> todoList = new ArrayList<>();
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -159,7 +158,6 @@ public class DatabaseInsertActivity extends AppCompatActivity {
         } else {
             Toast.makeText(getApplication(), "Insert成功", Toast.LENGTH_SHORT).show();
         }
-
         finish();
     }
 

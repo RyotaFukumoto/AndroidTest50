@@ -79,4 +79,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Custom
             this.linearLayout = itemView.findViewById(R.id.linear_layout);
         }
     }
+
+
 }

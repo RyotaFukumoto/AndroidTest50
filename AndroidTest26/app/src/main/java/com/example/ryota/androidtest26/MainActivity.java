@@ -2,17 +2,14 @@ package com.example.ryota.androidtest26;
 
 import android.content.ContentValues;
 import android.content.Intent;
-import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements RowOnClickedListener,DialogListerer {
@@ -24,19 +21,15 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
     private DatabaseInsertActivity databaseInsertActivity;
     private SQLiteDatabase db;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         databaseInsertActivity = new DatabaseInsertActivity();
-//        databaseInsertActivity.recreate();
         DatabaseHelper dbHelper = new DatabaseHelper(this);
         db = dbHelper.getReadableDatabase();
-
-
-
         recyclerViewCreat();
+        callData();
 
 
         final FloatingActionButton addButton = findViewById(R.id.floatingActionButton);
@@ -48,7 +41,6 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
             }
         });
 
-        callData();
 
     }
 
@@ -116,6 +108,6 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
         this.todoList = databaseInsertActivity.getTodoList();
         this.adapter.setList(this.todoList);
         this.adapter.notifyDataSetChanged();
-
+        
     }
 }
