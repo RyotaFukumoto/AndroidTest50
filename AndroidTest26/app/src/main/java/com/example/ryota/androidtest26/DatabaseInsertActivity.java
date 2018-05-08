@@ -8,6 +8,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
@@ -31,13 +32,11 @@ public class DatabaseInsertActivity extends AppCompatActivity {
     private SQLiteDatabase db;
     private DateFormater dateFormater;
     private int count;
-    private RecyclerAdapter adapter;
-    private MainActivity mainActivity;
+
     public List<RowData> getTodoList() {
 
-        return todoList;
+        return this.todoList;
     }
-
     private List<RowData> todoList = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,9 +49,9 @@ public class DatabaseInsertActivity extends AppCompatActivity {
         this.textView = findViewById(R.id.textView);
         this.textView.setText(String.valueOf(this.dateFormater.getLimitDateFrom(this.dateFormater.getNowDate())));
         final Button registerButton = (Button) findViewById(R.id.button);
-        mainActivity = new MainActivity();
+        MainActivity mainActivity = new MainActivity();
         registerButton.setEnabled(false);
-        titleEditText.addTextChangedListener(new TextWatcher() {
+        this.titleEditText.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
@@ -77,7 +76,7 @@ public class DatabaseInsertActivity extends AppCompatActivity {
 
 
             this.getint = intent.getIntExtra("id", 0);
-            if (this.count != 0) {
+            if (this.getint != 0) {
                 registerButton.setText("更新");
                 CharSequence charSequence = intent.getCharSequenceExtra("title");
                 CharSequence charSequence1 = intent.getCharSequenceExtra("content");
@@ -118,10 +117,7 @@ public class DatabaseInsertActivity extends AppCompatActivity {
                         }
                     });
 
-
-
-
-        registerButton.setOnClickListener(new View.OnClickListener() {
+            registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 DatabaseHelper databaseHelper = new DatabaseHelper(getApplication());
@@ -133,6 +129,7 @@ public class DatabaseInsertActivity extends AppCompatActivity {
                 }
             }
         });
+
     }
 
     private void  dbInserter(){
@@ -153,13 +150,13 @@ public class DatabaseInsertActivity extends AppCompatActivity {
         } finally {
             this.db.close();
         }
-
         if (ret == -1L) {
             Toast.makeText(getApplication(), "Insert失敗", Toast.LENGTH_SHORT).show();
         } else {
             Toast.makeText(getApplication(), "Insert成功", Toast.LENGTH_SHORT).show();
         }
         finish();
+
     }
 
     private void dbUpdate(){
@@ -172,7 +169,6 @@ public class DatabaseInsertActivity extends AppCompatActivity {
         long ret;
 
         try {
-            String id = String.valueOf(DatabaseInsertActivity.this.getint);
             ret = this.db.update(MainActivity.TR_TODO, contentValues, "todo_id = " + DatabaseInsertActivity.this.getint, null);
             Log.i("AlertDialog3", String.valueOf(ret));
         }finally {
@@ -184,6 +180,7 @@ public class DatabaseInsertActivity extends AppCompatActivity {
             Toast.makeText(getApplication(), "Insert成功", Toast.LENGTH_SHORT).show();
         }
         finish();
+
     }
 
     public List<RowData> reading(SQLiteDatabase db) {
@@ -209,8 +206,25 @@ public class DatabaseInsertActivity extends AppCompatActivity {
         } finally {
             db.close();
         }
-        return todoList;
+        return this.todoList;
 
+    }
+
+    public void delete(int id,Context context){
+        DatabaseHelper databaseHelper = new DatabaseHelper(context);
+        SQLiteDatabase sqLiteDatabase = databaseHelper.getWritableDatabase();
+
+
+        ContentValues contentValues = new ContentValues();
+        contentValues.put("delete_flg", "1");
+        Log.d("databese",""+ sqLiteDatabase);
+        long ret;
+        try {
+             ret = sqLiteDatabase.update(MainActivity.TR_TODO, contentValues, "todo_id = " + id, null);
+        } finally {
+
+        }
+        finish();
     }
 
 

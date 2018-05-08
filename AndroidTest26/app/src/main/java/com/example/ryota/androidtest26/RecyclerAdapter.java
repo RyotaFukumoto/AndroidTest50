@@ -14,7 +14,7 @@ import java.util.List;
 
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.CustomViewHolder> {
     private final Context context;
-    private List<RowData> list = new ArrayList<>();
+    private List<RowData> list;
     private View.OnClickListener listener;
 
     private final RowOnClickedListener rowOnClickedListener;
@@ -22,7 +22,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Custom
 
 
     public RecyclerAdapter(Context context, List<RowData> list,RowOnClickedListener listener) {
-        super();
         this.context = context;
         this.list = new ArrayList<>();
         this.rowOnClickedListener = listener;

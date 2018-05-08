@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 
 import java.util.List;
@@ -20,14 +21,15 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
     private RowData rowData;
     private DatabaseInsertActivity databaseInsertActivity;
     private SQLiteDatabase db;
+    private DatabaseHelper dbHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        databaseInsertActivity = new DatabaseInsertActivity();
-        DatabaseHelper dbHelper = new DatabaseHelper(this);
-        db = dbHelper.getReadableDatabase();
+        this.databaseInsertActivity = new DatabaseInsertActivity();
+        this.dbHelper = new DatabaseHelper(this);
+        this.db = this.dbHelper.getReadableDatabase();
         recyclerViewCreat();
         callData();
 
@@ -36,23 +38,34 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
         addButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 Intent intent = new Intent(MainActivity.this, DatabaseInsertActivity.class);
                 startActivity(intent);
+
             }
         });
 
 
     }
 
-    public void callData(){
-        todoList = databaseInsertActivity.reading(db);
-        adapter.setList(todoList);
-        adapter.notifyDataSetChanged();
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        this.db = this.dbHelper.getReadableDatabase();
+        this.adapter.setList(this.databaseInsertActivity.reading(this.db));
+        this.adapter.notifyDataSetChanged();
+
+    }
+    private void callData(){
+
+        this.todoList = this.databaseInsertActivity.reading(this.db);
+        this.adapter.setList(this.todoList);
+        this.adapter.notifyDataSetChanged();
     }
     private void recyclerViewCreat(){
         RecyclerView rv = findViewById(R.id.casarealRecyclerView);
 
-        this.adapter = new RecyclerAdapter(this,todoList, this);
+        this.adapter = new RecyclerAdapter(this, this.todoList, this);
 
         LinearLayoutManager llm = new LinearLayoutManager(this);
 
@@ -78,7 +91,7 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
         intent.putExtra("modified",todoData.getModified());
         intent.putExtra("limit",todoData.getLimit());
         intent.putExtra("delete",todoData.getDelete_flg());
-
+        Log.d("intent", String.valueOf(todoData.getTitle()));
         startActivity(intent);
     }
 
@@ -95,19 +108,23 @@ public class MainActivity extends AppCompatActivity implements RowOnClickedListe
     public void doPositiveClick() {
         DatabaseHelper databaseHelper = new DatabaseHelper(getApplication());
         ContentValues contentValues = new ContentValues();
-        int id = this.rowData.getTodoID();
-        contentValues.put("todo_id",id);
-        contentValues.put("delete_flg", "1");
-        SQLiteDatabase db = databaseHelper.getWritableDatabase();
-        try {
-            long ret = db.update(TR_TODO, contentValues, "todo_id = " + id, null);
-        } finally {
-            db.close();
-        }
+        this.db = this.dbHelper.getReadableDatabase();
+        this.databaseInsertActivity.delete(this.rowData.getTodoID(),getApplicationContext());
 
-        this.todoList = databaseInsertActivity.getTodoList();
+//        contentValues.put("todo_id",id);
+//        contentValues.put("delete_flg", "1");
+//        SQLiteDatabase dbset = databaseHelper.getWritableDatabase();
+//        try {
+//            long ret = dbset.update(TR_TODO, contentValues, "todo_id = " + id, null);
+//            todoList = databaseInsertActivity.reading(db);
+//        } finally {
+//            dbset.close();
+//        }
+
+        this.todoList = this.databaseInsertActivity.reading(this.db);
         this.adapter.setList(this.todoList);
         this.adapter.notifyDataSetChanged();
         
     }
+
 }
