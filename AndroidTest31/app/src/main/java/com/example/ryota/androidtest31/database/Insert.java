@@ -24,7 +24,6 @@ public class Insert extends AsyncTask<Void,Void,Boolean> {
 
     @Override
     protected Boolean doInBackground(Void... objs) {
-        // retrieve auto incremented note id
 
         this.activityReference.get().getForecastDB().forecastDao().deleteALL();
         this.activityReference.get().getForecastDB().descriptionDao().deleteALL();

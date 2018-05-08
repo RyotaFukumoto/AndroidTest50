@@ -12,6 +12,10 @@ public class Select extends AsyncTask<Void,Void,ResponseData> {
 
     private ForecastDatabase forecastDB;
     private final WeakReference<MainActivity> activityReference;
+<<<<<<< HEAD
+=======
+
+>>>>>>> AndroidTest34
     public Select(MainActivity context) {
         super();
         this.activityReference = new WeakReference<>(context);
@@ -27,10 +31,17 @@ public class Select extends AsyncTask<Void,Void,ResponseData> {
                 .getNewest()
                 .getText();
         res.setDescription(description);
-        List<Forecast> forecastEntities = this.activityReference.get().getForecastDB().forecastDao().getNewest();
+        List<Forecast> forecastEntities = this.activityReference.get()
+                .getForecastDB()
+                .forecastDao()
+                .getNewest();
         res.setForecastList(forecastEntities);
         return res;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> AndroidTest34
     @Override
     protected void onPostExecute(ResponseData responseData) {
         if (responseData != null){

@@ -6,6 +6,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 <<<<<<< HEAD:AndroidTest31/app/src/main/java/com/example/ryota/androidtest31/WeatherViewHolder.java
+<<<<<<< HEAD:AndroidTest31/app/src/main/java/com/example/ryota/androidtest31/WeatherViewHolder.java
 <<<<<<< HEAD
 public class WeatherViewHolder extends RecyclerView.ViewHolder{
     public final ImageView imageView;
@@ -23,6 +24,8 @@ public class WeatherViewHolder extends RecyclerView.ViewHolder{
 =======
 =======
 >>>>>>> AndroidTest32:AndroidTest31/app/src/main/java/com/example/ryota/androidtest31/WeatherViewHolder.java
+=======
+>>>>>>> AndroidTest34:AndroidTest31/app/src/main/java/com/example/ryota/androidtest31/WeatherViewHolder.java
 public class WeatherViewHolder extends RecyclerView.ViewHolder {
     private ImageView iconImageView;
     private TextView dateTextView;
