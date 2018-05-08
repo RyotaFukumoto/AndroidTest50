@@ -11,7 +11,7 @@ class DatabaseHelper extends SQLiteOpenHelper {
             + "todo_id INTEGER PRIMARY KEY AUTOINCREMENT," + "todo_title TEXT,"
             + "todo_contents TEXT," + "created TEXT," + "modified TEXT,"
             + "limit_date TEXT," + "delete_flg INTEGER" + ')';
-
+//    private static final  String SELECT_TABLE = "SELECT  t FROM Persons WHERE Name LIKE ? ORDER BY Id"
 
     DatabaseHelper(Context context) {
         super(context, DB_NAME, null, DATABASE_VERSION);
@@ -27,4 +27,6 @@ class DatabaseHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 
     }
+
+
 }

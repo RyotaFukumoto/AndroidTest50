@@ -34,6 +34,7 @@ public class DatabaseInsertActivity extends AppCompatActivity {
     private RecyclerAdapter adapter;
     private MainActivity mainActivity;
     public List<RowData> getTodoList() {
+
         return todoList;
     }
 
