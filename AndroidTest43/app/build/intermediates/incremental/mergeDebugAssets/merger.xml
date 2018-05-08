@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="/Users/ryota/Desktop/AndroidTest50/AndroidTest43/app/src/main/assets"/><source path="/Users/ryota/Desktop/AndroidTest50/AndroidTest43/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/ryota/Desktop/AndroidTest50/AndroidTest43/app/src/debug/assets"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="main"><source path="/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest43/app/src/main/assets"/><source path="/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest43/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/ryota/AndroidStudioProjects/AndroidTest50/AndroidTest43/app/src/debug/assets"/></dataSet></merger>
+>>>>>>> d21a2829716eeff603da69b6a79e980b3f542417

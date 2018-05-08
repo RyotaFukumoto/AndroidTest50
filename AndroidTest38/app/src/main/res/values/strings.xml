@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidTest38</string>
+    <string name="camera">カメラ</string>
+    <string name="todo">TODO</string>
+</resources>

@@ -17,9 +17,13 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+<<<<<<< HEAD
         <activity
             android:name="com.example.ryota.androidtest43.MainActivity"
             android:screenOrientation="portrait" >
+=======
+        <activity android:name="com.example.ryota.androidtest43.MainActivity" >
+>>>>>>> d21a2829716eeff603da69b6a79e980b3f542417
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

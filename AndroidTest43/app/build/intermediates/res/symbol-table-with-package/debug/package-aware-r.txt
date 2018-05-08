@@ -880,9 +880,14 @@ int string abc_shareactionprovider_share_with 0x7f0c001a
 int string abc_shareactionprovider_share_with_application 0x7f0c001b
 int string abc_toolbar_collapse_description 0x7f0c001c
 int string app_name 0x7f0c001d
+<<<<<<< HEAD
 int string play 0x7f0c001e
 int string search_menu_title 0x7f0c001f
 int string status_bar_notification_info_overflow 0x7f0c0020
+=======
+int string search_menu_title 0x7f0c001e
+int string status_bar_notification_info_overflow 0x7f0c001f
+>>>>>>> d21a2829716eeff603da69b6a79e980b3f542417
 int style AlertDialog_AppCompat 0x7f0d0000
 int style AlertDialog_AppCompat_Light 0x7f0d0001
 int style Animation_AppCompat_Dialog 0x7f0d0002

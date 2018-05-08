@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AndroidTest44</string>
+    <string name="downloadimage">ダウンロードイメージ</string>
+    <string name="image1">イメージ1ボタン</string>
+    <string name="image2">イメージ２ボタン</string>
+</resources>
