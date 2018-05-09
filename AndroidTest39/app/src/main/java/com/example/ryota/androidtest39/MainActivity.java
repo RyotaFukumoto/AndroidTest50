@@ -21,6 +21,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -41,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        LinearLayout linearLayout = new LinearLayout(this);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
@@ -54,19 +56,22 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 if(MainActivity.this.cameraPreviewing){
+
                     MainActivity.this.myCamera.takePicture(null,null, MainActivity.this.mPictureListener);
-                    button.setText("起動");
+
                     MainActivity.this.cameraPreviewing = false;
                 } else {
                     if (MainActivity.this.mPermissionReady) {
+                        button.setText(R.string.flush);
                         MainActivity.this.mySurfaceView = (SurfaceView)findViewById(R.id.surfaceView);
                         SurfaceHolder holder = MainActivity.this.mySurfaceView.getHolder();
                         holder.addCallback(MainActivity.this.mSurfaceListener);
                         holder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
                         MainActivity.this.mySurfaceView.setVisibility(View.VISIBLE);
                         MainActivity.this.imageView.setVisibility(View.GONE);
-                        button.setText(R.string.flush);
+
                         MainActivity.this.cameraPreviewing = true;
+
                     }
                 }
             }
