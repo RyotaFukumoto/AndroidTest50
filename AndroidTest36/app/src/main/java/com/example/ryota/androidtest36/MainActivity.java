@@ -1,14 +1,9 @@
 package com.example.ryota.androidtest36;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.net.Uri;
-import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
 
 import com.twitter.sdk.android.core.Callback;
@@ -16,20 +11,12 @@ import com.twitter.sdk.android.core.Callback;
 import com.twitter.sdk.android.core.DefaultLogger;
 import com.twitter.sdk.android.core.Result;
 import com.twitter.sdk.android.core.Twitter;
-import com.twitter.sdk.android.core.TwitterApiClient;
 import com.twitter.sdk.android.core.TwitterAuthConfig;
 import com.twitter.sdk.android.core.TwitterConfig;
 import com.twitter.sdk.android.core.TwitterCore;
 import com.twitter.sdk.android.core.TwitterException;
 import com.twitter.sdk.android.core.TwitterSession;
 import com.twitter.sdk.android.core.identity.TwitterLoginButton;
-import com.twitter.sdk.android.tweetcomposer.TweetComposer;
-import com.twitter.sdk.android.core.models.Tweet;
-import com.twitter.sdk.android.core.services.StatusesService;
-
-import java.io.File;
-import java.io.InputStream;
-
 
 
 public class MainActivity extends AppCompatActivity {
@@ -48,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
         Twitter.initialize(config);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        loginButton = findViewById(R.id.login_button);
-        loginButton.setCallback(new Callback<TwitterSession>() {
+        this.loginButton = findViewById(R.id.login_button);
+        this.loginButton.setCallback(new Callback<TwitterSession>() {
             @Override
             public void success(Result<TwitterSession> result) {
                 postActivity();
@@ -73,6 +60,6 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
 
         // Pass the activity result to the login button.
-        loginButton.onActivityResult(requestCode, resultCode, data);
+        this.loginButton.onActivityResult(requestCode, resultCode, data);
     }
 }
